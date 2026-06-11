@@ -191,7 +191,8 @@ $messageLines = @(
 
 New-Item -ItemType Directory -Force -Path ".curation-out" | Out-Null
 $messagePath = Join-Path ".curation-out" "git-snapshot-commit-message.txt"
-Set-Content -LiteralPath $messagePath -Value $messageLines -Encoding UTF8
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+[System.IO.File]::WriteAllLines((Join-Path $repoRoot $messagePath), $messageLines, $utf8NoBom)
 
 Write-Section "Commit"
 Invoke-Native "git commit" git @("commit", "-F", $messagePath)
