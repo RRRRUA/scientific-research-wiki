@@ -1,0 +1,13 @@
+.llm-wiki/
+.curation-out/
+.curation-context.md
+*.tmp
+*.log
+
+# Local-only source materials and app metadata.
+raw/
+.obsidian/
+archive/
+wiki/media/
+__pycache__/
+*.pyc

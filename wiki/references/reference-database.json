@@ -1,0 +1,4797 @@
+{
+ "records": [
+  {
+   "key": "anon-2023-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Guangyu Nie, Changhoon Kim, Yezhou Yang, and Yi Ren. Attributing image generative models using latent fingerprints. arXiv preprint arXiv:2304.09752",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Guangyu Nie, Changhoon Kim, Yezhou Yang, and Yi Ren. Attributing image generative models using latent fingerprints. arXiv preprint arXiv:2304.09752",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, and Mark Chen. Hierarchical text-conditional image generation with clip latents. arXiv preprint arXiv:2204.06125",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, and Mark Chen. Hierarchical text-conditional image generation with clip latents. arXiv preprint arXiv:2204.06125",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bjorn Ommer. High-resolution image ¨ synthesis with latent diffusion models. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10684–10695",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2022-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Ning Yu, Vladislav Skripniuk, Dingfan Chen, Larry Davis, and Mario Fritz. Responsible disclosure of generative models using scalable fingerprinting. In International Conference on Learning Representations (ICLR)",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Ning Yu, Vladislav Skripniuk, Dingfan Chen, Larry Davis, and Mario Fritz. Responsible disclosure of generative models using scalable fingerprinting. In International Conference on Learning Representations (ICLR)",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Patrick Esser, Robin Rombach, and Bjorn Ommer. Taming transformers for high-resolution image synthesis. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 12873–12883",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2021-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Ning Yu, Vladislav Skripniuk, Sahar Abdelnabi, and Mario Fritz. Artificial fingerprinting for generative models: Rooting deepfake attribution in training data. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 14448–14457",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2020-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Zhengxue Cheng, Heming Sun, Masaru Takeuchi, and Jiro Katto. Learned image compression with discretized gaussian mixture likelihoods and attention modules. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7939–7948",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2020-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, and Timo Aila. Training generative adversarial networks with limited data. Advances in Neural Information Processing Systems, 33:12104–12114",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, and Timo Aila. Training generative adversarial networks with limited data. Advances in Neural Information Processing Systems, 33:12104–12114",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, and Timo Aila. Analyzing and improving the image quality of stylegan. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 8110–8119",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2020-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Jiaming Song, Chenlin Meng, and Stefano Ermon. Denoising diffusion implicit models. arXiv preprint arXiv:",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Jiaming Song, Chenlin Meng, and Stefano Ermon. Denoising diffusion implicit models. arXiv preprint arXiv:",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Tero Karras, Samuli Laine, and Timo Aila. A style-based generator architecture for generative adversarial networks. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 4401–4410",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2018-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Johannes Balle, David Minnen, Saurabh Singh, Sung Jin ´ Hwang, and Nick Johnston. Variational image compression with a scale hyperprior. arXiv preprint arXiv:1802.01436",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Johannes Balle, David Minnen, Saurabh Singh, Sung Jin ´ Hwang, and Nick Johnston. Variational image compression with a scale hyperprior. arXiv preprint arXiv:1802.01436",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Richard Zhang, Phillip Isola, Alexei A Efros, Eli Shechtman, and Oliver Wang. The unreasonable effectiveness of deep features as a perceptual metric. In CVPR. IEEE",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Richard Zhang, Phillip Isola, Alexei A Efros, Eli Shechtman, and Oliver Wang. The unreasonable effectiveness of deep features as a perceptual metric. In CVPR. IEEE",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Jiren Zhu, Russell Kaplan, Justin Johnson, and Li Fei-Fei. Hidden: Hiding data with deep networks. In ECCV",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Jiren Zhu, Russell Kaplan, Justin Johnson, and Li Fei-Fei. Hidden: Hiding data with deep networks. In ECCV",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2017-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, and Sepp Hochreiter. Gans trained by a two time-scale update rule converge to a local nash equilibrium. Advances in neural information processing systems, 30",
+   "year": "2017",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, and Sepp Hochreiter. Gans trained by a two time-scale update rule converge to a local nash equilibrium. Advances in neural information processing systems, 30",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2017-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Yusuke Uchida, Yuki Nagai, Shigeyuki Sakazawa, and Shin’ichi Satoh. Embedding watermarks into deep neural networks. In Proceedings of the",
+   "year": "2017",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Yusuke Uchida, Yuki Nagai, Shigeyuki Sakazawa, and Shin’ichi Satoh. Embedding watermarks into deep neural networks. In Proceedings of the",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2014-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and ´ C Lawrence Zitnick. Microsoft coco: Common objects in context. In European conference on computer vision, pages 740–755. Springer",
+   "year": "2014",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and ´ C Lawrence Zitnick. Microsoft coco: Common objects in context. In European conference on computer vision, pages 740–755. Springer",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2009-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical image database. In",
+   "year": "2009",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature",
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 2,
+   "venue_normalized": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical image database. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2025-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Ren, J., W. Li, Z. Wang, et al. Turbo2k: Towards ultra-efficient and high-quality 2k video synthesis. In Proceedings of the IEEE/CVF International Conference on Computer Vision.",
+   "year": "2025",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2025-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Sander, T.",
+   "year": "2025",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Sander, T.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2025-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Liu, B., Y. Yu, X. Xu, et al. Genpoly: Learning generalized and tessellated shape priors via 3d polymorphic evolving. IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "year": "2025",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Liu, B., Y. Yu, X. Xu, et al. Genpoly: Learning generalized and tessellated shape priors via 3d polymorphic evolving. IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2025-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Huang, Z., Y. Zhou, X. Xu, et al. Think2sing: Orchestrating structured motion subtitles for singing-driven 3d head animation. arXiv preprint arXiv:2509.02278",
+   "year": "2025",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Huang, Z., Y. Zhou, X. Xu, et al. Think2sing: Orchestrating structured motion subtitles for singing-driven 3d head animation. arXiv preprint arXiv:2509.02278",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2025-untitled-5",
+   "authors": null,
+   "title": null,
+   "venue": "Yang, H., W. Chen, X. Xu, et al. Starpose: 3d human pose estimation via spatial-temporal autoregressive diffusion. IEEE Transactions on Circuits and Systems for Video Technology",
+   "year": "2025",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yang, H., W. Chen, X. Xu, et al. Starpose: 3d human pose estimation via spatial-temporal autoregressive diffusion. IEEE Transactions on Circuits and Systems for Video Technology",
+   "venue_tier": "other"
+  },
+  {
+   "key": "zhang-2024-robust-image-watermarking-using-stable",
+   "authors": "L. Zhang, X. Liu, A. V. Martin, C. X. Bearfield, Y. Brun, and H. Guan",
+   "title": "Robust image watermarking using stable diffusion",
+   "venue": "arXiv preprint arXiv:2401.04247",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "arXiv preprint arXiv:2401.04247",
+   "venue_tier": "other"
+  },
+  {
+   "key": "li-2024-screen-shooting-resistant-watermarking-with",
+   "authors": "Y. Li, X. Liao, and X. Wu",
+   "title": "Screen-shooting resistant watermarking with grayscale deviation simulation",
+   "venue": "IEEE Trans. Multimedia",
+   "year": "2024",
+   "vol": "26",
+   "no": null,
+   "pp": "3415–3426",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Multimedia",
+   "venue_tier": "other"
+  },
+  {
+   "key": "fu-2024-waverecovery-screenshooting-watermarking",
+   "authors": "L. Fu, X. Liao, J. Guo, L. Dong, and Z. Qin",
+   "title": "WaveRecovery: Screenshooting watermarking based on wavelet and recovery",
+   "venue": "IEEE Trans. Circuits Syst. Video Technol.",
+   "year": "2024",
+   "vol": "34",
+   "no": "7",
+   "pp": "5102–5115",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Circuits Syst. Video Technol.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Huang, Y., J. Huang, Y. Liu, et al. Diffusion model-based image editing: A survey. arXiv preprint arXiv:2402.17525",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Huang, Y., J. Huang, Y. Liu, et al. Diffusion model-based image editing: A survey. arXiv preprint arXiv:2402.17525",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Yu, Y., B. Liu, C. Zheng, et al. Beyond textual constraints: Learning novel diffusion conditions with fewer examples. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7109–7118.",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2024-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Kim, C., K. Min, M. Patel, et al. Wouaf: Weight modulation for user attribution and fingerprinting in text-to-image diffusion models. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8974–8983.",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2024-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Min, R., S. Li, H. Chen, et al. A watermark-conditioned diffusion model for ip protection. In European Conference on Computer Vision, pages 104–120. Springer",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Min, R., S. Li, H. Chen, et al. A watermark-conditioned diffusion model for ip protection. In European Conference on Computer Vision, pages 104–120. Springer",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled-5",
+   "authors": null,
+   "title": null,
+   "venue": "Yu, J., X. Zhang, Y. Xu, et al. Cross: Diffusion model makes controllable, robust and secure image steganography. Advances in Neural Information Processing Systems, 36",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yu, J., X. Zhang, Y. Xu, et al. Cross: Diffusion model makes controllable, robust and secure image steganography. Advances in Neural Information Processing Systems, 36",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled-6",
+   "authors": null,
+   "title": null,
+   "venue": "Han, R., X. Wang, N. Bai, et al. Hdf-net: Capturing homogeny difference features to localize the tampered image. IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Han, R., X. Wang, N. Bai, et al. Hdf-net: Capturing homogeny difference features to localize the tampered image. IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled-7",
+   "authors": null,
+   "title": null,
+   "venue": "Zhang, X., R. Li, J. Yu, et al. Editguard: Versatile image watermarking for tamper localization and copyright protection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 11964–11974.",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2024-untitled-8",
+   "authors": null,
+   "title": null,
+   "venue": "Zhang, X., Z. Tang, Z. Xu, et al. Omniguard: Hybrid manipulation localization via augmented versatile deep image watermarking. arXiv preprint arXiv:2412.01615",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zhang, X., Z. Tang, Z. Xu, et al. Omniguard: Hybrid manipulation localization via augmented versatile deep image watermarking. arXiv preprint arXiv:2412.01615",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled-9",
+   "authors": null,
+   "title": null,
+   "venue": "Yang, H., X. Xu, C. Xu, et al. G2face: High-fidelity reversible face anonymization via generative and geometric priors. IEEE Transactions on Information Forensics and Security",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Inf. Forensics Security (TIFS)",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2024-untitled-10",
+   "authors": null,
+   "title": null,
+   "venue": "Huang, Z., X. Xu, C. Xu, et al. Beat-it: Beat-synchronized multi-condition 3d dance generation. In European conference on computer vision, pages 273–290. Springer",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Huang, Z., X. Xu, C. Xu, et al. Beat-it: Beat-synchronized multi-condition 3d dance generation. In European conference on computer vision, pages 273–290. Springer",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled-11",
+   "authors": null,
+   "title": null,
+   "venue": "Yang, Y., Z. Huang, C. Xu, et al. Lagrangian motion fields for long-term motion generation. arXiv preprint arXiv:2409.01522",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yang, Y., Z. Huang, C. Xu, et al. Lagrangian motion fields for long-term motion generation. arXiv preprint arXiv:2409.01522",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled-12",
+   "authors": null,
+   "title": null,
+   "venue": "Wen, Y., J. Kirchenbauer, J. Geiping, et al. Tree-rings watermarks: Invisible fingerprints for diffusion images. Advances in Neural Information Processing Systems, 36",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Wen, Y., J. Kirchenbauer, J. Geiping, et al. Tree-rings watermarks: Invisible fingerprints for diffusion images. Advances in Neural Information Processing Systems, 36",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled-13",
+   "authors": null,
+   "title": null,
+   "venue": "Peng, R., S. Tan, X. Mo, et al. Employing reinforcement learning to construct a decision-making environment for image forgery localization. IEEE Transactions on Information Forensics and Security",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Inf. Forensics Security (TIFS)",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2024-untitled-14",
+   "authors": null,
+   "title": null,
+   "venue": "Zhang, Z., M. Li, X. Li, et al. Image manipulation detection with implicit neural representation and limited supervision. In European Conference on Computer Vision, pages 255–273. Springer",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zhang, Z., M. Li, X. Li, et al. Image manipulation detection with implicit neural representation and limited supervision. In European Conference on Computer Vision, pages 255–273. Springer",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2024-untitled-15",
+   "authors": null,
+   "title": null,
+   "venue": "Zhao, Y., W. Lv, S. Xu, et al. Detrs beat yolos on real-time object detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 16965–16974.",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2024-untitled-16",
+   "authors": null,
+   "title": null,
+   "venue": "Maitreya Patel, Sangmin Jung, Chitta Baral, and Yezhou Yang. λ-eclipse: Multi-concept personalized text-to-image diffusion models by leveraging clip latent space. In ArXiv –",
+   "year": "2024",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Maitreya Patel, Sangmin Jung, Chitta Baral, and Yezhou Yang. λ-eclipse: Multi-concept personalized text-to-image diffusion models by leveraging clip latent space. In ArXiv –",
+   "venue_tier": "other"
+  },
+  {
+   "key": "betker-2023-improving-image-generation-with-better",
+   "authors": "J. Betker, G. Goh, L. Jing, T. Brooks, J. Wang, L. Li, L. Ouyang, J. Zhuang, J. Lee, Y. Guo et al.",
+   "title": "Improving image generation with better captions",
+   "venue": "OpenAI, Technical Report",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "OpenAI, Technical Report",
+   "venue_tier": "other"
+  },
+  {
+   "key": "niu-2023-fine-grained-visible-watermark-removal",
+   "authors": "L. Niu, X. Zhao, B. Zhang, and L. Zhang",
+   "title": "Fine-grained visible watermark removal",
+   "venue": "Proc. IEEE Int. Conf. Comput. Vis.",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": "12",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "guo-2023-practical-deep-dispersed-watermarking-with",
+   "authors": "H. Guo, Q. Zhang, J. Luo, F. Guo, W. Zhang, X. Su, and M. Li",
+   "title": "Practical deep dispersed watermarking with synchronization and fusion",
+   "venue": "Proc. ACM Int. Conf. Multimedia",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": "7922–7932",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. ACM Int. Conf. Multimedia",
+   "venue_tier": "other"
+  },
+  {
+   "key": "wang-2023-adaptor-improving-the-robustness-and",
+   "authors": "B. Wang, Y. Wu, and G. Wang",
+   "title": "Adaptor: Improving the robustness and imperceptibility of watermarking by the adaptive strength factor",
+   "venue": "IEEE Trans. Circuits Syst. Video Technol.",
+   "year": "2023",
+   "vol": "33",
+   "no": "11",
+   "pp": "6260–6272",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Circuits Syst. Video Technol.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Podell, D., Z. English, K. Lacey, et al. Sdxl: Improving latent diffusion models for high-resolution image synthesis. arXiv preprint arXiv:2307.01952",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Podell, D., Z. English, K. Lacey, et al. Sdxl: Improving latent diffusion models for high-resolution image synthesis. arXiv preprint arXiv:2307.01952",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Zhang, L., A. Rao, M. Agrawala. Adding conditional control to text-to-image diffusion models. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3836–3847.",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2023-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Wu, X., X. Liao, B. Ou. Sepmark: Deep separable watermarking for unified source tracing and deepfake detection. In Proceedings of the 31st ACM International Conference on Multimedia, pages 1190–1201.",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Wu, X., X. Liao, B. Ou. Sepmark: Deep separable watermarking for unified source tracing and deepfake detection. In Proceedings of the 31st ACM International Conference on Multimedia, pages 1190–1201.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-5",
+   "authors": null,
+   "title": null,
+   "venue": "Fernandez",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Fernandez",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-6",
+   "authors": null,
+   "title": null,
+   "venue": "Wen, Y., J. Kirchenbauer, J. Geiping, et al. Tree-ring watermarks: Fingerprints for diffusion images that are invisible and robust. arXiv preprint arXiv:2305.20030",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Wen, Y., J. Kirchenbauer, J. Geiping, et al. Tree-ring watermarks: Fingerprints for diffusion images that are invisible and robust. arXiv preprint arXiv:2305.20030",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-7",
+   "authors": null,
+   "title": null,
+   "venue": "Ma, X., B. Du, X. Liu, et al. Iml-vit: Image manipulation localization by vision transformer. arXiv preprint arXiv:2307.14863",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ma, X., B. Du, X. Liu, et al. Iml-vit: Image manipulation localization by vision transformer. arXiv preprint arXiv:2307.14863",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-8",
+   "authors": null,
+   "title": null,
+   "venue": "Fang, H., Y. Qiu, K. Chen, et al. Flow-based robust watermarking with invertible noise layer for black-box distortions. In Proceedings of the AAAI conference on artificial intelligence, 4, pages 5054–5061.",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Fang, H., Y. Qiu, K. Chen, et al. Flow-based robust watermarking with invertible noise layer for black-box distortions. In Proceedings of the AAAI conference on artificial intelligence, 4, pages 5054–5061.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-9",
+   "authors": null,
+   "title": null,
+   "venue": "Zhuang",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zhuang",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-10",
+   "authors": null,
+   "title": null,
+   "venue": "Asnani, V., A. Kumar, S. You, et al. Probed: Proactive object detection wrapper. Advances in Neural Information Processing Systems, 36:77993–78005",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Asnani, V., A. Kumar, S. You, et al. Probed: Proactive object detection wrapper. Advances in Neural Information Processing Systems, 36:77993–78005",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-11",
+   "authors": null,
+   "title": null,
+   "venue": "Asnani, V., X. Yin, T. Hassner, et al. Malp: Manipulation localization using a proactive scheme. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 12343– 12352.",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2023-untitled-12",
+   "authors": null,
+   "title": null,
+   "venue": "Zhai, Y., T. Luan, D. Doermann, et al. Towards generic image manipulation detection with weaklysupervised self-consistency learning. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 22390–22400.",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2023-untitled-13",
+   "authors": null,
+   "title": null,
+   "venue": "Kirillov, A., E. Mintun, N. Ravi, et al. Segment anything. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 4015–4026.",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2023-untitled-14",
+   "authors": null,
+   "title": null,
+   "venue": "Razzhigaev, A., A. Shakhmatov, A. Maltseva, et al. Kandinsky: an improved text-to-image synthesis with image prior and latent diffusion. arXiv preprint arXiv:2310.03502",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Razzhigaev, A., A. Shakhmatov, A. Maltseva, et al. Kandinsky: an improved text-to-image synthesis with image prior and latent diffusion. arXiv preprint arXiv:2310.03502",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-15",
+   "authors": null,
+   "title": null,
+   "venue": "Guillaro, F., D. Cozzolino, A. Sud, et al. Trufor: Leveraging all-round clues for trustworthy image forgery detection and localization. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 20606–20615.",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2023-untitled-16",
+   "authors": null,
+   "title": null,
+   "venue": "Zhou, J., X. Ma, X. Du, et al. Pre-training-free image manipulation localization through non-mutually exclusive contrastive learning. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 22346–22356.",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2023-untitled-17",
+   "authors": null,
+   "title": null,
+   "venue": "Tong Qiao, Yuyan Ma, Ning Zheng, Hanzhou Wu, Yanli Chen, Ming Xu, and Xiangyang Luo. A novel model watermarking for protecting generative adversarial network. Computers & Security, 127:103102",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Tong Qiao, Yuyan Ma, Ning Zheng, Hanzhou Wu, Yanli Chen, Ming Xu, and Xiangyang Luo. A novel model watermarking for protecting generative adversarial network. Computers & Security, 127:103102",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-18",
+   "authors": null,
+   "title": null,
+   "venue": "Lvmin Zhang and Maneesh Agrawala. Adding conditional control to text-to-image diffusion models. arXiv preprint arXiv:2302.05543",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Lvmin Zhang and Maneesh Agrawala. Adding conditional control to text-to-image diffusion models. arXiv preprint arXiv:2302.05543",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-19",
+   "authors": null,
+   "title": null,
+   "venue": "Hila Chefer, Yuval Alaluf, Yael Vinker, Lior Wolf, and Daniel Cohen-Or. Attend-and-excite: Attention-based semantic guidance for text-to-image diffusion models. ACM Transactions on Graphics (TOG), 42(4):1–10",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Hila Chefer, Yuval Alaluf, Yael Vinker, Lior Wolf, and Daniel Cohen-Or. Attend-and-excite: Attention-based semantic guidance for text-to-image diffusion models. ACM Transactions on Graphics (TOG), 42(4):1–10",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-20",
+   "authors": null,
+   "title": null,
+   "venue": "Minghao Chen, Iro Laina, and Andrea Vedaldi. Training-free layout control with cross-attention guidance. arXiv preprint arXiv:2304.03373",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Minghao Chen, Iro Laina, and Andrea Vedaldi. Training-free layout control with cross-attention guidance. arXiv preprint arXiv:2304.03373",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-21",
+   "authors": null,
+   "title": null,
+   "venue": "Pierre Fernandez, Guillaume Couairon, Herve J ´ egou, ´ Matthijs Douze, and Teddy Furon. The stable signature: Rooting watermarks in latent diffusion models. arXiv preprint arXiv:2303.15435",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Pierre Fernandez, Guillaume Couairon, Herve J ´ egou, ´ Matthijs Douze, and Teddy Furon. The stable signature: Rooting watermarks in latent diffusion models. arXiv preprint arXiv:2303.15435",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-22",
+   "authors": null,
+   "title": null,
+   "venue": "Arijeta Lajka. New ai voice-cloning tools ‘add fuel’ to misinformation fire. AP News",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Arijeta Lajka. New ai voice-cloning tools ‘add fuel’ to misinformation fire. AP News",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-23",
+   "authors": null,
+   "title": null,
+   "venue": "Yuheng Li, Haotian Liu, Qingyang Wu, Fangzhou Mu, Jianwei Yang, Jianfeng Gao, Chunyuan Li, and Yong Jae Lee. Gligen: Open-set grounded text-to-image generation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 22511–22521",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2023-untitled-24",
+   "authors": null,
+   "title": null,
+   "venue": "Yanyu Li, Huan Wang, Qing Jin, Ju Hu, Pavlo Chemerys, Yun Fu, Yanzhi Wang, Sergey Tulyakov, and Jian Ren. Snapfusion: Text-to-image diffusion model on mobile devices within two seconds. arXiv preprint arXiv:2306.00980",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yanyu Li, Huan Wang, Qing Jin, Ju Hu, Pavlo Chemerys, Yun Fu, Yanzhi Wang, Sergey Tulyakov, and Jian Ren. Snapfusion: Text-to-image diffusion model on mobile devices within two seconds. arXiv preprint arXiv:2306.00980",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-25",
+   "authors": null,
+   "title": null,
+   "venue": "Simian Luo, Yiqin Tan, Longbo Huang, Jian Li, and Hang Zhao. Latent consistency models: Synthesizing highresolution images with few-step inference. arXiv preprint arXiv:2310.04378",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Simian Luo, Yiqin Tan, Longbo Huang, Jian Li, and Hang Zhao. Latent consistency models: Synthesizing highresolution images with few-step inference. arXiv preprint arXiv:2310.04378",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-26",
+   "authors": null,
+   "title": null,
+   "venue": "Matt Novak. Ai image creator midjourney halts free trials but it has nothing to do with the pope’s jacket. forbes",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Matt Novak. Ai image creator midjourney halts free trials but it has nothing to do with the pope’s jacket. forbes",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-27",
+   "authors": null,
+   "title": null,
+   "venue": "Maitreya Patel, Tejas Gokhale, Chitta Baral, and Yezhou Yang. Conceptbed: Evaluating concept learning abilities of text-to-image diffusion models. arXiv preprint arXiv:2306.04695",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Maitreya Patel, Tejas Gokhale, Chitta Baral, and Yezhou Yang. Conceptbed: Evaluating concept learning abilities of text-to-image diffusion models. arXiv preprint arXiv:2306.04695",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-28",
+   "authors": null,
+   "title": null,
+   "venue": "Maitreya Patel, Changhoon Kim, Sheng Cheng, Chitta Baral, and Yezhou Yang. Eclipse:a resource-efficient text-to-image prior for image generations. In ArXiv –",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Maitreya Patel, Changhoon Kim, Sheng Cheng, Chitta Baral, and Yezhou Yang. Eclipse:a resource-efficient text-to-image prior for image generations. In ArXiv –",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-29",
+   "authors": null,
+   "title": null,
+   "venue": "Yuxin Wen, John Kirchenbauer, Jonas Geiping, and Tom Goldstein. Tree-ring watermarks: Fingerprints for diffusion images that are invisible and robust. arXiv preprint arXiv:2305.20030",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yuxin Wen, John Kirchenbauer, Jonas Geiping, and Tom Goldstein. Tree-ring watermarks: Fingerprints for diffusion images that are invisible and robust. arXiv preprint arXiv:2305.20030",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2023-untitled-30",
+   "authors": null,
+   "title": null,
+   "venue": "Yunqing Zhao, Tianyu Pang, Chao Du, Xiao Yang, Ngai-Man Cheung, and Min Lin. A recipe for watermarking diffusion models. ArXiv, abs/2303.10137",
+   "year": "2023",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yunqing Zhao, Tianyu Pang, Chao Du, Xiao Yang, Ngai-Man Cheung, and Min Lin. A recipe for watermarking diffusion models. ArXiv, abs/2303.10137",
+   "venue_tier": "other"
+  },
+  {
+   "key": "saharia-2022-photorealistic-text-to-image-diffusion-models",
+   "authors": "C. Saharia, W. Chan, S. Saxena, L. Li, J. Whang, E. L. Denton, K. Ghasemipour, R. Gontijo Lopes, B. Karagol Ayan, T. Salimans et al.",
+   "title": "Photorealistic text-to-image diffusion models with deep language understanding",
+   "venue": "Proc. Adv. Neural Inf. Process. Syst.",
+   "year": "2022",
+   "vol": "35",
+   "no": null,
+   "pp": "36",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Adv. Neural Inf. Process. Syst.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "rombach-2022-highresolution-image-synthesis-with-latent",
+   "authors": "R. Rombach, A. Blattmann, D. Lorenz, P. Esser, and B. Ommer",
+   "title": "Highresolution image synthesis with latent diffusion models",
+   "venue": "Proc. IEEE Conf. Comput. Vis. Pattern Recognit.",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": "10",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "allwadhi-2022-a-comprehensive-survey-of-state-of-art",
+   "authors": "S. Allwadhi, K. Joshi, and A. K. Yadav",
+   "title": "A comprehensive survey of state-of-art techniques in digital watermarking",
+   "venue": "Proc. 4th Int. Conf. Advances Comput., Commun. Control Netw. (ICAC3N)",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": "2362–2368",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. 4th Int. Conf. Advances Comput., Commun. Control Netw. (ICAC3N)",
+   "venue_tier": "other"
+  },
+  {
+   "key": "wan-2022-a-comprehensive-survey-on-robust-image",
+   "authors": "W. Wan, J. Wang, Y. Zhang, J. Li, H. Yu, and J. Sun",
+   "title": "A comprehensive survey on robust image watermarking",
+   "venue": "Neurocomputing",
+   "year": "2022",
+   "vol": "488",
+   "no": null,
+   "pp": "226–247",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Neurocomputing",
+   "venue_tier": "other"
+  },
+  {
+   "key": "fernandez-2022-watermarking-images-in-self-supervised-latent",
+   "authors": "P. Fernandez, A. Sablayrolles, T. Furon, H. Jegou, and M. Douze, ´",
+   "title": "Watermarking images in self-supervised latent spaces",
+   "venue": "Proc. IEEE Int. Conf. Acoust. Speech Signal Process.",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": "3054–3058",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "pan-2022-seek-and-hide-adversarial-steganography-via",
+   "authors": "W. Pan, Y. Yin, X. Wang, Y. Jing, and M. Song",
+   "title": "Seek-and-hide: Adversarial steganography via deep reinforcement learning",
+   "venue": "IEEE Trans. Pattern Anal. Mach. Intell.",
+   "year": "2022",
+   "vol": "44",
+   "no": "11",
+   "pp": "7871–7884",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Pattern Anal. Mach. Intell.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "ma-2022-towards-blind-watermarking-combining",
+   "authors": "R. Ma, M. Guo, Y. Hou, F. Yang, Y. Li, H. Jia, and X. Xie",
+   "title": "Towards blind watermarking: Combining invertible and non-invertible mechanisms",
+   "venue": "Proc. ACM Int. Conf. Multimedia",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": "1532–1542",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. ACM Int. Conf. Multimedia",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Rombach, R., A. Blattmann, D. Lorenz, et al. High-resolution image synthesis with latent diffusion models. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 10684–10695.",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2022-untitled-5",
+   "authors": null,
+   "title": null,
+   "venue": "Dong, C., X. Chen, R. Hu, et al. Mvss-net: Multi-view multi-scale supervised networks for image manipulation detection. IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(3):3539– 3553",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Dong, C., X. Chen, R. Hu, et al. Mvss-net: Multi-view multi-scale supervised networks for image manipulation detection. IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(3):3539– 3553",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-6",
+   "authors": null,
+   "title": null,
+   "venue": "Liu, X., Y. Liu, J. Chen, et al. Pscc-net: Progressive spatio-channel correlation network for image manipulation detection and localization. IEEE Transactions on Circuits and Systems for Video Technology, 32(11):7505–7517",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Liu, X., Y. Liu, J. Chen, et al. Pscc-net: Progressive spatio-channel correlation network for image manipulation detection and localization. IEEE Transactions on Circuits and Systems for Video Technology, 32(11):7505–7517",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-7",
+   "authors": null,
+   "title": null,
+   "venue": "Wang, J., Z. Wu, J. Chen, et al. Objectformer for image manipulation detection and localization. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2364–2373.",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2022-untitled-8",
+   "authors": null,
+   "title": null,
+   "venue": "Yan, F., H. Huang, X. Yu. A multiwatermarking scheme for verifying medical image integrity and authenticity in the internet of medical things. IEEE Transactions on Industrial Informatics, 18(12):8885– 8894",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yan, F., H. Huang, X. Yu. A multiwatermarking scheme for verifying medical image integrity and authenticity in the internet of medical things. IEEE Transactions on Industrial Informatics, 18(12):8885– 8894",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-9",
+   "authors": null,
+   "title": null,
+   "venue": "Fernandez",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Fernandez",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-10",
+   "authors": null,
+   "title": null,
+   "venue": "Asnani, V., X. Yin, T. Hassner, et al. Proactive image manipulation detection. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 15386–15395.",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2022-untitled-11",
+   "authors": null,
+   "title": null,
+   "venue": "Suvorov, R., E. Logacheva, A. Mashikhin, et al. Resolution-robust large mask inpainting with fourier convolutions. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 2149–2159.",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2022-untitled-12",
+   "authors": null,
+   "title": null,
+   "venue": "Kwon, M.-J., S.-H. Nam, I.-J. Yu, et al. Learning jpeg compression artifacts for image manipulation detection and localization. International Journal of Computer Vision, 130(8):1875–1895",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Kwon, M.-J., S.-H. Nam, I.-J. Yu, et al. Learning jpeg compression artifacts for image manipulation detection and localization. International Journal of Computer Vision, 130(8):1875–1895",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-13",
+   "authors": null,
+   "title": null,
+   "venue": "Yogesh Balaji, Seungjun Nah, Xun Huang, Arash Vahdat, Jiaming Song, Karsten Kreis, Miika Aittala, Timo Aila, Samuli Laine, Bryan Catanzaro, et al. ediffi: Text-toimage diffusion models with an ensemble of expert denoisers. arXiv preprint arXiv:2211.01324",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yogesh Balaji, Seungjun Nah, Xun Huang, Arash Vahdat, Jiaming Song, Karsten Kreis, Miika Aittala, Timo Aila, Samuli Laine, Bryan Catanzaro, et al. ediffi: Text-toimage diffusion models with an ensemble of expert denoisers. arXiv preprint arXiv:2211.01324",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-14",
+   "authors": null,
+   "title": null,
+   "venue": "Adrien Bardes, Jean Ponce, and Yann LeCun. Vicreg: Variance-invariance-covariance regularization for self-supervised learning. In ICLR",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Adrien Bardes, Jean Ponce, and Yann LeCun. Vicreg: Variance-invariance-covariance regularization for self-supervised learning. In ICLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-15",
+   "authors": null,
+   "title": null,
+   "venue": "Tim Brooks, Aleksander Holynski, and Alexei A Efros. Instructpix2pix: Learning to follow image editing instructions. arXiv preprint arXiv:2211.09800",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Tim Brooks, Aleksander Holynski, and Alexei A Efros. Instructpix2pix: Learning to follow image editing instructions. arXiv preprint arXiv:2211.09800",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-16",
+   "authors": null,
+   "title": null,
+   "venue": "Riccardo Corvi, Davide Cozzolino, Giada Zingarini, Giovanni Poggi, Koki Nagano, and Luisa Verdoliva. On the detection of synthetic images generated by diffusion models. arXiv preprint arXiv:2211.00680",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Riccardo Corvi, Davide Cozzolino, Giada Zingarini, Giovanni Poggi, Koki Nagano, and Luisa Verdoliva. On the detection of synthetic images generated by diffusion models. arXiv preprint arXiv:2211.00680",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-17",
+   "authors": null,
+   "title": null,
+   "venue": "Guillaume Couairon, Jakob Verbeek, Holger Schwenk, and Matthieu Cord. Diffedit: Diffusion-based semantic image editing with mask guidance. arXiv preprint arXiv:2210.11427",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Guillaume Couairon, Jakob Verbeek, Holger Schwenk, and Matthieu Cord. Diffedit: Diffusion-based semantic image editing with mask guidance. arXiv preprint arXiv:2210.11427",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-18",
+   "authors": null,
+   "title": null,
+   "venue": "Hany Farid. Lighting (in) consistency of paint by text. arXiv preprint arXiv:2207.13744",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Hany Farid. Lighting (in) consistency of paint by text. arXiv preprint arXiv:2207.13744",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-19",
+   "authors": null,
+   "title": null,
+   "venue": "Hany Farid. Perspective (in) consistency of paint by text. arXiv preprint arXiv:2206.14617",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Hany Farid. Perspective (in) consistency of paint by text. arXiv preprint arXiv:2206.14617",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-20",
+   "authors": null,
+   "title": null,
+   "venue": "Jianwei Fei, Zhihua Xia, Benedetta Tondi, and Mauro Barni. Supervised gan watermarking for intellectual property protection. In",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jianwei Fei, Zhihua Xia, Benedetta Tondi, and Mauro Barni. Supervised gan watermarking for intellectual property protection. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-21",
+   "authors": null,
+   "title": null,
+   "venue": "Pierre Fernandez, Matthijs Douze, Herve J ´ egou, and ´ Teddy Furon. Active image indexing. arXiv preprint arXiv:2210.10620",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Pierre Fernandez, Matthijs Douze, Herve J ´ egou, and ´ Teddy Furon. Active image indexing. arXiv preprint arXiv:2210.10620",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-22",
+   "authors": null,
+   "title": null,
+   "venue": "Pierre Fernandez, Alexandre Sablayrolles, Teddy Furon, Herve J ´ egou, and Matthijs Douze. Watermarking images ´ in self-supervised latent spaces. In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Pierre Fernandez, Alexandre Sablayrolles, Teddy Furon, Herve J ´ egou, and Matthijs Douze. Watermarking images ´ in self-supervised latent spaces. In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-23",
+   "authors": null,
+   "title": null,
+   "venue": "Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H Bermano, Gal Chechik, and Daniel Cohen-Or. An image is worth one word: Personalizing text-toimage generation using textual inversion. arXiv preprint arXiv:2208.01618",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H Bermano, Gal Chechik, and Daniel Cohen-Or. An image is worth one word: Personalizing text-toimage generation using textual inversion. arXiv preprint arXiv:2208.01618",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-24",
+   "authors": null,
+   "title": null,
+   "venue": "Matthew Gault. An ai-generated artwork won first place at a state fair fine arts competition, and artists are pissed. Vice",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": "https://www.vice.com/en/article/bvmvqm/an-aigenerated-artwork-won-first-place-at-a-state-fair-fine-artscompetition-and-artists-are-pissed",
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Matthew Gault. An ai-generated artwork won first place at a state fair fine arts competition, and artists are pissed. Vice",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-25",
+   "authors": null,
+   "title": null,
+   "venue": "Amir Hertz, Ron Mokady, Jay Tenenbaum, Kfir Aberman, Yael Pritch, and Daniel Cohen-Or. Prompt-to-prompt image editing with cross attention control. arXiv preprint arXiv:2208.01626",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Amir Hertz, Ron Mokady, Jay Tenenbaum, Kfir Aberman, Yael Pritch, and Daniel Cohen-Or. Prompt-to-prompt image editing with cross attention control. arXiv preprint arXiv:2208.01626",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-26",
+   "authors": null,
+   "title": null,
+   "venue": "Jonathan Ho, William Chan, Chitwan Saharia, Jay Whang, Ruiqi Gao, Alexey Gritsenko, Diederik P Kingma, Ben Poole, Mohammad Norouzi, David J Fleet, et al. Imagen video: High definition video generation with diffusion models. arXiv preprint arXiv:2210.02303",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jonathan Ho, William Chan, Chitwan Saharia, Jay Whang, Ruiqi Gao, Alexey Gritsenko, Diederik P Kingma, Ben Poole, Mohammad Norouzi, David J Fleet, et al. Imagen video: High definition video generation with diffusion models. arXiv preprint arXiv:2210.02303",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-27",
+   "authors": null,
+   "title": null,
+   "venue": "Bahjat Kawar, Shiran Zada, Oran Lang, Omer Tov, Huiwen Chang, Tali Dekel, Inbar Mosseri, and Michal Irani. Imagic: Text-based real image editing with diffusion models. arXiv preprint arXiv:2210.09276",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Bahjat Kawar, Shiran Zada, Oran Lang, Omer Tov, Huiwen Chang, Tali Dekel, Inbar Mosseri, and Michal Irani. Imagic: Text-based real image editing with diffusion models. arXiv preprint arXiv:2210.09276",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-28",
+   "authors": null,
+   "title": null,
+   "venue": "Varsha Kishore, Xiangyu Chen, Yan Wang, Boyi Li, and Kilian Q Weinberger. Fixed neural network steganography: Train the images, not the network. In International Conference on Learning Representations",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Varsha Kishore, Xiangyu Chen, Yan Wang, Boyi Li, and Kilian Q Weinberger. Fixed neural network steganography: Train the images, not the network. In International Conference on Learning Representations",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-29",
+   "authors": null,
+   "title": null,
+   "venue": "Dongdong Lin, Benedetta Tondi, Bin Li, and Mauro Barni. Cycleganwm: A cyclegan watermarking method for ownership verification. arXiv preprint arXiv:2211.13737",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Dongdong Lin, Benedetta Tondi, Bin Li, and Mauro Barni. Cycleganwm: A cyclegan watermarking method for ownership verification. arXiv preprint arXiv:2211.13737",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-30",
+   "authors": null,
+   "title": null,
+   "venue": "Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, and Luc Van Gool. Repaint: Inpainting using denoising diffusion probabilistic models. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 11461–11471",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2022-untitled-31",
+   "authors": null,
+   "title": null,
+   "venue": "Jingwei Ma, Lucy Chai, Minyoung Huh, Tongzhou Wang, Ser-Nam Lim, Phillip Isola, and Antonio Torralba. Totems: Physical objects for verifying visual integrity. In European Conference on Computer Vision, pages 164–180. Springer",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jingwei Ma, Lucy Chai, Minyoung Huh, Tongzhou Wang, Ser-Nam Lim, Phillip Isola, and Antonio Torralba. Totems: Physical objects for verifying visual integrity. In European Conference on Computer Vision, pages 164–180. Springer",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-32",
+   "authors": null,
+   "title": null,
+   "venue": "Ron Mokady, Amir Hertz, Kfir Aberman, Yael Pritch, and Daniel Cohen-Or. Null-text inversion for editing real images using guided diffusion models. arXiv preprint arXiv:2211.09794",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ron Mokady, Amir Hertz, Kfir Aberman, Yael Pritch, and Daniel Cohen-Or. Null-text inversion for editing real images using guided diffusion models. arXiv preprint arXiv:2211.09794",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-33",
+   "authors": null,
+   "title": null,
+   "venue": "Zoe Papakipos and Joanna Bitton. Augly: Data augmentations for robustness. arXiv preprint arXiv:2201.06494",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zoe Papakipos and Joanna Bitton. Augly: Data augmentations for robustness. arXiv preprint arXiv:2201.06494",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-34",
+   "authors": null,
+   "title": null,
+   "venue": "William Peebles and Saining Xie. Scalable diffusion models with transformers. arXiv preprint arXiv:2212.09748",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "William Peebles and Saining Xie. Scalable diffusion models with transformers. arXiv preprint arXiv:2212.09748",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-35",
+   "authors": null,
+   "title": null,
+   "venue": "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bjorn Ommer. Stable diffusion. Ac- ¨ cessed Nov. 30",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bjorn Ommer. Stable diffusion. Ac- ¨ cessed Nov. 30",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-36",
+   "authors": null,
+   "title": null,
+   "venue": "Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, and Kfir Aberman. Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation. arXiv preprint arXiv:2208.12242",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, and Kfir Aberman. Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation. arXiv preprint arXiv:2208.12242",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-37",
+   "authors": null,
+   "title": null,
+   "venue": "Chitwan Saharia, William Chan, Huiwen Chang, Chris Lee, Jonathan Ho, Tim Salimans, David Fleet, and Mohammad Norouzi. Palette: Image-to-image diffusion models. In ACM SIGGRAPH",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Chitwan Saharia, William Chan, Huiwen Chang, Chris Lee, Jonathan Ho, Tim Salimans, David Fleet, and Mohammad Norouzi. Palette: Image-to-image diffusion models. In ACM SIGGRAPH",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-38",
+   "authors": null,
+   "title": null,
+   "venue": "Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S Sara Mahdavi, Rapha Gontijo Lopes, et al. Photorealistic text-to-image diffusion models with deep language understanding. arXiv preprint arXiv:2205.11487",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S Sara Mahdavi, Rapha Gontijo Lopes, et al. Photorealistic text-to-image diffusion models with deep language understanding. arXiv preprint arXiv:2205.11487",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-39",
+   "authors": null,
+   "title": null,
+   "venue": "Chitwan Saharia, Jonathan Ho, William Chan, Tim Salimans, David J Fleet, and Mohammad Norouzi. Image super-resolution via iterative refinement. IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Chitwan Saharia, Jonathan Ho, William Chan, Tim Salimans, David J Fleet, and Mohammad Norouzi. Image super-resolution via iterative refinement. IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-40",
+   "authors": null,
+   "title": null,
+   "venue": "Axel Sauer, Katja Schwarz, and Andreas Geiger. Styleganxl: Scaling stylegan to large diverse datasets. In ACM SIG-GRAPH",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Axel Sauer, Katja Schwarz, and Andreas Geiger. Styleganxl: Scaling stylegan to large diverse datasets. In ACM SIG-GRAPH",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-41",
+   "authors": null,
+   "title": null,
+   "venue": "Zeyang Sha, Zheng Li, Ning Yu, and Yang Zhang. Defake: Detection and attribution of fake images generated by text-to-image diffusion models. arXiv preprint arXiv:2210.06998",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zeyang Sha, Zheng Li, Ning Yu, and Yang Zhang. Defake: Detection and attribution of fake images generated by text-to-image diffusion models. arXiv preprint arXiv:2210.06998",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-42",
+   "authors": null,
+   "title": null,
+   "venue": "Uriel Singer, Adam Polyak, Thomas Hayes, Xi Yin, Jie An, Songyang Zhang, Qiyuan Hu, Harry Yang, Oron Ashual, Oran Gafni, et al. Make-a-video: Text-to-video generation without text-video data. arXiv preprint arXiv:2209.14792",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Uriel Singer, Adam Polyak, Thomas Hayes, Xi Yin, Jie An, Songyang Zhang, Qiyuan Hu, Harry Yang, Oron Ashual, Oran Gafni, et al. Make-a-video: Text-to-video generation without text-video data. arXiv preprint arXiv:2209.14792",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-43",
+   "authors": null,
+   "title": null,
+   "venue": "Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin, Anastasia Remizova, Arsenii Ashukha, Aleksei Silvestrov, Naejin Kong, Harshith Goka, Kiwoong Park, and Victor Lempitsky. Resolution-robust large mask inpainting with fourier convolutions. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pages 2149–2159",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2022-untitled-44",
+   "authors": null,
+   "title": null,
+   "venue": "Dani Valevski, Matan Kalman, Yossi Matias, and Yaniv Leviathan. Unitune: Text-driven image editing by fine tuning an image generation model on a single image. arXiv preprint arXiv:2210.09477",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Dani Valevski, Matan Kalman, Yossi Matias, and Yaniv Leviathan. Unitune: Text-driven image editing by fine tuning an image generation model on a single image. arXiv preprint arXiv:2210.09477",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-45",
+   "authors": null,
+   "title": null,
+   "venue": "Steven Walton, Ali Hassani, Xingqian Xu, Zhangyang Wang, and Humphrey Shi. Stylenat: Giving each head a new perspective. arXiv preprint arXiv:2211.05770",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Steven Walton, Ali Hassani, Xingqian Xu, Zhangyang Wang, and Humphrey Shi. Stylenat: Giving each head a new perspective. arXiv preprint arXiv:2211.05770",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-46",
+   "authors": null,
+   "title": null,
+   "venue": "Mitchell Wortsman, Gabriel Ilharco, Samir Ya Gadre, Rebecca Roelofs, Raphael Gontijo-Lopes, Ari S Morcos, Hongseok Namkoong, Ali Farhadi, Yair Carmon, Simon Kornblith, et al. Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time. In International Conference on Machine Learning, pages 23965–23998. PMLR",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Mitchell Wortsman, Gabriel Ilharco, Samir Ya Gadre, Rebecca Roelofs, Raphael Gontijo-Lopes, Ari S Morcos, Hongseok Namkoong, Ali Farhadi, Yair Carmon, Simon Kornblith, et al. Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time. In International Conference on Machine Learning, pages 23965–23998. PMLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-47",
+   "authors": null,
+   "title": null,
+   "venue": "Chen Henry Wu and Fernando De la Torre. Unifying diffusion models’ latent space, with applications to cyclediffusion and guidance. arXiv preprint arXiv:2210.05559",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Chen Henry Wu and Fernando De la Torre. Unifying diffusion models’ latent space, with applications to cyclediffusion and guidance. arXiv preprint arXiv:2210.05559",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-48",
+   "authors": null,
+   "title": null,
+   "venue": "Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit Haim Bermano, Gal Chechik, and Daniel Cohen-or. An image is worth one word: Personalizing text-to-image generation using textual inversion. In The Eleventh International Conference on Learning Representations",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit Haim Bermano, Gal Chechik, and Daniel Cohen-or. An image is worth one word: Personalizing text-to-image generation using textual inversion. In The Eleventh International Conference on Learning Representations",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-49",
+   "authors": null,
+   "title": null,
+   "venue": "Jonathan Ho and Tim Salimans. Classifier-free diffusion guidance. arXiv preprint arXiv:2207.12598",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jonathan Ho and Tim Salimans. Classifier-free diffusion guidance. arXiv preprint arXiv:2207.12598",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-50",
+   "authors": null,
+   "title": null,
+   "venue": "Tero Karras, Miika Aittala, Timo Aila, and Samuli Laine. Elucidating the design space of diffusion-based generative models. arXiv preprint arXiv:2206.00364",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Tero Karras, Miika Aittala, Timo Aila, and Samuli Laine. Elucidating the design space of diffusion-based generative models. arXiv preprint arXiv:2206.00364",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-51",
+   "authors": null,
+   "title": null,
+   "venue": "Alexander Quinn Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob Mcgrew, Ilya Sutskever, and Mark Chen. Glide: Towards photorealistic image generation and editing with text-guided diffusion models. In International Conference on Machine Learning, pages 16784–16804. PMLR",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Alexander Quinn Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob Mcgrew, Ilya Sutskever, and Mark Chen. Glide: Towards photorealistic image generation and editing with text-guided diffusion models. In International Conference on Machine Learning, pages 16784–16804. PMLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-52",
+   "authors": null,
+   "title": null,
+   "venue": "Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily L Denton, Kamyar Ghasemipour, Raphael Gontijo Lopes, Burcu Karagol Ayan, Tim Salimans, et al. Photorealistic text-to-image diffusion models with deep language understanding. Advances in Neural Information Processing Systems, 35:36479–36494",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily L Denton, Kamyar Ghasemipour, Raphael Gontijo Lopes, Burcu Karagol Ayan, Tim Salimans, et al. Photorealistic text-to-image diffusion models with deep language understanding. Advances in Neural Information Processing Systems, 35:36479–36494",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2022-untitled-53",
+   "authors": null,
+   "title": null,
+   "venue": "Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, et al. Laion-5b: An open large-scale dataset for training next generation image-text models. arXiv preprint arXiv:2210.08402",
+   "year": "2022",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, et al. Laion-5b: An open large-scale dataset for training next generation image-text models. arXiv preprint arXiv:2210.08402",
+   "venue_tier": "other"
+  },
+  {
+   "key": "liu-2021-wdnet-watermark-decomposition-network-for",
+   "authors": "Y. Liu, Z. Zhu, and X. Bai",
+   "title": "WDNet: Watermark-decomposition network for visible watermark removal",
+   "venue": "Proc. IEEE Winter Conf. Appl. Comput. Vis.",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": "3685–3693",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "jia-2021-mbrs-enhancing-robustness-of-dnn-based",
+   "authors": "Z. Jia, H. Fang, and W. Zhang",
+   "title": "MBRS: Enhancing robustness of DNN-based watermarking by mini-batch of real and simulated JPEG compression",
+   "venue": "Proc. ACM Int. Conf. Multimedia",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": "41–49",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. ACM Int. Conf. Multimedia",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Zhuang",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zhuang",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Li, Y., H. Wang, M. Barni. A survey of deep neural network watermarking techniques. Neurocomputing, 461:171–193",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Li, Y., H. Wang, M. Barni. A survey of deep neural network watermarking techniques. Neurocomputing, 461:171–193",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-5",
+   "authors": null,
+   "title": null,
+   "venue": "Zhang, J., D. Chen, J. Liao, et al. Deep model intellectual property protection via deep watermarking. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(8):4005–4020",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zhang, J., D. Chen, J. Liao, et al. Deep model intellectual property protection via deep watermarking. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(8):4005–4020",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-6",
+   "authors": null,
+   "title": null,
+   "venue": "Song, J., C. Meng, S. Ermon. Denoising diffusion implicit models. In International Conference on Learning Representations.",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Song, J., C. Meng, S. Ermon. Denoising diffusion implicit models. In International Conference on Learning Representations.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-7",
+   "authors": null,
+   "title": null,
+   "venue": "Sahar Abdelnabi and Mario Fritz. Adversarial watermarking transformer: Towards tracing text provenance with data hiding. In",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Sahar Abdelnabi and Mario Fritz. Adversarial watermarking transformer: Towards tracing text provenance with data hiding. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-8",
+   "authors": null,
+   "title": null,
+   "venue": "Mathilde Caron, Hugo Touvron, Ishan Misra, Herve J ´ egou, ´ Julien Mairal, Piotr Bojanowski, and Armand Joulin. Emerging properties in self-supervised vision transformers. In ICCV. IEEE",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Mathilde Caron, Hugo Touvron, Ishan Misra, Herve J ´ egou, ´ Julien Mairal, Piotr Bojanowski, and Armand Joulin. Emerging properties in self-supervised vision transformers. In ICCV. IEEE",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-9",
+   "authors": null,
+   "title": null,
+   "venue": "Emily Denton. Ethical considerations of generative ai. In AI for Content Creation Workshop CVPR. IEEE",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Emily Denton. Ethical considerations of generative ai. In AI for Content Creation Workshop CVPR. IEEE",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-10",
+   "authors": null,
+   "title": null,
+   "venue": "Prafulla Dhariwal and Alexander Nichol. Diffusion models beat gans on image synthesis. Advances in Neural Information Processing Systems, 34:8780–8794",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Prafulla Dhariwal and Alexander Nichol. Diffusion models beat gans on image synthesis. Advances in Neural Information Processing Systems, 34:8780–8794",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-11",
+   "authors": null,
+   "title": null,
+   "venue": "Ming Ding, Zhuoyi Yang, Wenyi Hong, Wendi Zheng, Chang Zhou, Da Yin, Junyang Lin, Xu Zou, Zhou Shao, Hongxia Yang, et al. Cogview: Mastering text-to-image generation via transformers. Advances in Neural Information Processing Systems, 34:19822–19835",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ming Ding, Zhuoyi Yang, Wenyi Hong, Wendi Zheng, Chang Zhou, Da Yin, Junyang Lin, Xu Zou, Zhou Shao, Hongxia Yang, et al. Cogview: Mastering text-to-image generation via transformers. Advances in Neural Information Processing Systems, 34:19822–19835",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-12",
+   "authors": null,
+   "title": null,
+   "venue": "Diego Gragnaniello, Davide Cozzolino, Francesco Marra, Giovanni Poggi, and Luisa Verdoliva. Are gan generated images easy to detect? a critical analysis of the state-of-theart. In",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Diego Gragnaniello, Davide Cozzolino, Francesco Marra, Giovanni Poggi, and Luisa Verdoliva. Are gan generated images easy to detect? a critical analysis of the state-of-theart. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-13",
+   "authors": null,
+   "title": null,
+   "venue": "Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, and Mark Chen. Glide: Towards photorealistic image generation and editing with text-guided diffusion models. arXiv preprint arXiv:2112.10741",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, and Mark Chen. Glide: Towards photorealistic image generation and editing with text-guided diffusion models. arXiv preprint arXiv:2112.10741",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-14",
+   "authors": null,
+   "title": null,
+   "venue": "Alexander Quinn Nichol and Prafulla Dhariwal. Improved denoising diffusion probabilistic models. In International Conference on Machine Learning, pages 8162– 8171. PMLR",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Alexander Quinn Nichol and Prafulla Dhariwal. Improved denoising diffusion probabilistic models. In International Conference on Machine Learning, pages 8162– 8171. PMLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-15",
+   "authors": null,
+   "title": null,
+   "venue": "Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, and Ilya Sutskever. Zero-shot text-to-image generation. In International Conference on Machine Learning, pages 8821–8831. PMLR",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, and Ilya Sutskever. Zero-shot text-to-image generation. In International Conference on Machine Learning, pages 8821–8831. PMLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-16",
+   "authors": null,
+   "title": null,
+   "venue": "Changhao Shi, Chester Holtz, and Gal Mishne. Online adversarial purification based on self-supervision. arXiv preprint arXiv:2101.09387",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Changhao Shi, Chester Holtz, and Gal Mishne. Online adversarial purification based on self-supervision. arXiv preprint arXiv:2101.09387",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-17",
+   "authors": null,
+   "title": null,
+   "venue": "Yang Song, Jascha Sohl-Dickstein, Diederik P Kingma, Abhishek Kumar, Stefano Ermon, and Ben Poole. Scorebased generative modeling through stochastic differential equations. ICLR",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yang Song, Jascha Sohl-Dickstein, Diederik P Kingma, Abhishek Kumar, Stefano Ermon, and Ben Poole. Scorebased generative modeling through stochastic differential equations. ICLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-18",
+   "authors": null,
+   "title": null,
+   "venue": "Jongmin Yoon, Sung Ju Hwang, and Juho Lee. Adversarial purification with score-based generative models. In International Conference on Machine Learning, pages 12062– 12072. PMLR",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jongmin Yoon, Sung Ju Hwang, and Juho Lee. Adversarial purification with score-based generative models. In International Conference on Machine Learning, pages 12062– 12072. PMLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-19",
+   "authors": null,
+   "title": null,
+   "venue": "Jiahui Yu, Xin Li, Jing Yu Koh, Han Zhang, Ruoming Pang, James Qin, Alexander Ku, Yuanzhong Xu, Jason Baldridge, and Yonghui Wu. Vector-quantized image modeling with improved vqgan. arXiv preprint arXiv:2110.04627",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jiahui Yu, Xin Li, Jing Yu Koh, Han Zhang, Ruoming Pang, James Qin, Alexander Ku, Yuanzhong Xu, Jason Baldridge, and Yonghui Wu. Vector-quantized image modeling with improved vqgan. arXiv preprint arXiv:2110.04627",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-20",
+   "authors": null,
+   "title": null,
+   "venue": "Chaoning Zhang, Adil Karjauv, Philipp Benz, and In So Kweon. Towards robust deep hiding under nondifferentiable distortions for practical blind watermarking. In Proceedings of the 29th ACM International Conference on Multimedia, pages 5158–5166",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Chaoning Zhang, Adil Karjauv, Philipp Benz, and In So Kweon. Towards robust deep hiding under nondifferentiable distortions for practical blind watermarking. In Proceedings of the 29th ACM International Conference on Multimedia, pages 5158–5166",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-21",
+   "authors": null,
+   "title": null,
+   "venue": "Hanqing Zhao, Wenbo Zhou, Dongdong Chen, Tianyi Wei, Weiming Zhang, and Nenghai Yu. Multi-attentional deepfake detection. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 2185– 2194",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2021-untitled-22",
+   "authors": null,
+   "title": null,
+   "venue": "Jack Hessel, Ari Holtzman, Maxwell Forbes, Ronan Le Bras, and Yejin Choi. Clipscore: A reference-free evaluation met- ric for image captioning. arXiv preprint arXiv:2104.08718",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jack Hessel, Ari Holtzman, Maxwell Forbes, Ronan Le Bras, and Yejin Choi. Clipscore: A reference-free evaluation met- ric for image captioning. arXiv preprint arXiv:2104.08718",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-23",
+   "authors": null,
+   "title": null,
+   "venue": "Changhoon Kim, Yi Ren, and Yezhou Yang. Decentralized attribution of generative models. In International Conference on Learning Representations",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Changhoon Kim, Yi Ren, and Yezhou Yang. Decentralized attribution of generative models. In International Conference on Learning Representations",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-24",
+   "authors": null,
+   "title": null,
+   "venue": "Yue Li, Hongxia Wang, and Mauro Barni. A survey of deep neural network watermarking techniques. ArXiv, abs/2103.09274",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yue Li, Hongxia Wang, and Mauro Barni. A survey of deep neural network watermarking techniques. ArXiv, abs/2103.09274",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-25",
+   "authors": null,
+   "title": null,
+   "venue": "Ding Sheng Ong, Chee Seng Chan, Kam Woh Ng, Lixin Fan, and Qiang Yang. Protecting intellectual property of generative adversarial networks from ambiguity attacks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 3630–3639",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2021-untitled-26",
+   "authors": null,
+   "title": null,
+   "venue": "Tim Salimans and Jonathan Ho. Progressive distillation for fast sampling of diffusion models. In International Conference on Learning Representations",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Tim Salimans and Jonathan Ho. Progressive distillation for fast sampling of diffusion models. In International Conference on Learning Representations",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2021-untitled-27",
+   "authors": null,
+   "title": null,
+   "venue": "Tianhao Wang and Florian Kerschbaum. Riga: Covert and robust white-box watermarking of deep neural networks. In Proceedings of the Web Conference",
+   "year": "2021",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Tianhao Wang and Florian Kerschbaum. Riga: Covert and robust white-box watermarking of deep neural networks. In Proceedings of the Web Conference",
+   "venue_tier": "other"
+  },
+  {
+   "key": "tancik-2020-stegastamp-invisible-hyperlinks-in-physical",
+   "authors": "M. Tancik, B. Mildenhall, and R. Ng",
+   "title": "StegaStamp: Invisible hyperlinks in physical photographs",
+   "venue": "Proc. IEEE Conf. Comput. Vis. Pattern Recognit.",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": "2114–2123",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "ahmadi-2020-red-mark-framework-for-residual-diffusion",
+   "authors": "M. Ahmadi, A. Norouzi, N. Karimi, S. Samavi, and A. Emami",
+   "title": "ReD-Mark: Framework for residual diffusion watermarking based on deep networks",
+   "venue": "Expert Syst. Appl.",
+   "year": "2020",
+   "vol": "146",
+   "no": null,
+   "pp": "113157",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Expert Syst. Appl.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "yu-2020-attention-based-data-hiding-with-generative",
+   "authors": "C. Yu",
+   "title": "Attention based data hiding with generative adversarial networks",
+   "venue": "Proc. AAAI Conf. Artif. Intell.",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": "1120–1128",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. AAAI Conf. Artif. Intell.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "qin-2020-u-2-net-going-deeper-with-nested-u-structure",
+   "authors": "X. Qin, Z. Zhang, C. Huang, M. Dehghan, O. R. Za¨ıane, and M. Jagersand",
+   "title": "U ¨ 2-net: Going deeper with nested u-structure for salient object detection",
+   "venue": "Pattern Recognit.",
+   "year": "2020",
+   "vol": "106",
+   "no": null,
+   "pp": "107404",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Pattern Recognit.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "kuznetsova-2020-the-open-images-dataset-v4-unified-image",
+   "authors": "A. Kuznetsova, H. Rom, N. Alldrin, J. R. R. Uijlings, I. Krasin, J. Pont-Tuset, S. Kamali, S. Popov, M. Malloci, T. Duerig, and V. Ferrari",
+   "title": "The open images dataset V4: unified image classification, object detection, and visual relationship detection at scale",
+   "venue": "Int. J. Comput. Vis.",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Int. J. Comput. Vis.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-5",
+   "authors": null,
+   "title": null,
+   "venue": "Wu, H., G. Liu, Y. Yao, et al. Watermarking neural networks with watermarked images. IEEE Transactions on Circuits and Systems for Video Technology, 31(7):2591–2601",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Wu, H., G. Liu, Y. Yao, et al. Watermarking neural networks with watermarked images. IEEE Transactions on Circuits and Systems for Video Technology, 31(7):2591–2601",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-6",
+   "authors": null,
+   "title": null,
+   "venue": "Kamili, A., N. N. Hurrah, S. A. Parah, et al. Dwfcat: Dual watermarking framework for industrial image authentication and tamper localization. IEEE Transactions on Industrial Informatics, 17(7):5108–5117",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Kamili, A., N. N. Hurrah, S. A. Parah, et al. Dwfcat: Dual watermarking framework for industrial image authentication and tamper localization. IEEE Transactions on Industrial Informatics, 17(7):5108–5117",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-7",
+   "authors": null,
+   "title": null,
+   "venue": "Ho, J., A. Jain",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ho, J., A. Jain",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-8",
+   "authors": null,
+   "title": null,
+   "venue": "Novozamsky, A., B. Mahdian, S. Saic. Imd2020: A large-scale annotated dataset tailored for detecting manipulated images. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision Workshops, pages 71–80.",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2020-untitled-9",
+   "authors": null,
+   "title": null,
+   "venue": "Hu, X., Z. Zhang, Z. Jiang, et al. Span: Spatial pyramid attention network for image manipulation localization. In Computer Vision–ECCV",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Hu, X., Z. Zhang, Z. Jiang, et al. Span: Spatial pyramid attention network for image manipulation localization. In Computer Vision–ECCV",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-10",
+   "authors": null,
+   "title": null,
+   "venue": "Mahdi Ahmadi, Alireza Norouzi, Nader Karimi, Shadrokh Samavi, and Ali Emami. Redmark: Framework for residual diffusion watermarking based on deep networks. Expert Systems with Applications, 146:113157",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Mahdi Ahmadi, Alireza Norouzi, Nader Karimi, Shadrokh Samavi, and Ali Emami. Redmark: Framework for residual diffusion watermarking based on deep networks. Expert Systems with Applications, 146:113157",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-11",
+   "authors": null,
+   "title": null,
+   "venue": "Jean Begaint, Fabien Racap ´ e, Simon Feltman, and Akshay ´ Pushparaja. Compressai: a pytorch library and evaluation platform for end-to-end compression research. arXiv preprint arXiv:",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jean Begaint, Fabien Racap ´ e, Simon Feltman, and Akshay ´ Pushparaja. Compressai: a pytorch library and evaluation platform for end-to-end compression research. arXiv preprint arXiv:",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-12",
+   "authors": null,
+   "title": null,
+   "venue": "Lucy Chai, David Bau, Ser-Nam Lim, and Phillip Isola. What makes fake images detectable? understanding properties that generalize. In European conference on computer vision, pages 103–120. Springer",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Lucy Chai, David Bau, Ser-Nam Lim, and Phillip Isola. What makes fake images detectable? understanding properties that generalize. In European conference on computer vision, pages 103–120. Springer",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-13",
+   "authors": null,
+   "title": null,
+   "venue": "Steffen Czolbe, Oswin Krause, Ingemar Cox, and Christian Igel. A loss function for generative neural networks based on watson’s perceptual model. Advances in Neural Information Processing Systems, 33:",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Steffen Czolbe, Oswin Krause, Ingemar Cox, and Christian Igel. A loss function for generative neural networks based on watson’s perceptual model. Advances in Neural Information Processing Systems, 33:",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-14",
+   "authors": null,
+   "title": null,
+   "venue": "Joel Frank, Thorsten Eisenhofer, Lea Schonherr, Asja Fis-¨ cher, Dorothea Kolossa, and Thorsten Holz. Leveraging frequency analysis for deep fake image recognition. In International conference on machine learning, pages 3247– 3258. PMLR",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Joel Frank, Thorsten Eisenhofer, Lea Schonherr, Asja Fis-¨ cher, Dorothea Kolossa, and Thorsten Holz. Leveraging frequency analysis for deep fake image recognition. In International conference on machine learning, pages 3247– 3258. PMLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-15",
+   "authors": null,
+   "title": null,
+   "venue": "Luca Guarnera, Oliver Giudice, and Sebastiano Battiato. Deepfake detection by analyzing convolutional traces. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition workshops, pages 666–667",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2020-untitled-16",
+   "authors": null,
+   "title": null,
+   "venue": "Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models. Advances in Neural Information Processing Systems, 33:6840–6851",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models. Advances in Neural Information Processing Systems, 33:6840–6851",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-17",
+   "authors": null,
+   "title": null,
+   "venue": "Jae-Eun Lee, Young-Ho Seo, and Dong-Wook Kim. Convolutional neural network-based digital image watermarking adaptive to the resolution of image and watermark. Applied Sciences",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jae-Eun Lee, Young-Ho Seo, and Dong-Wook Kim. Convolutional neural network-based digital image watermarking adaptive to the resolution of image and watermark. Applied Sciences",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-18",
+   "authors": null,
+   "title": null,
+   "venue": "Wenqing Liu, Miaojing Shi, Teddy Furon, and Li Li. Defending adversarial examples via dnn bottleneck reinforcement. In Proceedings of the 28th ACM International Conference on Multimedia, pages",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Wenqing Liu, Miaojing Shi, Teddy Furon, and Li Li. Defending adversarial examples via dnn bottleneck reinforcement. In Proceedings of the 28th ACM International Conference on Multimedia, pages",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-19",
+   "authors": null,
+   "title": null,
+   "venue": "Xiyang Luo, Ruohan Zhan, Huiwen Chang, Feng Yang, and Peyman Milanfar. Distortion agnostic deep watermarking. In CVPR. IEEE",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Xiyang Luo, Ruohan Zhan, Huiwen Chang, Feng Yang, and Peyman Milanfar. Distortion agnostic deep watermarking. In CVPR. IEEE",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-20",
+   "authors": null,
+   "title": null,
+   "venue": "Sheng-Yu Wang, Oliver Wang, Richard Zhang, Andrew Owens, and Alexei A Efros. Cnn-generated images are surprisingly easy to spot... for now. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 8695–8704",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2020-untitled-21",
+   "authors": null,
+   "title": null,
+   "venue": "Hanzhou Wu, Gen Liu, Yuwei Yao, and Xinpeng Zhang. Watermarking neural networks with watermarked images. IEEE Transactions on Circuits and Systems for Video Technology, 31(7):2591–2601",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Hanzhou Wu, Gen Liu, Yuwei Yao, and Xinpeng Zhang. Watermarking neural networks with watermarked images. IEEE Transactions on Circuits and Systems for Video Technology, 31(7):2591–2601",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-22",
+   "authors": null,
+   "title": null,
+   "venue": "Yang You, Jing Li, Sashank Reddi, Jonathan Hseu, Sanjiv Kumar, Srinadh Bhojanapalli, Xiaodan Song, James Demmel, Kurt Keutzer, and Cho-Jui Hsieh. Large batch optimization for deep learning: Training bert in 76 minutes. In ICLR",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yang You, Jing Li, Sashank Reddi, Jonathan Hseu, Sanjiv Kumar, Srinadh Bhojanapalli, Xiaodan Song, James Demmel, Kurt Keutzer, and Cho-Jui Hsieh. Large batch optimization for deep learning: Training bert in 76 minutes. In ICLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-23",
+   "authors": null,
+   "title": null,
+   "venue": "Chaoning Zhang, Philipp Benz, Adil Karjauv, Geng Sun, and In So Kweon. Udh: Universal deep hiding for steganography, watermarking, and light field messaging. NeurIPS",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Chaoning Zhang, Philipp Benz, Adil Karjauv, Geng Sun, and In So Kweon. Udh: Universal deep hiding for steganography, watermarking, and light field messaging. NeurIPS",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-24",
+   "authors": null,
+   "title": null,
+   "venue": "Jie Zhang, Dongdong Chen, Jing Liao, Han Fang, Weiming Zhang, Wenbo Zhou, Hao Cui, and Nenghai Yu. Model watermarking for image processing networks. In Proceedings of the AAAI conference on artificial intelligence, volume 34, pages 12805–12812",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jie Zhang, Dongdong Chen, Jing Liao, Han Fang, Weiming Zhang, Wenbo Zhou, Hao Cui, and Nenghai Yu. Model watermarking for image processing networks. In Proceedings of the AAAI conference on artificial intelligence, volume 34, pages 12805–12812",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-25",
+   "authors": null,
+   "title": null,
+   "venue": "E. Riba, D. Mishkin, D. Ponsa, E. Rublee, and G. Bradski. Kornia: an open source differentiable computer vision library for pytorch. In Winter Conference on Applications of Computer Vision",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "E. Riba, D. Mishkin, D. Ponsa, E. Rublee, and G. Bradski. Kornia: an open source differentiable computer vision library for pytorch. In Winter Conference on Applications of Computer Vision",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2020-untitled-26",
+   "authors": null,
+   "title": null,
+   "venue": "Matthew Tancik, Ben Mildenhall, and Ren Ng. Stegastamp: Invisible hyperlinks in physical photographs. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2117–2126",
+   "year": "2020",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "liu-2019-a-novel-two-stage-separable-deep-learning",
+   "authors": "Y. Liu, M. Guo, J. Zhang, Y. Zhu, and X. Xie",
+   "title": "A novel two-stage separable deep learning framework for practical blind watermarking",
+   "venue": "Proc. ACM Int. Conf. Multimedia",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": "1509–1517",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. ACM Int. Conf. Multimedia",
+   "venue_tier": "other"
+  },
+  {
+   "key": "paszke-2019-pytorch-an-imperative-style-highperformance",
+   "authors": "A. Paszke, S. Gross, F. Massa, A. Lerer, J. Bradbury, G. Chanan, T. Killeen, Z. Lin, N. Gimelshein, L. Antiga, A. Desmaison, A. Kopf, E. Yang, Z. DeVito, M. Raison, A. Tejani, S. Chilamkurthy, B. Steiner, L. Fang, J. Bai, and S. Chintala",
+   "title": "PyTorch: An imperative style, highperformance deep learning library",
+   "venue": "Proc. Adv. Neural Inf. Process. Syst.",
+   "year": "2019",
+   "vol": "32",
+   "no": null,
+   "pp": "8024–8035",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Adv. Neural Inf. Process. Syst.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "boroumand-2019-deep-residual-network-for-steganalysis-of",
+   "authors": "M. Boroumand, M. Chen, and J. J. Fridrich",
+   "title": "Deep residual network for steganalysis of digital images",
+   "venue": "IEEE Trans. Inf. Forensics Secur.",
+   "year": "2019",
+   "vol": "14",
+   "no": "5",
+   "pp": "1181–1193",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Inf. Forensics Secur.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "loshchilov-2019-decoupled-weight-decay-regularization",
+   "authors": "I. Loshchilov and F. Hutter",
+   "title": "Decoupled weight decay regularization",
+   "venue": "Proc. Int. Conf. Learn. Represent.",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Int. Conf. Learn. Represent.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Tang, W., B. Li, S. Tan, et al. Cnn-based adversarial embedding for image steganography. IEEE Transactions on Information Forensics and Security, 14(8):",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Inf. Forensics Security (TIFS)",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2019-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Hurrah, N. N., S. A. Parah, N. A. Loan, et al. Dual watermarking framework for privacy protection and content authentication of multimedia. Future generation computer Systems, 94:654–673",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Hurrah, N. N., S. A. Parah, N. A. Loan, et al. Dual watermarking framework for privacy protection and content authentication of multimedia. Future generation computer Systems, 94:654–673",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Guan, H., M. Kozak, E. Robertson, et al. Mfc datasets: Large-scale benchmark datasets for media forensic challenge evaluation. In",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Guan, H., M. Kozak, E. Robertson, et al. Mfc datasets: Large-scale benchmark datasets for media forensic challenge evaluation. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-5",
+   "authors": null,
+   "title": null,
+   "venue": "Wu, Y., W. AbdAlmageed",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Wu, Y., W. AbdAlmageed",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-6",
+   "authors": null,
+   "title": null,
+   "venue": "Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, and Thomas Dandres. Quantifying the carbon emissions of machine learning. arXiv preprint arXiv:",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, and Thomas Dandres. Quantifying the carbon emissions of machine learning. arXiv preprint arXiv:",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-7",
+   "authors": null,
+   "title": null,
+   "venue": "Francesco Marra, Diego Gragnaniello, Luisa Verdoliva, and Giovanni Poggi. Do gans leave artificial fingerprints? In",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Francesco Marra, Diego Gragnaniello, Luisa Verdoliva, and Giovanni Poggi. Do gans leave artificial fingerprints? In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-8",
+   "authors": null,
+   "title": null,
+   "venue": "Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et al. Pytorch: An imperative style, high-performance deep learning library. Advances in Neural Information Processing Systems 32",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et al. Pytorch: An imperative style, high-performance deep learning library. Advances in Neural Information Processing Systems 32",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-9",
+   "authors": null,
+   "title": null,
+   "venue": "Ali Razavi, Aaron Van den Oord, and Oriol Vinyals. Generating diverse high-fidelity images with vq-vae-2. Advances in neural information processing systems, 32",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ali Razavi, Aaron Van den Oord, and Oriol Vinyals. Generating diverse high-fidelity images with vq-vae-2. Advances in neural information processing systems, 32",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-10",
+   "authors": null,
+   "title": null,
+   "venue": "Alexandre Sablayrolles, Matthijs Douze, Cordelia Schmid, and Herve J ´ egou. Spreading vectors for similarity search.´ ICML",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Alexandre Sablayrolles, Matthijs Douze, Cordelia Schmid, and Herve J ´ egou. Spreading vectors for similarity search.´ ICML",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-11",
+   "authors": null,
+   "title": null,
+   "venue": "Sheng-Yu Wang, Oliver Wang, Andrew Owens, Richard Zhang, and Alexei A Efros. Detecting photoshopped faces by scripting photoshop. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 10072–10081",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2019-untitled-12",
+   "authors": null,
+   "title": null,
+   "venue": "Ning Yu, Larry S Davis, and Mario Fritz. Attributing fake images to gans: Learning and analyzing gan fingerprints. In Proceedings of the IEEE/CVF international conference on computer vision, pages 7556–7566",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2019-untitled-13",
+   "authors": null,
+   "title": null,
+   "venue": "Kevin Alex Zhang, Alfredo Cuesta-Infante, Lei Xu, and Kalyan Veeramachaneni. Steganogan: High capacity image steganography with gans. arXiv preprint arXiv:",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Kevin Alex Zhang, Alfredo Cuesta-Infante, Lei Xu, and Kalyan Veeramachaneni. Steganogan: High capacity image steganography with gans. arXiv preprint arXiv:",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-14",
+   "authors": null,
+   "title": null,
+   "venue": "Xu Zhang, Svebor Karaman, and Shih-Fu Chang. Detecting and simulating artifacts in gan fake images. In",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Xu Zhang, Svebor Karaman, and Shih-Fu Chang. Detecting and simulating artifacts in gan fake images. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "bizarre-2019-deepfake",
+   "authors": "Ali Breland. The bizarre and terrifying case of the",
+   "title": "deepfake",
+   "venue": "video that helped bring an african nation to the brink. motherjones",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "video that helped bring an african nation to the brink. motherjones",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-15",
+   "authors": null,
+   "title": null,
+   "venue": "Bita Darvish Rouhani, Huili Chen, and Farinaz Koushanfar. Deepsigns: An end-to-end watermarking framework for ownership protection of deep neural networks. In Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems, pages 485–497",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Bita Darvish Rouhani, Huili Chen, and Farinaz Koushanfar. Deepsigns: An end-to-end watermarking framework for ownership protection of deep neural networks. In Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems, pages 485–497",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2019-untitled-16",
+   "authors": null,
+   "title": null,
+   "venue": "Kevin Alex Zhang, Lei Xu, Alfredo Cuesta-Infante, and Kalyan Veeramachaneni. Robust invisible video watermarking with attention.",
+   "year": "2019",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Kevin Alex Zhang, Lei Xu, Alfredo Cuesta-Infante, and Kalyan Veeramachaneni. Robust invisible video watermarking with attention.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "hamidi-2018-hybrid-blind-robust-image-watermarking",
+   "authors": "M. Hamidi, M. E. Haziti, H. Cherifi, and M. E. Hassouni",
+   "title": "Hybrid blind robust image watermarking technique based on DFT-DCT and Arnold transform",
+   "venue": "Multimedia Tools Appl.",
+   "year": "2018",
+   "vol": "77",
+   "no": null,
+   "pp": "27",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Multimedia Tools Appl.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "zhu-2018-hidden-hiding-data-with-deep-networks",
+   "authors": "J. Zhu, R. Kaplan, J. Johnson, and L. Fei-Fei",
+   "title": "HiDDeN: Hiding data with deep networks",
+   "venue": "Proc. Eur. Conf. Comput. Vis.",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": "682–697",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Eur. Conf. Comput. Vis.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "pirinen-2018-deep-reinforcement-learning-of-region",
+   "authors": "A. Pirinen and C. Sminchisescu",
+   "title": "Deep reinforcement learning of region proposal networks for object detection",
+   "venue": "Proc. IEEE Conf. Comput. Vis. Pattern Recognit.",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": "6945–6954",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "woo-2018-cbam-convolutional-block-attention-module",
+   "authors": "S. Woo, J. Park, J.-Y. Lee, and I. S. Kweon",
+   "title": "Cbam: Convolutional block attention module",
+   "venue": "Proc. Eur. Conf. Comput. Vis.",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": "3–19",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Eur. Conf. Comput. Vis.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Zhu, J., R. Kaplan, J. Johnson, et al. Hidden: Hiding data with deep networks. In ECCV, pages 682–697.",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zhu, J., R. Kaplan, J. Johnson, et al. Hidden: Hiding data with deep networks. In ECCV, pages 682–697.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-5",
+   "authors": null,
+   "title": null,
+   "venue": "Zhang, R.",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zhang, R.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-6",
+   "authors": null,
+   "title": null,
+   "venue": "Miles Brundage, Shahar Avin, Jack Clark, Helen Toner, Peter Eckersley, Ben Garfinkel, Allan Dafoe, Paul Scharre, Thomas Zeitzoff, Bobby Filar, et al. The malicious use of artificial intelligence: Forecasting, prevention, and mitigation. arXiv preprint arXiv:1802.07228",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Miles Brundage, Shahar Avin, Jack Clark, Helen Toner, Peter Eckersley, Ben Garfinkel, Allan Dafoe, Paul Scharre, Thomas Zeitzoff, Bobby Filar, et al. The malicious use of artificial intelligence: Forecasting, prevention, and mitigation. arXiv preprint arXiv:1802.07228",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-7",
+   "authors": null,
+   "title": null,
+   "venue": "Yuezun Li and Siwei Lyu. Exposing deepfake videos by detecting face warping artifacts. arXiv preprint arXiv:1811.00656",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yuezun Li and Siwei Lyu. Exposing deepfake videos by detecting face warping artifacts. arXiv preprint arXiv:1811.00656",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-8",
+   "authors": null,
+   "title": null,
+   "venue": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In ICLR",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In ICLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-9",
+   "authors": null,
+   "title": null,
+   "venue": "Vedran Vukotic, Vivien Chappelier, and Teddy Furon. Are ´ deep neural networks good for blind image watermarking? In WIFS",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Vedran Vukotic, Vivien Chappelier, and Teddy Furon. Are ´ deep neural networks good for blind image watermarking? In WIFS",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-10",
+   "authors": null,
+   "title": null,
+   "venue": "Yossi Adi, Carsten Baum, Moustapha Cisse, Benny Pinkas, and Joseph Keshet. Turning your weakness into a strength: Watermarking deep neural networks by backdooring. In 27th {USENIX} Security Symposium ({USENIX} Security 18), pages 1615–1631",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Yossi Adi, Carsten Baum, Moustapha Cisse, Benny Pinkas, and Joseph Keshet. Turning your weakness into a strength: Watermarking deep neural networks by backdooring. In 27th {USENIX} Security Symposium ({USENIX} Security 18), pages 1615–1631",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2018-untitled-11",
+   "authors": null,
+   "title": null,
+   "venue": "David Minnen, Johannes Balle, and George Toderici. Joint ´ autoregressive and hierarchical priors for learned image compression. In Advances in Neural Information Processing Systems 31: Annual Conference on Neural Information Processing Systems",
+   "year": "2018",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "David Minnen, Johannes Balle, and George Toderici. Joint ´ autoregressive and hierarchical priors for learned image compression. In Advances in Neural Information Processing Systems 31: Annual Conference on Neural Information Processing Systems",
+   "venue_tier": "other"
+  },
+  {
+   "key": "vaswani-2017-attention-is-all-you-need",
+   "authors": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin",
+   "title": "Attention is all you need",
+   "venue": "Adv. Neural Inf. Process. Syst.",
+   "year": "2017",
+   "vol": "30",
+   "no": null,
+   "pp": "5998–6008",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Adv. Neural Inf. Process. Syst.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "bellver-2017-hierarchical-object-detection-with-deep",
+   "authors": "M. Bellver, X. Giro-i-Nieto, F. Marqu ´ es, and J. Torres",
+   "title": "Hierarchical ´ object detection with deep reinforcement learning",
+   "venue": "Deep Learning for Image Processing Applications",
+   "year": "2017",
+   "vol": null,
+   "no": null,
+   "pp": "164–176",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Deep Learning for Image Processing Applications",
+   "venue_tier": "other"
+  },
+  {
+   "key": "shin-2017-jpeg-resistant-adversarial-images",
+   "authors": "R. Shin and D. Song",
+   "title": "JPEG-resistant adversarial images",
+   "venue": "Proc. Neural Inf. Process. Syst. Workshop Mach. Learn. Comput. Secur.",
+   "year": "2017",
+   "vol": null,
+   "no": null,
+   "pp": "1–8",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Neural Inf. Process. Syst. Workshop Mach. Learn. Comput. Secur.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2017-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Vaswani, A. Attention is all you need. Advances in Neural Information Processing Systems",
+   "year": "2017",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Vaswani, A. Attention is all you need. Advances in Neural Information Processing Systems",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2017-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Heusel, M., H. Ramsauer, T. Unterthiner, et al. Gans trained by a two time-scale update rule converge to a local nash equilibrium. Advances in neural information processing systems, 30",
+   "year": "2017",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Heusel, M., H. Ramsauer, T. Unterthiner, et al. Gans trained by a two time-scale update rule converge to a local nash equilibrium. Advances in neural information processing systems, 30",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2017-untitled-5",
+   "authors": null,
+   "title": null,
+   "venue": "Tero Karras, Timo Aila, Samuli Laine, and Jaakko Lehtinen. Progressive growing of gans for improved quality, stability, and variation. arXiv preprint arXiv:1710.10196",
+   "year": "2017",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Tero Karras, Timo Aila, Samuli Laine, and Jaakko Lehtinen. Progressive growing of gans for improved quality, stability, and variation. arXiv preprint arXiv:1710.10196",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2017-untitled-6",
+   "authors": null,
+   "title": null,
+   "venue": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101",
+   "year": "2017",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101",
+   "venue_tier": "other"
+  },
+  {
+   "key": "he-2016-deep-residual-learning-for-image-recognition",
+   "authors": "K. He, X. Zhang, S. Ren, and J. Sun",
+   "title": "Deep residual learning for image recognition",
+   "venue": "Proc. IEEE Conf. Comput. Vis. Pattern Recognit.",
+   "year": "2016",
+   "vol": null,
+   "no": null,
+   "pp": "770–778",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "wang-2016-dueling-network-architectures-for-deep",
+   "authors": "Z. Wang, T. Schaul, M. Hessel, H. Hasselt, M. Lanctot, and N. Freitas",
+   "title": "Dueling network architectures for deep reinforcement learning",
+   "venue": "Proc. Int. Conf. Mach. Learn.",
+   "year": "2016",
+   "vol": null,
+   "no": null,
+   "pp": "1995–2003",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Int. Conf. Mach. Learn.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2016-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Milletari, F., N. Navab, S.-A. Ahmadi. V-net: Fully convolutional neural networks for volumetric medical image segmentation. In",
+   "year": "2016",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Milletari, F., N. Navab, S.-A. Ahmadi. V-net: Fully convolutional neural networks for volumetric medical image segmentation. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2016-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Wen, B., Y. Zhu, R. Subramanian, et al. Coverage—a novel database for copy-move forgery detection. In",
+   "year": "2016",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Wen, B., Y. Zhu, R. Subramanian, et al. Coverage—a novel database for copy-move forgery detection. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2016-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778",
+   "year": "2016",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "mnih-2015-human-level-control-through-deep",
+   "authors": "V. Mnih, K. Kavukcuoglu, D. Silver, A. A. Rusu, J. Veness, M. G. Bellemare, A. Graves, M. Riedmiller, A. K. Fidjeland, G. Ostrovski, S. Petersen, C. Beattie, A. Sadik, I. Antonoglou, H. King, D. Kumaran, D. Wierstra, S. Legg, and D. Hassabis",
+   "title": "Human-level control through deep reinforcement learning",
+   "venue": "Nature",
+   "year": "2015",
+   "vol": "518",
+   "no": "7540",
+   "pp": "529–533",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Nature",
+   "venue_tier": "other"
+  },
+  {
+   "key": "caicedo-2015-active-object-localization-with-deep",
+   "authors": "J. C. Caicedo and S. Lazebnik",
+   "title": "Active object localization with deep reinforcement learning",
+   "venue": "Proc. IEEE Int. Conf. Comput. Vis.",
+   "year": "2015",
+   "vol": null,
+   "no": null,
+   "pp": "2488–2496",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "kingma-2015-adam-a-method-for-stochastic-optimization",
+   "authors": "D. P. Kingma and J. Ba",
+   "title": "Adam: A method for stochastic optimization",
+   "venue": "Proc. Int. Conf. Learn. Represent.",
+   "year": "2015",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Int. Conf. Learn. Represent.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "qian-2015-deep-learning-for-steganalysis-via",
+   "authors": "Y. Qian, J. Dong, W. Wang, and T. Tan",
+   "title": "Deep learning for steganalysis via convolutional neural networks",
+   "venue": "Proc. SPIE Media Watermarking Security Forensics",
+   "year": "2015",
+   "vol": "9409",
+   "no": null,
+   "pp": "94090",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. SPIE Media Watermarking Security Forensics",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2015-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Ronneberger, O.",
+   "year": "2015",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ronneberger, O.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2015-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR",
+   "year": "2015",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2015-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Olaf Ronneberger, Philipp Fischer, and Thomas Brox. Unet: Convolutional networks for biomedical image segmentation. In Medical Image Computing and Computer-Assisted Intervention–MICCAI",
+   "year": "2015",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "kim-2024-wouaf"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Olaf Ronneberger, Philipp Fischer, and Thomas Brox. Unet: Convolutional networks for biomedical image segmentation. In Medical Image Computing and Computer-Assisted Intervention–MICCAI",
+   "venue_tier": "other"
+  },
+  {
+   "key": "lin-2014-microsoft-coco-common-objects-in-context",
+   "authors": "T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick",
+   "title": "Microsoft COCO: Common objects in´ context",
+   "venue": "Proc. Eur. Conf. Comput. Vis.",
+   "year": "2014",
+   "vol": null,
+   "no": null,
+   "pp": "740–755",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Eur. Conf. Comput. Vis.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "young-2014-from-image-descriptions-to-visual-denotations",
+   "authors": "P. Young, A. Lai, M. Hodosh, and J. Hockenmaier",
+   "title": "From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions",
+   "venue": "Trans. Assoc. Comput. Linguistics.",
+   "year": "2014",
+   "vol": "2",
+   "no": null,
+   "pp": "67–78",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Trans. Assoc. Comput. Linguistics.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2014-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Lin, T.-Y., M. Maire, S. Belongie, et al. Microsoft coco: Common objects in context. In Computer Vision–ECCV",
+   "year": "2014",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Lin, T.-Y., M. Maire, S. Belongie, et al. Microsoft coco: Common objects in context. In Computer Vision–ECCV",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2014-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Kingma, D.",
+   "year": "2014",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Kingma, D.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2014-untitled-4",
+   "authors": null,
+   "title": null,
+   "venue": "Ian J Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining and harnessing adversarial examples. ICLR",
+   "year": "2014",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ian J Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining and harnessing adversarial examples. ICLR",
+   "venue_tier": "other"
+  },
+  {
+   "key": "rahman-2013-a-dwt-dct-and-svd-based-watermarking",
+   "authors": "M. M. Rahman",
+   "title": "A dwt, dct and svd based watermarking technique to protect the image piracy",
+   "venue": "arXiv preprint arXiv:1307.3294",
+   "year": "2013",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "arXiv preprint arXiv:1307.3294",
+   "venue_tier": "other"
+  },
+  {
+   "key": "maas-2013-rectifier-nonlinearities-improve-neural",
+   "authors": "A. L. Maas, A. Y. Hannun, and A. Y. Ng",
+   "title": "Rectifier nonlinearities improve neural network acoustic models",
+   "venue": "Proc. Int. Conf. Mach. Learn. Workshop Deep Learn. Audio Speech Lang. Process.",
+   "year": "2013",
+   "vol": null,
+   "no": null,
+   "pp": "3",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. Int. Conf. Mach. Learn. Workshop Deep Learn. Audio Speech Lang. Process.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2013-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Dong, J., W. Wang, T. Tan. Casia image tampering detection evaluation database. In",
+   "year": "2013",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Dong, J., W. Wang, T. Tan. Casia image tampering detection evaluation database. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2012-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Cheng, B., R. Ni, Y. Zhao. A refining localization watermarking for image tamper detection and recovery. In",
+   "year": "2012",
+   "vol": "2",
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Cheng, B., R. Ni, Y. Zhao. A refining localization watermarking for image tamper detection and recovery. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2012-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Teddy Furon, Arnaud Guyader, and Fred´ eric C ´ erou. Decod- ´ ing Fingerprinting Using the Markov Chain Monte Carlo Method. In WIFS - IEEE Workshop on Information Forensics and Security, Tenerife, Spain, Dec.",
+   "year": "2012",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Inf. Forensics Security (TIFS)",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "anon-2012-untitled-3",
+   "authors": null,
+   "title": null,
+   "venue": "Peter Meerwald and Teddy Furon. Towards practical joint decoding of binary Tardos fingerprinting codes. IEEE Transactions on Information Forensics and Security, 7(4):1168–1180, Apr.",
+   "year": "2012",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Inf. Forensics Security (TIFS)",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "liu-2010-generic-lossless-visible-watermarking-a-new",
+   "authors": "T.-Y. Liu and W.-H. Tsai",
+   "title": "Generic lossless visible watermarking—a new approach",
+   "venue": "IEEE Trans. Image Process.",
+   "year": "2010",
+   "vol": "19",
+   "no": "5",
+   "pp": "1224–1235",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Image Process.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2010-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Sebastien Marcel and Yann Rodriguez. Torchvision the ´ machine-vision package of torch. In International Conference on Multimedia. ACM",
+   "year": "2010",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Sebastien Marcel and Yann Rodriguez. Torchvision the ´ machine-vision package of torch. In International Conference on Multimedia. ACM",
+   "venue_tier": "other"
+  },
+  {
+   "key": "yang-2009-a-contrast-sensitive-reversible-visible-image",
+   "authors": "Y. Yang, X. Sun, H. Yang, C.-T. Li, and R. Xiao",
+   "title": "A contrast-sensitive reversible visible image watermarking technique",
+   "venue": "IEEE Trans. Circuits Syst. Video Technol.",
+   "year": "2009",
+   "vol": "19",
+   "no": "5",
+   "pp": "656–667",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Circuits Syst. Video Technol.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2008-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Gabor Tardos. Optimal probabilistic fingerprint codes. ´ Journal of the ACM (JACM), 55(2):1–24",
+   "year": "2008",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Gabor Tardos. Optimal probabilistic fingerprint codes. ´ Journal of the ACM (JACM), 55(2):1–24",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2007-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Ingemar Cox, Matthew Miller, Jeffrey Bloom, Jessica Fridrich, and Ton Kalker. Digital watermarking and steganography. Morgan kaufmann",
+   "year": "2007",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Ingemar Cox, Matthew Miller, Jeffrey Bloom, Jessica Fridrich, and Ton Kalker. Digital watermarking and steganography. Morgan kaufmann",
+   "venue_tier": "other"
+  },
+  {
+   "key": "hu-2006-reversible-visible-watermarking-and-lossless",
+   "authors": "Y. Hu and B. Jeon",
+   "title": "Reversible visible watermarking and lossless recovery of original images",
+   "venue": "IEEE Trans. Circuits Syst. Video Technol.",
+   "year": "2006",
+   "vol": "16",
+   "no": "11",
+   "pp": "1423–1429",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Circuits Syst. Video Technol.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "pei-2006-a-novel-image-recovery-algorithm-for-visible",
+   "authors": "S.-C. Pei and Y.-C. Zeng",
+   "title": "A novel image recovery algorithm for visible watermarked images",
+   "venue": "IEEE Trans. Inf. Forensics Secur.",
+   "year": "2006",
+   "vol": "1",
+   "no": "4",
+   "pp": "543–550",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Inf. Forensics Secur.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2006-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Hsu, Y.-F., S.-F. Chang. Detecting image splicing using geometry invariants and camera characteristics consistency. In",
+   "year": "2006",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Hsu, Y.-F., S.-F. Chang. Detecting image splicing using geometry invariants and camera characteristics consistency. In",
+   "venue_tier": "other"
+  },
+  {
+   "key": "hu-2005-an-algorithm-for-removable-visible",
+   "authors": "Y. Hu, S. Kwong, and J. Huang",
+   "title": "An algorithm for removable visible watermarking",
+   "venue": "IEEE Trans. Circuits Syst. Video Technol.",
+   "year": "2005",
+   "vol": "16",
+   "no": "1",
+   "pp": "129–133",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Circuits Syst. Video Technol.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "huang-2004-attacking-visible-watermarking-schemes",
+   "authors": "C.-H. Huang and J.-L. Wu",
+   "title": "Attacking visible watermarking schemes",
+   "venue": "IEEE Trans. Multimedia",
+   "year": "2004",
+   "vol": "6",
+   "no": "1",
+   "pp": "16–30",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "IEEE Trans. Multimedia",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2004-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Wang, Z., A. C. Bovik, H. R. Sheikh, et al. Image quality assessment: from error visibility to structural similarity. IEEE transactions on image processing, 13(4):600–612",
+   "year": "2004",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Wang, Z., A. C. Bovik, H. R. Sheikh, et al. Image quality assessment: from error visibility to structural similarity. IEEE transactions on image processing, 13(4):600–612",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-2004-untitled-2",
+   "authors": null,
+   "title": null,
+   "venue": "Zhou Wang, Alan C Bovik, Hamid R Sheikh, and Eero P Simoncelli. Image quality assessment: from error visibility to structural similarity. IEEE transactions on image processing, 13(4):600–612",
+   "year": "2004",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "fernandez-2023-stable-signature"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Zhou Wang, Alan C Bovik, Hamid R Sheikh, and Eero P Simoncelli. Image quality assessment: from error visibility to structural similarity. IEEE transactions on image processing, 13(4):600–612",
+   "venue_tier": "other"
+  },
+  {
+   "key": "guo-2003-digital-image-watermarking-for-joint",
+   "authors": "H. Guo and N. D. Georganas",
+   "title": "Digital image watermarking for joint ownership verification without a trusted dealer",
+   "venue": "Proc. IEEE Int. Conf. Multimedia Expo",
+   "year": "2003",
+   "vol": "2",
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "wang-2003-multiscale-structural-similarity-for-image",
+   "authors": "Z. Wang, E. P. Simoncelli, and A. C. Bovik",
+   "title": "Multiscale structural similarity for image quality assessment",
+   "venue": "Proc. IEEE Asilomar Conf. Signals Syst. Comput.",
+   "year": "2003",
+   "vol": "2",
+   "no": null,
+   "pp": "1398–1402",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "wolfgang-1996-a-watermark-for-digital-images",
+   "authors": "R. B. Wolfgang and E. J. Delp",
+   "title": "A watermark for digital images",
+   "venue": "Proc. IEEE Int. Conf. Image Process.",
+   "year": "1996",
+   "vol": "3",
+   "no": null,
+   "pp": "219–222",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Proc. IEEE",
+   "venue_tier": "Q1"
+  },
+  {
+   "key": "lin-1992-self-improving-reactive-agents-based-on",
+   "authors": "L.-J. Lin",
+   "title": "Self-improving reactive agents based on reinforcement learning, planning and teaching",
+   "venue": "Mach. Learn.",
+   "year": "1992",
+   "vol": "8",
+   "no": "3",
+   "pp": "293–321",
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "ping-2026-hfrw"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Mach. Learn.",
+   "venue_tier": "other"
+  },
+  {
+   "key": "anon-1991-untitled",
+   "authors": null,
+   "title": null,
+   "venue": "Jacobs, R. A., M. I. Jordan, S. J. Nowlan, et al. Adaptive mixtures of local experts. Neural computation, 3(1):79–87",
+   "year": "1991",
+   "vol": null,
+   "no": null,
+   "pp": null,
+   "url": null,
+   "doi": null,
+   "cited_by": [
+    "yang-2025-stableguard"
+   ],
+   "cited_count": 1,
+   "venue_normalized": "Jacobs, R. A., M. I. Jordan, S. J. Nowlan, et al. Adaptive mixtures of local experts. Neural computation, 3(1):79–87",
+   "venue_tier": "other"
+  }
+ ],
+ "generated": "2026-06-11",
+ "parses_mined": 4,
+ "distinct_papers": 4,
+ "reference_strings": 286,
+ "unique_references": 265
+}
