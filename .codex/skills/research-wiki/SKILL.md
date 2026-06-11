@@ -55,6 +55,14 @@ python tools/wiki/recommend_refs.py --top 30
 python tools/wiki/language_audit.py
 ```
 
+### Publish a git snapshot
+
+Use the `research-wiki-publisher` skill, which wraps:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools/wiki/git_snapshot.ps1
+```
+
 ## Guardrails
 
 - Ground claims in `raw/sources/<slug>/full.md`.

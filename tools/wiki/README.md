@@ -28,6 +28,7 @@ and `research-reference-scout`.
 | `verify_refdb.py` | Integrity gate for mined reference DB. | `--db`, `--min-year`, `--max-year`, `--flag-year`, `--json` |
 | `render_refdb.py` | Render `wiki/references/reference-database.md` from JSON. | `--db`, `--out`, `--min` |
 | `recommend_refs.py` | Rank not-yet-curated references for diffusion watermarking / model fingerprinting research. | `--top`, `--db`, `--out`, `--json` |
+| `git_snapshot.ps1` | Validate the wiki, create a timestamped git commit, and push to the configured remote. | `-Message`, `-NoPush`, `-Remote`, `-Branch`, `-SkipChecks` |
 
 ## Typical flows
 
@@ -47,4 +48,10 @@ python tools/wiki/verify_refdb.py
 python tools/wiki/render_refdb.py --min 2
 python tools/wiki/recommend_refs.py --top 30
 python tools/wiki/language_audit.py
+```
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools/wiki/git_snapshot.ps1
+powershell -ExecutionPolicy Bypass -File tools/wiki/git_snapshot.ps1 -Message "curate new paper"
+powershell -ExecutionPolicy Bypass -File tools/wiki/git_snapshot.ps1 -NoPush
 ```
