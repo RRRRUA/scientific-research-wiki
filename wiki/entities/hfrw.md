@@ -3,9 +3,9 @@ type: entity
 title: "HFRW"
 aliases: ["High Fidelity and Robust Watermarking using Deep Reinforcement Learning"]
 tags: [method, image-watermarking, deep-reinforcement-learning, local-watermarking]
-related: ["[[ping-2026-hfrw]]", "[[localized-invisible-watermarking]]", "[[watermark-robustness]]", "[[hfrw-local-watermarking-improves-fidelity-and-file-size-growth]]", "[[hfrw-rl-patch-selection-improves-embedding-quality]]"]
+related: ["[[ping-2026-hfrw]]", "[[post-hoc-image-watermarking]]", "[[localized-invisible-watermarking]]", "[[watermark-robustness]]", "[[hfrw-local-watermarking-improves-fidelity-and-file-size-growth]]", "[[hfrw-rl-patch-selection-improves-embedding-quality]]"]
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-06-17
 sources: ["HFRW_High_Fidelity_and_Robust_Watermarking_using_Deep_Reinforcement_Learning.pdf-1d97070b-78d6-4eb4-a7a0-f24fbfba014c/full.md"]
 ---
 
@@ -21,4 +21,4 @@ HFRW 是 [[ping-2026-hfrw]] 提出的 high-fidelity robust image watermarking fr
 
 ## 与本 wiki 的关系
 
-HFRW 是 post-hoc local image watermarking，不是 Latent Diffusion Models 的内部 watermarking 方法。它的价值在于提供一个外部对照：若把 watermark 嵌入局部区域，fidelity 和 file size growth rate 可以显著改善，但 severe cropping 会成为更直接的风险。
+HFRW 属于 [[post-hoc-image-watermarking]]，不是 Latent Diffusion Models 的内部 watermarking 方法。它的价值在于提供一个外部对照：若把 watermark 嵌入局部区域，fidelity 和 file size growth rate 可以显著改善，但 severe cropping 会成为更直接的风险。

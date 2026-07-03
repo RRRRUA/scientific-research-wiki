@@ -2,9 +2,9 @@
 type: overview
 title: "Wiki Index"
 tags: [index, research-wiki]
-related: ["[[overview]]", "[[diffusion-model-fingerprinting-comparison]]"]
+related: ["[[overview]]", "[[diffusion-model-fingerprinting-comparison]]", "[[advmark]]"]
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-07-01
 ---
 
 # Wiki Index
@@ -22,6 +22,7 @@ updated: 2026-06-11
 - [[omnimark]] — OmniMark 方法实体。
 - [[stableguard]] — StableGuard 方法实体。
 - [[hfrw]] — HFRW 方法实体。
+- [[advmark]] — AdvMark 方法实体。
 
 ## Concepts
 
@@ -29,12 +30,13 @@ updated: 2026-06-11
 - [[latent-diffusion-watermarking]] — Latent Diffusion Models 中的 watermark / fingerprint 嵌入机制。
 - [[user-attribution]] — 将生成图像追溯到具体用户、key 或模型副本。
 - [[watermark-robustness]] — 水印或指纹对图像变换、模型攻击和退化的鲁棒性。
-- [[ddim-inversion-for-watermark-detection]] — 用 DDIM inversion 恢复初始 noise 并检测 watermark key。
+- [[ddim-inversion-for-watermark-detection]] — 用 DDIM inversion 恢复 initial noise 并检测 watermark key。
 - [[fourier-noise-watermarking]] — 在 initial noise 的 Fourier coefficients 中嵌入 watermark。
 - [[private-vs-public-watermark-verification]] — 私有验证与公开验证的部署差异。
 - [[watermark-capacity-for-user-attribution]] — 多 key / 多用户归因容量与 false positive control。
 - [[tamper-localization-for-generated-images]] — 生成图像中的篡改区域定位。
 - [[localized-invisible-watermarking]] — 局部不可见图像水印及其 fidelity / robustness 取舍。
+- [[post-hoc-image-watermarking]] — 后处理图像水印路线，以及它和 diffusion-native provenance 的边界。
 
 ## Sources
 
@@ -44,6 +46,7 @@ updated: 2026-06-11
 - [[fei-2025-omnimark]] — OmniMark: Efficient and Scalable Latent Diffusion Model Fingerprinting。
 - [[yang-2025-stableguard]] — StableGuard: Copyright protection and tamper localization in LDMs。
 - [[ping-2026-hfrw]] — HFRW: High Fidelity and Robust Watermarking using Deep Reinforcement Learning。
+- [[chen-2026-advmark]] — AdvMark: Decoupling Defense Strategies for Robust Image Watermarking。
 
 ## Queries
 
@@ -75,6 +78,10 @@ updated: 2026-06-11
 - [[hfrw-local-watermarking-improves-fidelity-and-file-size-growth]] — HFRW 的局部水印显著改善 fidelity 和 file size growth。
 - [[hfrw-rl-patch-selection-improves-embedding-quality]] — HFRW 的 RL patch selection 提升嵌入质量。
 - [[hfrw-localized-embedding-trades-cropping-robustness-for-fidelity]] — HFRW 用 cropping robustness 换取高 fidelity 和低 FSVR。
+- [[advmark-decoupled-training-preserves-clean-accuracy]] — AdvMark 通过 decoupled training 保护 clean accuracy。
+- [[advmark-improves-quality-over-joint-training-baselines]] — AdvMark 比 joint-training baselines 保持更高 image quality。
+- [[advmark-improves-comprehensive-robustness-against-advanced-attacks]] — AdvMark 提升对 distortion、regeneration 和 adversarial attacks 的综合鲁棒性。
+- [[advmark-ablation-shows-two-defense-stages-are-complementary]] — AdvMark ablation 显示两个防御阶段互补。
 
 ## References
 

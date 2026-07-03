@@ -2,9 +2,9 @@
 type: concept
 title: "Watermark Robustness"
 tags: [watermarking, robustness, adversarial-attacks]
-related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[tree-ring-watermark]]", "[[stableguard]]", "[[hfrw]]", "[[localized-invisible-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]"]
+related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[tree-ring-watermark]]", "[[stableguard]]", "[[hfrw]]", "[[advmark]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]"]
 created: 2026-06-07
-updated: 2026-06-09
+updated: 2026-06-17
 ---
 
 # Watermark Robustness
@@ -35,6 +35,8 @@ updated: 2026-06-09
 
 - [[ping-2026-hfrw]] 通过 local patch embedding、DQN patch selection 和 localization/synchronization module 提升 ordinary image watermarking 的 fidelity、FSVR 和 common-attack robustness，但 severe cropping 仍是主要弱点。
 
+- [[chen-2026-advmark]] 将 adversarial defense 与 distortion / regeneration defense 解耦：Stage 1 主要提升 WEvade / Black-S 等 adversarial robustness，Stage 2 用 direct image optimization 补足 conventional distortions 与 diffusion regeneration robustness。
+
 ## 研究张力
 
-更强 robustness 往往会与 image quality、计算成本和大规模用户扩展性发生冲突。
+更强 robustness 往往会与 image quality、计算成本和大规模用户扩展性发生冲突。AdvMark 进一步提示：不同攻击族可能需要不同防御策略，不能只用一个 aggregate robustness 数字概括。

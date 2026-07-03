@@ -2,9 +2,9 @@
 type: source
 title: "HFRW: High Fidelity and Robust Watermarking using Deep Reinforcement Learning"
 tags: [image-watermarking, robust-watermarking, deep-reinforcement-learning, local-watermarking, copyright-protection]
-related: ["[[hfrw]]", "[[localized-invisible-watermarking]]", "[[watermark-robustness]]", "[[diffusion-model-fingerprinting-comparison]]"]
+related: ["[[hfrw]]", "[[post-hoc-image-watermarking]]", "[[localized-invisible-watermarking]]", "[[watermark-robustness]]", "[[diffusion-model-fingerprinting-comparison]]"]
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-06-17
 authors: ["Ping Ping", "Ruixuan Jiang", "Bobiao Guo", "Xiaohui Yang", "Feng Xu"]
 year: 2026
 url: ""
@@ -16,7 +16,7 @@ sources: ["HFRW_High_Fidelity_and_Robust_Watermarking_using_Deep_Reinforcement_L
 
 ## 一句话结论
 
-HFRW 是一种 localized invisible watermarking 方法：它用 dueling Q-learning 选择局部嵌入 patch，用 CBAM-enhanced encoder / decoder 嵌入和恢复消息，并用 watermark localization and synchronization module 抵抗几何攻击；它不是 LDM-native watermarking，而是本 wiki 中 post-hoc / local image watermarking 的重要对照。
+HFRW 是一种 localized invisible watermarking 方法：它用 dueling Q-learning 选择局部嵌入 patch，用 CBAM-enhanced encoder / decoder 嵌入和恢复消息，并用 watermark localization and synchronization module 抵抗几何攻击；它不是 LDM-native watermarking，而是本 wiki 中 [[post-hoc-image-watermarking]] / local image watermarking 的重要对照。
 
 ## 问题
 

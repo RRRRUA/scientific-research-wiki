@@ -2,16 +2,16 @@
 type: synthesis
 title: "Diffusion Model Fingerprinting Comparison"
 tags: [synthesis, latent-diffusion, watermarking, fingerprinting, user-attribution, tamper-localization]
-related: ["[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[kim-2024-wouaf]]", "[[fei-2025-omnimark]]", "[[yang-2025-stableguard]]", "[[ping-2026-hfrw]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[localized-invisible-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[decoder-fingerprinting-scalability-comparison]]", "[[decoder-rooted-fingerprinting-scales-through-weight-encoding]]"]
+related: ["[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[kim-2024-wouaf]]", "[[fei-2025-omnimark]]", "[[yang-2025-stableguard]]", "[[ping-2026-hfrw]]", "[[chen-2026-advmark]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[decoder-fingerprinting-scalability-comparison]]", "[[decoder-rooted-fingerprinting-scales-through-weight-encoding]]"]
 created: 2026-06-07
-updated: 2026-06-11
+updated: 2026-06-17
 ---
 
 # Diffusion Model Fingerprinting Comparison
 
 ## 对比摘要
 
-当前 wiki 的核心问题仍是 diffusion / generative model provenance，但语料现在包含一个重要外部对照：[[ping-2026-hfrw]]。前五篇论文试图把 provenance signal 放进 diffusion generation workflow；HFRW 则展示 post-hoc localized image watermarking 如何在高分辨率图像上优化 fidelity、file size growth 和 robustness。
+当前 wiki 的核心问题仍是 diffusion / generative model provenance，但语料现在包含两个外部对照：[[ping-2026-hfrw]] 和 [[chen-2026-advmark]]。前五篇论文试图把 provenance signal 放进 diffusion generation workflow；HFRW 展示 post-hoc localized image watermarking 如何优化 fidelity 和 file size growth，AdvMark 展示 post-hoc image watermarking 如何把 distortion、diffusion regeneration 和 adversarial attacks 分开防御。
 
 ## 方法谱系
 
@@ -23,6 +23,7 @@ updated: 2026-06-11
 | [[fei-2025-omnimark]] | OmniMark layers + multi-dimensional decoder weight encoding | scalable model-copy fingerprinting | 当前最强调快速分发，报告 `<100 ms` 生成 fingerprinted model copy |
 | [[yang-2025-stableguard]] | MPW-VAE decoder adapter + MoE-GFN forensic network | copyright verification + tamper localization | 扩展到 proactive forensics，但不是主打大规模 user attribution |
 | [[ping-2026-hfrw]] | post-hoc localized invisible watermarking + dueling DQN patch selection | ordinary image copyright traceability | 高 fidelity / 低 FSVR 的对照路线，但不是 diffusion-native |
+| [[chen-2026-advmark]] | encoder-focused adversarial fine-tuning + quality-aware direct image optimization | ordinary image watermark robustness under distortion / regeneration / adversarial attacks | advanced-attack robustness 的对照路线，但不是 diffusion-native 或 user-attribution 方法 |
 
 ## 共同评价维度
 
@@ -41,8 +42,9 @@ updated: 2026-06-11
 2. User attribution：判断图像来自哪个用户、key 或模型副本。WOUAF 和 OmniMark 是核心证据。
 3. Tamper localization：判断图像哪些区域被修改。StableGuard 是当前核心证据。
 4. Ordinary image copyright traceability：保护普通高分辨率图像。HFRW 是 post-hoc local watermarking 对照。
+5. Advanced watermark removal robustness：区分 conventional distortions、diffusion regeneration 和 adversarial attacks。AdvMark 是当前 post-hoc image watermarking 对照。
 
-这些任务可以共享 watermarking 技术，但部署指标不同。把 StableGuard 的 localization F1 当作 user attribution evidence，或把 HFRW 的 post-hoc fidelity / FSVR 结果当作 diffusion-native provenance 证据，都会混淆结论。
+这些任务可以共享 watermarking 技术，但部署指标不同。把 StableGuard 的 localization F1 当作 user attribution evidence，或把 HFRW / AdvMark 的 post-hoc image-level 结果当作 diffusion-native provenance 证据，都会混淆结论。
 
 ## 当前研究缺口
 
@@ -52,7 +54,8 @@ updated: 2026-06-11
 
 - Detection / identification 基础：[[stable-signature-detects-generated-images-at-low-fpr]]、[[stable-signature-user-identification-degrades-with-scale-and-edits]]。
 - 扩展性路径：[[wouaf-generates-user-fingerprinted-models-under-one-second]]、[[omnimark-generates-fingerprinted-model-copies-under-100-ms]]。
-- 质量与鲁棒性：[[wouaf-decoder-only-modulation-preserves-quality-better]]、[[omnimark-maintains-high-bit-accuracy-with-low-quality-impact]]、[[stableguard-maintains-watermark-accuracy-under-degradation-and-tampering]]、[[hfrw-local-watermarking-improves-fidelity-and-file-size-growth]]。
+- 质量与鲁棒性：[[wouaf-decoder-only-modulation-preserves-quality-better]]、[[omnimark-maintains-high-bit-accuracy-with-low-quality-impact]]、[[stableguard-maintains-watermark-accuracy-under-degradation-and-tampering]]、[[hfrw-local-watermarking-improves-fidelity-and-file-size-growth]]、[[advmark-improves-quality-over-joint-training-baselines]]。
 - Tamper localization：[[stableguard-unifies-watermark-verification-and-tamper-localization]]、[[stableguard-mpw-vae-enables-self-supervised-tamper-training]]。
 - Local post-hoc watermarking trade-off：[[hfrw-rl-patch-selection-improves-embedding-quality]]、[[hfrw-localized-embedding-trades-cropping-robustness-for-fidelity]]。
+- Advanced post-hoc attack robustness：[[advmark-decoupled-training-preserves-clean-accuracy]]、[[advmark-improves-comprehensive-robustness-against-advanced-attacks]]、[[advmark-ablation-shows-two-defense-stages-are-complementary]]。
 - 横向判断：[[decoder-fingerprinting-scalability-comparison]] 和 [[decoder-rooted-fingerprinting-scales-through-weight-encoding]]。

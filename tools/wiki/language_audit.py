@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
+import sys
 from pathlib import Path
 
 
@@ -27,14 +29,34 @@ def audit(root: Path) -> list[tuple[Path, str, int]]:
 
 
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
+
     parser = argparse.ArgumentParser(
         description="Audit wiki pages for scripts outside the Chinese/English language policy."
     )
     parser.add_argument("--root", default=".", help="Project root. Defaults to current directory.")
+    parser.add_argument("--json", action="store_true", help="Emit machine-readable JSON.")
     args = parser.parse_args()
 
     root = Path(args.root).resolve()
     rows = audit(root)
+    if args.json:
+        print(
+            json.dumps(
+                {
+                    "ok": not rows,
+                    "violations": [
+                        {"path": rel.as_posix(), "script": script, "count": count}
+                        for rel, script, count in rows
+                    ],
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return 0 if not rows else 1
+
     if not rows:
         print("LANGUAGE AUDIT: CLEAN")
         return 0

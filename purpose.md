@@ -10,7 +10,7 @@
 
 ## Background
 
-This project currently studies five latent-diffusion-focused papers plus one image-watermarking comparator:
+This project currently studies five latent-diffusion-focused papers plus two image-watermarking comparators:
 
 - [[fernandez-2023-stable-signature]] roots invisible watermarks in the latent decoder.
 - [[kim-2024-wouaf]] uses weight modulation for distributor-oriented user attribution.
@@ -18,6 +18,7 @@ This project currently studies five latent-diffusion-focused papers plus one ima
 - [[wen-2023-tree-ring-watermarks]] embeds watermark keys into the initial diffusion noise in Fourier space and detects them through DDIM inversion.
 - [[yang-2025-stableguard]] integrates a binary watermark into the LDM VAE decoder and uses it for both copyright verification and tamper localization.
 - [[ping-2026-hfrw]] uses localized invisible watermarking and deep reinforcement learning to improve fidelity, robustness, and file size growth for ordinary high-resolution image watermarking.
+- [[chen-2026-advmark]] decouples adversarial, distortion, and regeneration defenses for robust post-hoc image watermarking.
 
 The motivating gap is accountability for AI-generated images: platforms and model providers need to detect generated content and, in some settings, trace misuse to a specific user or model copy.
 
@@ -36,7 +37,7 @@ The motivating gap is accountability for AI-generated images: platforms and mode
 - Latent diffusion and Stable Diffusion-style image generation.
 - Watermarking, fingerprinting, user attribution, and generated-image provenance.
 - Tamper localization for generated images when it is grounded in watermarking or proactive forensics.
-- Post-hoc image watermarking papers when they clarify fidelity, robustness, file-size, or deployment trade-offs for the main LDM question.
+- Post-hoc image watermarking papers when they clarify fidelity, robustness, file-size, advanced-attack, or deployment trade-offs for the main LDM question.
 - Robustness against image post-processing and model-level attacks.
 - Literature-review synthesis across related papers.
 
@@ -55,14 +56,14 @@ The motivating gap is accountability for AI-generated images: platforms and mode
 
 ## Success Criteria
 
-- The wiki can answer: “What is the difference between Stable Signature, Tree-Ring, WOUAF, OmniMark, StableGuard, and HFRW?”
+- The wiki can answer: “What is the difference between Stable Signature, Tree-Ring, WOUAF, OmniMark, StableGuard, HFRW, and AdvMark?”
 - The wiki can support a related-work paragraph on diffusion model watermarking and fingerprinting.
 - The wiki can identify open research gaps around scalability and white-box robustness.
 - New papers can be added using the same source/concept/query/synthesis structure.
 
 ## Current Status
 
-> Started on 2026-06-07. Six papers have been imported, summarized, and linked into the wiki.
+> Started on 2026-06-07. Seven papers have been imported, summarized, and linked into the wiki.
 
 ## Language Policy
 
