@@ -105,15 +105,15 @@ python tools/wiki/language_audit.py
 
 ## Language Policy
 
-Wiki pages are written primarily in Simplified Chinese while preserving official
-English paper titles, method names, datasets, metrics, formulas, code
-identifiers, venues, and URLs.
+Agent-facing wiki pages are written primarily in concise English:
+`wiki/sources`, `wiki/concepts`, `wiki/entities`, `wiki/findings`,
+`wiki/comparisons`, `wiki/synthesis`, `wiki/queries`, `wiki/thesis`, and
+`wiki/references`.
 
-The intended style is:
+Chinese is reserved for human-facing orientation and navigation, such as this
+README, `purpose.md`, `wiki/overview.md`, `wiki/index.md`, and `wiki/log.md`.
 
-```text
-中文解释 + official English technical terms
-```
-
-This keeps the wiki useful for Chinese-language research work while preserving
-terminology alignment with the original papers.
+Official paper titles, method names, datasets, metrics, formulas, code
+identifiers, venues, and URLs stay in their canonical English form. Avoid
+bilingual duplication: do not write a full Chinese explanation and then repeat
+the same content in English.

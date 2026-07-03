@@ -33,7 +33,7 @@ def main() -> int:
         sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
 
     parser = argparse.ArgumentParser(
-        description="Audit wiki pages for scripts outside the Chinese/English language policy."
+        description="Audit wiki pages for scripts outside the English-first language policy."
     )
     parser.add_argument("--root", default=".", help="Project root. Defaults to current directory.")
     parser.add_argument("--json", action="store_true", help="Emit machine-readable JSON.")

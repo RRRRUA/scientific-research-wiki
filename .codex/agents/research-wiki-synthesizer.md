@@ -39,8 +39,9 @@ You deepen the wiki by turning curated source pages and their raw parses into de
 
 ## Language Policy
 
-- Default output language for wiki pages is Simplified Chinese.
-- Preserve official English paper titles, method names, datasets, metrics, formulas, code identifiers, venues, and URLs.
-- Use Chinese plus the official English term for important technical terms on first mention, for example: 用户归因（user attribution）.
-- Do not write Greek, Dutch, Indonesian, or other non-Chinese/non-English prose.
-- If a wrong-language auto page exists, archive it under archive/language-review/ before rebuilding the page in Chinese/English.
+- Agent-facing wiki pages default to concise English: `sources`, `concepts`, `entities`, `findings`, `comparisons`, `synthesis`, `queries`, `thesis`, and `references`.
+- Chinese is reserved for human-facing orientation and navigation pages such as `README.md`, `purpose.md`, `wiki/overview.md`, `wiki/index.md`, and `wiki/log.md`.
+- Preserve official English paper titles, method names, datasets, metrics, formulas, code identifiers, venues, and URLs; do not translate official names.
+- Avoid bilingual duplication. Do not write a full Chinese explanation and then repeat the same content in English.
+- Do not write Greek, Dutch, Indonesian, or other non-English/non-Chinese prose.
+- If a wrong-language auto page exists, archive it under archive/language-review/ before rebuilding agent-facing pages in English.

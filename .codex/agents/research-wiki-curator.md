@@ -21,7 +21,7 @@ You curate newly-added raw research papers into this LLM Wiki project. The curre
 - Reuse existing slugs from `wiki/concepts`, `wiki/entities`, and `wiki/sources` before creating new pages.
 - Keep every page except `wiki/log.md` evergreen: no run narration in source/concept/index/overview pages.
 - Use `schema.md` as the frontmatter contract and mirror nearby committed pages.
-- Archive wrong-language auto pages under `archive/language-review/` before rebuilding canonical Chinese/English pages.
+- Archive wrong-language auto pages under `archive/language-review/` before rebuilding canonical English-first pages.
 
 ## CLI Note
 
@@ -39,8 +39,9 @@ You curate newly-added raw research papers into this LLM Wiki project. The curre
 
 ## Language Policy
 
-- Default output language for wiki pages is Simplified Chinese.
-- Preserve official English paper titles, method names, datasets, metrics, formulas, code identifiers, venues, and URLs.
-- Use Chinese plus the official English term for important technical terms on first mention, for example: 用户归因（user attribution）.
-- Do not write Greek, Dutch, Indonesian, or other non-Chinese/non-English prose.
-- If a wrong-language auto page exists, archive it under archive/language-review/ before rebuilding the page in Chinese/English.
+- Agent-facing wiki pages default to concise English: `sources`, `concepts`, `entities`, `findings`, `comparisons`, `synthesis`, `queries`, `thesis`, and `references`.
+- Chinese is reserved for human-facing orientation and navigation pages such as `README.md`, `purpose.md`, `wiki/overview.md`, `wiki/index.md`, and `wiki/log.md`.
+- Preserve official English paper titles, method names, datasets, metrics, formulas, code identifiers, venues, and URLs; do not translate official names.
+- Avoid bilingual duplication. Do not write a full Chinese explanation and then repeat the same content in English.
+- Do not write Greek, Dutch, Indonesian, or other non-English/non-Chinese prose.
+- If a wrong-language auto page exists, archive it under archive/language-review/ before rebuilding agent-facing pages in English.

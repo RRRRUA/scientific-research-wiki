@@ -1,10 +1,11 @@
 # Language Policy
 
-This project uses automatic Chinese/English writing only:
+This project uses an English-first writing policy for agent-facing knowledge:
 
-- Default explanatory prose: Simplified Chinese.
-- Paper titles, method names, datasets, metrics, code identifiers, venues, and formulas: keep official English.
-- First mention of important terms: use Chinese plus the official English term when helpful, for example: 用户归因（user attribution）.
-- Do not generate Greek, Dutch, Indonesian, or any other non-Chinese/non-English prose.
-- If an upstream LLM Wiki auto-page is generated in the wrong language, archive it under archive/language-review/ and rebuild the wiki page in Chinese/English.
+- Agent-facing wiki pages (`wiki/sources`, `wiki/concepts`, `wiki/entities`, `wiki/findings`, `wiki/comparisons`, `wiki/synthesis`, `wiki/queries`, `wiki/thesis`, and `wiki/references`) default to concise English prose.
+- Chinese is reserved for human-facing orientation and navigation such as `README.md`, `purpose.md`, `wiki/overview.md`, `wiki/index.md`, and `wiki/log.md`.
+- Keep official paper titles, method names, datasets, metrics, code identifiers, venues, formulas, and URLs in their canonical English form; do not translate official names.
+- Avoid bilingual duplication. Do not write a full Chinese explanation and then repeat the same content in English.
+- Do not generate Greek, Dutch, Indonesian, or any other non-English/non-Chinese prose.
+- If an upstream LLM Wiki auto-page is generated in the wrong language, archive it under archive/language-review/ and rebuild agent-facing pages in English.
 - Run `python tools/wiki/language_audit.py` after wiki edits; it is a required gate for curator, synthesizer, and auditor workflows.

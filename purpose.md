@@ -67,4 +67,4 @@ The motivating gap is accountability for AI-generated images: platforms and mode
 
 ## Language Policy
 
-The wiki should write explanations in Simplified Chinese while preserving official English names for papers, methods, datasets, metrics, formulas, venues, and code identifiers. Important terms should use Chinese plus English on first mention, such as 用户归因（user attribution）. Greek, Indonesian, or other non-Chinese/non-English generated prose should be treated as language drift and moved to archive/language-review/ before rebuilding.
+The wiki is now English-first for agent-facing knowledge pages. Source, concept, entity, finding, comparison, synthesis, query, thesis, and reference pages should use concise English prose and canonical English technical names. Chinese is reserved for human-facing orientation and navigation pages such as README, purpose, overview, index, and log. Avoid bilingual duplication. Greek, Dutch, Indonesian, or other non-English/non-Chinese generated prose should be treated as language drift and moved to archive/language-review/ before rebuilding.
