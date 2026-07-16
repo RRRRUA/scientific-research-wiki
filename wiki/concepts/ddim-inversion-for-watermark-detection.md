@@ -2,7 +2,7 @@
 type: concept
 title: "DDIM Inversion for Watermark Detection"
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-16
 tags: [ddim-inversion, diffusion-models, watermark-detection]
 related: ["[[tree-ring-watermark]]", "[[fourier-noise-watermarking]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[private-vs-public-watermark-verification]]"]
 sources: ["Wen 等 - 2023 - Tree-Ring Watermarks Fingerprints for Diffusion Images that are Invisible and Robust.pdf-009a7e2b-80bb-48a7-bf25-28b175fc8239/full.md"]
@@ -10,18 +10,18 @@ sources: ["Wen 等 - 2023 - Tree-Ring Watermarks Fingerprints for Diffusion Imag
 
 # DDIM Inversion for Watermark Detection
 
-DDIM inversion for watermark detection 是把一张最终图像近似反推回 diffusion sampling 初始 noise 的检测步骤。在 [[tree-ring-watermark]] 中，watermark key 不在最终图像像素里，而在初始 noise 的 Fourier space 里，因此检测器必须先恢复或近似恢复这个 noise。
+DDIM inversion for watermark detection approximately maps a final image back to the initial noise used in diffusion sampling. In [[tree-ring-watermark]], the watermark key is stored in the Fourier space of the initial noise rather than in final-image pixels, so detection must first recover or estimate that noise.
 
-## 在 Tree-Ring 中的作用
+## Role in Tree-Ring
 
-Tree-Ring 生成阶段把 key 写入初始 noise。检测阶段从待测图像出发，沿 diffusion process 反向估计初始 noise，再把估计结果转换到 Fourier space，检查指定 mask 中是否存在 secret key pattern。论文还使用统计检验控制 false positive rate。
+Tree-Ring writes a key into the initial noise during generation. Detection starts from a candidate image, estimates the initial noise by reversing the diffusion process, transforms the estimate into Fourier space, and checks the designated mask for the secret key pattern. The paper also uses a statistical test to control false positive rate.
 
-## 优点
+## Advantages
 
-- 检测不要求知道原始 text prompt；论文在 Stable Diffusion 设置中使用 empty prompt 做 inversion。
-- Watermark 不需要作为 post-hoc pattern 叠加到图像上。
-- 只要 inversion 足够准确，检测可以验证生成过程中的 hidden key。
+- Detection does not require the original text prompt; the paper uses an empty prompt for inversion in its Stable Diffusion setting.
+- The watermark does not need to be overlaid on the image as a post-hoc pattern.
+- When inversion is accurate enough, detection can verify a hidden key from the generation process.
 
-## 局限
+## Limitations
 
-检测质量直接依赖 inversion 质量。强图像编辑、多个 transformations 叠加、采样器变化或无法访问兼容模型，都会削弱这个检测路径。因此它通常更适合作为 model owner 的 private verification，而不是完全开放的 public verification。
+Detection quality depends directly on inversion quality. Strong image edits, combined transformations, sampler changes, or lack of access to a compatible model can weaken this path. It is therefore generally better suited to private verification by the model owner than to fully open public verification.

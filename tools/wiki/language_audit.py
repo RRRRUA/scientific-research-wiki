@@ -16,6 +16,31 @@ BLOCKED_SCRIPTS = {
     "Devanagari": re.compile(r"[\u0900-\u097F]"),
 }
 
+AGENT_FACING_DIRS = {
+    "comparisons",
+    "concepts",
+    "entities",
+    "findings",
+    "queries",
+    "references",
+    "sources",
+    "synthesis",
+    "thesis",
+}
+
+HAN = re.compile(r"[\u3400-\u4DBF\u4E00-\u9FFF]")
+FENCED_CODE = re.compile(r"```.*?```|~~~.*?~~~", re.DOTALL)
+INLINE_CODE = re.compile(r"`[^`\n]*`")
+
+
+def prose_only(text: str) -> str:
+    if text.startswith("---\n"):
+        end = text.find("\n---\n", 4)
+        if end != -1:
+            text = text[end + 5 :]
+    text = FENCED_CODE.sub("", text)
+    return INLINE_CODE.sub("", text)
+
 
 def audit(root: Path) -> list[tuple[Path, str, int]]:
     rows: list[tuple[Path, str, int]] = []
@@ -25,6 +50,11 @@ def audit(root: Path) -> list[tuple[Path, str, int]]:
             count = len(pattern.findall(text))
             if count:
                 rows.append((path.relative_to(root), name, count))
+        relative = path.relative_to(root / "wiki")
+        if relative.parts and relative.parts[0] in AGENT_FACING_DIRS:
+            count = len(HAN.findall(prose_only(text)))
+            if count:
+                rows.append((path.relative_to(root), "ChineseProse", count))
     return rows
 
 

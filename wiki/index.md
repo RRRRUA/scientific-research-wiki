@@ -2,9 +2,9 @@
 type: overview
 title: "Wiki Index"
 tags: [index, research-wiki]
-related: ["[[overview]]", "[[diffusion-model-fingerprinting-comparison]]", "[[advmark]]"]
+related: ["[[overview]]", "[[diffusion-model-fingerprinting-comparison]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[advmark]]", "[[trustmark]]", "[[wmadapter]]", "[[secure-distribution]]", "[[msat-ldm]]", "[[watermark-anything]]", "[[editguard]]", "[[omniguard]]"]
 created: 2026-06-11
-updated: 2026-07-01
+updated: 2026-07-16
 ---
 
 # Wiki Index
@@ -21,8 +21,15 @@ updated: 2026-07-01
 - [[wouaf]] — WOUAF 方法实体。
 - [[omnimark]] — OmniMark 方法实体。
 - [[stableguard]] — StableGuard 方法实体。
-- [[hfrw]] — HFRW 方法实体。
 - [[advmark]] — AdvMark 方法实体。
+- [[trustmark]] — TrustMark 方法实体。
+- [[wmadapter]] — WMAdapter 方法实体。
+- [[secure-distribution]] — Secure Distribution 方法实体。
+- [[msat-ldm]] — MSAT-LDM 方法实体。
+- [[hfrw]] — HFRW 方法实体。
+- [[watermark-anything]] — Watermark Anything 方法实体。
+- [[editguard]] — EditGuard 方法实体。
+- [[omniguard]] — OmniGuard 方法实体。
 
 ## Concepts
 
@@ -35,8 +42,9 @@ updated: 2026-07-01
 - [[private-vs-public-watermark-verification]] — 私有验证与公开验证的部署差异。
 - [[watermark-capacity-for-user-attribution]] — 多 key / 多用户归因容量与 false positive control。
 - [[tamper-localization-for-generated-images]] — 生成图像中的篡改区域定位。
-- [[localized-invisible-watermarking]] — 局部不可见图像水印及其 fidelity / robustness 取舍。
 - [[post-hoc-image-watermarking]] — 后处理图像水印路线，以及它和 diffusion-native provenance 的边界。
+- [[arbitrary-resolution-image-watermarking]] — 任意分辨率图像水印及 original-resolution evaluation 问题。
+- [[localized-invisible-watermarking]] — 局部不可见水印、空间证据与 fidelity/cropping trade-off。
 
 ## Sources
 
@@ -45,8 +53,15 @@ updated: 2026-07-01
 - [[kim-2024-wouaf]] — WOUAF: Weight Modulation for User Attribution and Fingerprinting。
 - [[fei-2025-omnimark]] — OmniMark: Efficient and Scalable Latent Diffusion Model Fingerprinting。
 - [[yang-2025-stableguard]] — StableGuard: Copyright protection and tamper localization in LDMs。
-- [[ping-2026-hfrw]] — HFRW: High Fidelity and Robust Watermarking using Deep Reinforcement Learning。
 - [[chen-2026-advmark]] — AdvMark: Decoupling Defense Strategies for Robust Image Watermarking。
+- [[bui-2023-trustmark]] — TrustMark: Universal Watermarking for Arbitrary Resolution Images。
+- [[ci-2024-wmadapter]] — WMAdapter: Adding WaterMark Control to Latent Diffusion Models。
+- [[dai-2026-secure-distribution]] — Secure Distribution: Anti-Collusion Watermarking via Spectral Weight Modulation in Latent Diffusion Models。
+- [[ping-2026-hfrw]] — HFRW: High Fidelity and Robust Watermarking using Deep Reinforcement Learning。
+- [[sander-2025-watermark-anything]] — Watermark Anything with Localized Messages。
+- [[zhang-2023-editguard]] — EditGuard: Versatile Image Watermarking for Tamper Localization and Copyright Protection。
+- [[zhang-2025-omniguard]] — OmniGuard: Hybrid Manipulation Localization via Augmented Versatile Deep Image Watermarking。
+- [[zhang-2026-msat-ldm]] — MSAT-LDM: Transferable High-Fidelity Watermarking for LDMs。
 
 ## Queries
 
@@ -55,6 +70,7 @@ updated: 2026-07-01
 ## Comparisons
 
 - [[decoder-fingerprinting-scalability-comparison]] — Stable Signature、WOUAF、OmniMark 的 decoder-rooted user-attribution scalability 对比。
+- [[localized-watermarking-for-tamper-localization-comparison]] — HFRW、WAM、EditGuard 与 OmniGuard 的局部水印和篡改定位边界。
 
 ## Synthesis
 
@@ -82,6 +98,15 @@ updated: 2026-07-01
 - [[advmark-improves-quality-over-joint-training-baselines]] — AdvMark 比 joint-training baselines 保持更高 image quality。
 - [[advmark-improves-comprehensive-robustness-against-advanced-attacks]] — AdvMark 提升对 distortion、regeneration 和 adversarial attacks 的综合鲁棒性。
 - [[advmark-ablation-shows-two-defense-stages-are-complementary]] — AdvMark ablation 显示两个防御阶段互补。
+- [[trustmark-achieves-high-quality-watermarking-on-arbitrary-resolution-benchmarks]] — TrustMark 在 arbitrary-resolution benchmarks 上兼顾 image quality 和 watermark recovery。
+- [[trustmark-noise-simulation-improves-robustness-across-perturbations]] — TrustMark 的 noise simulation 提升多扰动鲁棒性。
+- [[trustmark-rm-supports-high-quality-re-watermarking]] — TrustMark-RM 支持高质量 re-watermarking。
+- [[trustmark-architecture-components-improve-visual-quality]] — TrustMark 的 GAN、FFL 和 post-process components 提升视觉质量。
+- [[wmadapter-hybrid-finetuning-improves-image-quality]] — WMAdapter 的 hybrid finetuning 提升图像质量。
+- [[secure-distribution-collusion-removal-destroys-model-utility]] — Secure Distribution 在报告的 collusion 中以模型可用性下降换取可追溯性保护。
+- [[watermark-anything-decodes-localized-messages-from-small-regions]] — WAM 从小区域定位并解码多个 watermark messages。
+- [[editguard-separates-copyright-recovery-from-tamper-localization]] — EditGuard 分离 copyright recovery 与 tamper localization。
+- [[omniguard-improves-localization-under-degradation]] — OmniGuard 在 reported degradation 下改善 localization F1。
 
 ## References
 

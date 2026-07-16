@@ -4,7 +4,7 @@ title: "WOUAF Decoder-Only Modulation Preserves Quality Better"
 tags: [finding, wouaf, decoder, image-quality, weight-modulation]
 related: ["[[kim-2024-wouaf]]", "[[latent-diffusion-watermarking]]", "[[generative-model-fingerprinting]]", "[[decoder-fingerprinting-scalability-comparison]]"]
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-16
 source: "[[kim-2024-wouaf]]"
 confidence: high
 replicated: false
@@ -12,18 +12,18 @@ replicated: false
 
 # WOUAF Decoder-Only Modulation Preserves Quality Better
 
-## 发现
+## Finding
 
-[[kim-2024-wouaf]] 的实验支持 decoder-only modulation，而不是同时调制 denoising U-Net 和 decoder。
+The experiments in [[kim-2024-wouaf]] support decoder-only modulation instead of modulating both the denoising U-Net and decoder.
 
-## 证据
+## Evidence
 
-WOUAF 在方法部分说明，它把 fingerprints 只嵌入 Stable Diffusion 的 decoder weights。raw parse 的 Sec. 4.5 报告，同时调制 diffusion model `epsilon_theta` 和 decoder D 的 variant 无法同时优化 attribution accuracy 与 generation quality：最高 attribution accuracy 只有 89%，Clip-score 为 0.68，FID 为 63.48；而 decoder-only 的 WOUAF-conv/WOUAF-all 在 Table 1 中保持 0.99 attribution accuracy，并且 CLIP/FID 接近 Original SD。
+WOUAF embeds fingerprints only in Stable Diffusion decoder weights. Section 4.5 reports that the variant modulating both diffusion model `epsilon_theta` and decoder D cannot optimize attribution accuracy and generation quality together: its best attribution accuracy is 89%, CLIP score 0.68, and FID 63.48. Decoder-only WOUAF-conv/WOUAF-all maintain 0.99 attribution accuracy in Table 1 with CLIP/FID close to Original SD.
 
-## 解释
+## Interpretation
 
-这个 finding 强化了一个跨论文模式：LDM decoder 是 provenance embedding 的高价值位置，因为它直接影响最终像素，同时不必扰动整个 diffusion process。
+This reinforces a cross-paper pattern: the LDM decoder is a high-value site for provenance embedding because it directly affects final pixels without perturbing the full diffusion process.
 
-## 注意
+## Caveat
 
-这不意味着 decoder 永远是唯一正确位置。更强的 white-box attacker 可以替换、蒸馏或再训练 decoder；这些攻击仍需要单独建模。
+This does not mean the decoder is always the only valid site. A stronger white-box attacker can replace, distill, or retrain it, and those attacks require separate modeling.

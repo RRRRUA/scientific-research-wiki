@@ -4,7 +4,7 @@ title: "OmniMark Maintains High Bit Accuracy with Low Quality Impact"
 tags: [finding, omnimark, bit-accuracy, image-quality, watermark-robustness]
 related: ["[[fei-2025-omnimark]]", "[[watermark-robustness]]", "[[generative-model-fingerprinting]]", "[[decoder-fingerprinting-scalability-comparison]]"]
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-16
 source: "[[fei-2025-omnimark]]"
 confidence: high
 replicated: false
@@ -12,18 +12,18 @@ replicated: false
 
 # OmniMark Maintains High Bit Accuracy with Low Quality Impact
 
-## 发现
+## Finding
 
-[[fei-2025-omnimark]] 报告 OmniMark 在 48-bit fingerprints 下保持接近 99% 的 Bit Acc，同时对 image quality metrics 的影响较小。
+[[fei-2025-omnimark]] reports that OmniMark maintains nearly 99% Bit Acc for 48-bit fingerprints with limited impact on image-quality metrics.
 
-## 证据
+## Evidence
 
-OmniMark raw parse 中，实验使用 SDv2.0、9 个 OmniMark Layers 和 48-bit fingerprints。Table 2 报告，在 CoCo、ImageNet、MagicBrush 上，Ours 的 Bit Acc 分别为 99.757、99.642、99.812。Model Fidelity 部分报告 OmniMark 平均 PSNR 约 31、SSIM 约 0.88、LPIPS 约 0.13，FID 相比 baseline 增加不到 1 点，CLIP score 基本不受影响。
+The OmniMark experiments use SDv2.0, nine OmniMark Layers, and 48-bit fingerprints. Table 2 reports Bit Acc of 99.757, 99.642, and 99.812 on COCO, ImageNet, and MagicBrush. The Model Fidelity section reports average PSNR around 31, SSIM around 0.88, LPIPS around 0.13, less than one FID point over baseline, and essentially unchanged CLIP score.
 
-## 解释
+## Interpretation
 
-这个 finding 支持“多维 weight encoding 可以同时保持 fingerprint effectiveness 与 perceptual quality”的判断，也是 OmniMark 相比单一维度编码或 per-user fine-tuning 更有吸引力的原因。
+This supports the judgment that multi-dimensional weight encoding can preserve fingerprint effectiveness and perceptual quality together, making OmniMark more attractive than single-dimension encoding or per-user fine-tuning.
 
-## 注意
+## Caveat
 
-这些指标来自论文设置。它们不能直接证明在新模型架构、flow-matching models、LoRA fine-tuning 或强 collusion 场景下仍然成立。
+These metrics come from the paper's setting and do not establish the same behavior under new architectures, flow-matching models, LoRA fine-tuning, or strong collusion.

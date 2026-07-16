@@ -4,10 +4,22 @@ title: "Wiki Log"
 tags: [log, research-wiki]
 related: ["[[overview]]"]
 created: 2026-06-07
-updated: 2026-07-03
+updated: 2026-07-16
 ---
 
 # Wiki Log
+
+## 2026-07-16
+
+- 将 `sources`、`concepts`、`entities`、`findings`、`comparisons`、`synthesis`、`queries`、`thesis` 等 agent-facing 页面中的旧中文正文统一改为 concise English。
+- 保留 `README`、`purpose`、[[overview]]、[[index]] 和本日志作为中文说明与导航页面，并保留原始 source filename 作为不可改写的 literal path。
+- 扩展 `tools/wiki/language_audit.py`：除拦截错误文字系统外，agent-facing 页面中的中文正文现在也会导致校验失败；frontmatter 与 code literals 中的真实文件名不受影响。
+
+## 2026-07-06
+
+- 按 `research-wiki-curator` 入库 [[bui-2023-trustmark]]，并新增方法实体 [[trustmark]] 与概念 [[arbitrary-resolution-image-watermarking]]。
+- 按 `research-wiki-synthesizer` 新增 4 个 TrustMark findings：[[trustmark-achieves-high-quality-watermarking-on-arbitrary-resolution-benchmarks]]、[[trustmark-noise-simulation-improves-robustness-across-perturbations]]、[[trustmark-rm-supports-high-quality-re-watermarking]]、[[trustmark-architecture-components-improve-visual-quality]]。
+- 更新 [[overview]]、[[index]]、[[watermark-robustness]]、[[post-hoc-image-watermarking]]、[[diffusion-model-fingerprinting-comparison]] 和 project purpose，把 TrustMark 纳入 post-hoc image watermarking 对照谱系。
 
 ## 2026-07-03
 
@@ -30,7 +42,7 @@ updated: 2026-07-03
 
 ## 2026-06-11
 
-- 按 `research-wiki-curator` 入库 [[ping-2026-hfrw]]，并新增方法实体 [[hfrw]] 与概念 [[localized-invisible-watermarking]]。
+- 按 `research-wiki-curator` 入库 ping-2026-hfrw，并新增方法实体 hfrw 与概念 localized-invisible-watermarking。
 - 按 `research-wiki-synthesizer` 新增 3 个 HFRW findings：[[hfrw-local-watermarking-improves-fidelity-and-file-size-growth]]、[[hfrw-rl-patch-selection-improves-embedding-quality]]、[[hfrw-localized-embedding-trades-cropping-robustness-for-fidelity]]。
 - 恢复被 external batch delete 影响的 [[yang-2025-stableguard]]、[[stableguard]]、[[tamper-localization-for-generated-images]]、[[overview]] 和 [[index]]。
 - 修复 StableGuard findings 中的裸 slug 和坏 wikilink，并更新 [[diffusion-model-fingerprinting-comparison]]、[[watermark-robustness]]、[[generative-model-fingerprinting]]、[[latent-diffusion-watermarking]]、[[decoder-fingerprinting-scalability-comparison]] 和 [[how-to-scale-user-attribution-for-ldm]]。
@@ -57,3 +69,35 @@ updated: 2026-07-03
 - 创建 Stable Signature、WOUAF 和 OmniMark 的 source pages。
 - 添加核心 concept pages，并写入 diffusion model watermarking 与 fingerprinting 方法的初始 synthesis。
 - 安装 `tools/wiki/` validation 与 reference-mining scripts。
+## [2026-07-16] external batch delete | 2 source files
+
+Deleted 2 source files and 0 wiki pages.
+
+Sources:
+- kim-2024-wouaf/9daaa5d1-066d-47c8-a411-5e597493deb9_origin.pdf
+- kim-2024-wouaf/full.md
+## [2026-07-16] external batch delete | 2 source files
+
+Deleted 2 source files and 0 wiki pages.
+
+Sources:
+- fei-2025-omnimark/5495cb44-13cb-4607-9538-77d397de59e6_origin.pdf
+- fei-2025-omnimark/full.md
+## [2026-07-16] external batch delete | 2 source files
+
+Deleted 2 source files and 0 wiki pages.
+
+Sources:
+- fernandez-2023-stable-signature/e021a8c6-b67d-4617-8516-b4933b6cb194_origin.pdf
+- fernandez-2023-stable-signature/full.md
+## [2026-07-16] external batch delete | 2 source files
+
+Deleted 2 source files and 3 wiki pages. 2 shared pages kept (have other sources).
+
+Sources:
+- HFRW_High_Fidelity_and_Robust_Watermarking_using_Deep_Reinforcement_Learning.pdf-1d97070b-78d6-4eb4-a7a0-f24fbfba014c/c7433e92-82e3-4618-94f3-5cb74011b7e5_origin.pdf
+- HFRW_High_Fidelity_and_Robust_Watermarking_using_Deep_Reinforcement_Learning.pdf-1d97070b-78d6-4eb4-a7a0-f24fbfba014c/full.md
+## 2026-07-16
+
+- 按 curator 流程入库 10 个 raw/sources：新增 WMAdapter、Secure Distribution、HFRW、Watermark Anything、EditGuard、OmniGuard、MSAT-LDM source pages，并重新绑定 Stable Signature、WOUAF、OmniMark 到当前 raw parses。
+- 按 synthesizer 流程新增局部水印概念、七个方法实体、五条 findings 和局部水印/篡改定位 comparison；将 anti-collusion、模块化 adapter transfer、pixel-level watermark evidence 与 degradation-aware tamper localization 接入总综合、研究问题和导航。

@@ -2,7 +2,7 @@
 type: concept
 title: "Watermark Capacity for User Attribution"
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-16
 tags: [watermark-capacity, user-attribution, false-positives, scalability]
 related: ["[[user-attribution]]", "[[tree-ring-watermark]]", "[[generative-model-fingerprinting]]", "[[watermark-robustness]]", "[[how-to-scale-user-attribution-for-ldm]]"]
 sources: ["Wen 等 - 2023 - Tree-Ring Watermarks Fingerprints for Diffusion Images that are Invisible and Robust.pdf-009a7e2b-80bb-48a7-bf25-28b175fc8239/full.md"]
@@ -10,16 +10,16 @@ sources: ["Wen 等 - 2023 - Tree-Ring Watermarks Fingerprints for Diffusion Imag
 
 # Watermark Capacity for User Attribution
 
-Watermark capacity for user attribution 指一个 watermarking / fingerprinting 方法能支持多少不同 keys、users 或 model copies，同时仍能控制 false positives、保持 image quality，并在攻击后可靠检测。
+Watermark capacity for user attribution is the number of distinct keys, users, or model copies a watermarking or fingerprinting method can support while controlling false positives, preserving image quality, and remaining detectable after attacks.
 
-## 为什么重要
+## Why It Matters
 
-Generated-image detection 只问“这张图是否来自某类带水印模型”。[[user-attribution]] 要进一步回答“来自哪个用户、哪个 key 或哪个模型副本”。候选用户越多，检测器需要比较的 fingerprints 越多，false positive control 越严格。
+Generated-image detection only asks whether an image came from a watermarked model family. [[user-attribution]] must also identify the user, key, or model copy. More candidate users require more fingerprint comparisons and stricter false-positive control.
 
-## Tree-Ring 的开放问题
+## Open Question for Tree-Ring
 
-[[tree-ring-watermark]] 的 random 和 ring variants 比 zero key 更适合 multiple keys，因为它们可以生成不同 key patterns。但论文没有证明它能扩展到成千上万或更多用户，也没有完整分析多 key 阈值如何改变。
+The random and ring variants of [[tree-ring-watermark]] are better suited to multiple keys than the zero key because they can generate distinct key patterns. The paper does not establish scaling to thousands or more users and does not fully analyze how thresholds change under multi-key verification.
 
-## 对当前 thesis 的影响
+## Implication for the Current Thesis
 
-这支持本 wiki 的当前判断：robust provenance detection 可以由 initial-noise watermarking 实现，但大规模 user attribution 更可能需要 [[wouaf]]、[[omnimark]] 这类 weight modulation 或 multi-dimensional fingerprint encoding 路线。
+This supports the wiki's current judgment: initial-noise watermarking can provide robust provenance detection, but large-scale user attribution is more likely to require weight modulation or multi-dimensional fingerprint encoding such as [[wouaf]] and [[omnimark]].

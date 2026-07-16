@@ -2,9 +2,9 @@
 type: finding
 title: "HFRW Localized Embedding Trades Cropping Robustness for Fidelity"
 tags: [finding, hfrw, watermark-robustness, cropping, tradeoff]
-related: ["[[ping-2026-hfrw]]", "[[hfrw]]", "[[localized-invisible-watermarking]]", "[[watermark-robustness]]"]
+related: ["[[hfrw]]", "[[ping-2026-hfrw]]", "[[watermark-robustness]]", "[[localized-invisible-watermarking]]"]
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-07-16
 source: "[[ping-2026-hfrw]]"
 confidence: high
 replicated: false
@@ -12,16 +12,16 @@ replicated: false
 
 # HFRW Localized Embedding Trades Cropping Robustness for Fidelity
 
-## 发现
+## Finding
 
-HFRW 在 JPEG、color jitter、Gaussian noise、Gaussian blur、resize、padding、PIP 等常见攻击下保持较高 bit accuracy，但 localized embedding 对 severe cropping 有固有弱点。
+HFRW maintains high bit accuracy under common attacks such as JPEG, color jitter, Gaussian noise, Gaussian blur, resize, padding, and PIP, but localized embedding has an inherent weakness against severe cropping.
 
-## 证据
+## Evidence
 
-Fig. 7 报告 HFRW 在 JPEG quality 60-90 下约 92-99，在 color jitter 和 Gaussian noise 下接近 100，在 resize 和 padding 下接近 100，在 PIP scale factor 1.4-2.0 下约 92-98。Crop attack 下随着 crop ratio 增加，HFRW 从 0.05 时约 98 下降到 0.35 时约 84。
+Figure 7 reports HFRW at about 92-99 under JPEG quality 60-90, near 100 under color jitter and Gaussian noise, near 100 under resize and padding, and about 92-98 for PIP scale factors 1.4-2.0. Under crop attacks, performance falls from about 98 at crop ratio 0.05 to about 84 at 0.35.
 
-论文的 robustness discussion 明确解释：HFRW 的 watermark 嵌入在 128x128 patch 中，如果该区域被完全移除，无论 decoder 能力如何都无法恢复 watermark。结论部分也承认 severe cropping 是 localized embedding strategy 的限制。
+The robustness discussion explains that HFRW embeds its watermark in a 128x128 patch. If that region is removed completely, no decoder can recover the watermark. The conclusion also identifies severe cropping as a limitation of the localized embedding strategy.
 
-## 解释
+## Interpretation
 
-这条 finding 把 HFRW 的优势边界说清楚：local watermarking 换来了极高 fidelity 和低 FSVR，但对“直接删除嵌入区域”的攻击不如全局分布式水印自然稳健。
+This finding defines HFRW's boundary: local watermarking achieves very high fidelity and low FSVR, but it is less naturally robust than globally distributed watermarks to attacks that directly delete the embedding region.

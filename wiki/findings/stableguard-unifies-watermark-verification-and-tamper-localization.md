@@ -4,7 +4,7 @@ title: "StableGuard Unifies Watermark Verification and Tamper Localization"
 tags: [finding, stableguard, tamper-localization, watermark-verification]
 related: ["[[yang-2025-stableguard]]", "[[stableguard]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]"]
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-16
 source: "[[yang-2025-stableguard]]"
 confidence: high
 replicated: false
@@ -12,14 +12,14 @@ replicated: false
 
 # StableGuard Unifies Watermark Verification and Tamper Localization
 
-## 发现
+## Finding
 
-[[yang-2025-stableguard]] 把 diffusion-native watermarking 从 generated-image verification 扩展到 pixel-level tamper localization：同一个 embedded watermark signal 同时用于 copyright verification 和 tampered region detection。
+[[yang-2025-stableguard]] extends diffusion-native watermarking from generated-image verification to pixel-level tamper localization: the same embedded watermark signal supports both copyright verification and tampered-region detection.
 
-## 证据
+## Evidence
 
-论文的 Table 5 将 StableGuard 标为同时支持 copyright protection、tampering localization、joint optimization，且 watermarking type 为 diffusion-native。Table 2 在 AIGC tampering dataset 上报告 StableGuard 对 SD Inpainting、SDXL、Kandinsky、ControlNet、LaMa 五类编辑的 F1 约 0.979-0.981、AUC 约 0.991-0.993、IoU 约 0.960-0.963。
+Table 5 marks StableGuard as supporting copyright protection, tampering localization, and joint optimization with a diffusion-native watermarking type. On the AIGC tampering dataset, Table 2 reports F1 around 0.979-0.981, AUC around 0.991-0.993, and IoU around 0.960-0.963 across SD Inpainting, SDXL, Kandinsky, ControlNet, and LaMa edits.
 
-## 解释
+## Interpretation
 
-这说明 StableGuard 的贡献不只是更强的 watermark bit extraction，而是把 watermark 作为主动 forensic cue 使用。它在本 wiki 中应和 user attribution 路线区分开：它解决的是 copyright verification + tamper localization，而不是大规模 per-user attribution。
+StableGuard contributes more than stronger watermark-bit extraction; it uses the watermark as an active forensic cue. The wiki should keep it separate from user-attribution methods because it targets copyright verification plus tamper localization rather than large-scale per-user attribution.

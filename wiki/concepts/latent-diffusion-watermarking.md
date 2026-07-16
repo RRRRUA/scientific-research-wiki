@@ -2,43 +2,51 @@
 type: concept
 title: "Latent Diffusion Watermarking"
 tags: [latent-diffusion-models, watermarking, stable-diffusion]
-related: ["[[generative-model-fingerprinting]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[tamper-localization-for-generated-images]]", "[[localized-invisible-watermarking]]", "[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[fei-2025-omnimark]]", "[[kim-2024-wouaf]]", "[[yang-2025-stableguard]]", "[[ping-2026-hfrw]]"]
+related: ["[[generative-model-fingerprinting]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[tamper-localization-for-generated-images]]", "[[localized-invisible-watermarking]]", "[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[fei-2025-omnimark]]", "[[kim-2024-wouaf]]", "[[yang-2025-stableguard]]", "[[ci-2024-wmadapter]]", "[[dai-2026-secure-distribution]]", "[[zhang-2026-msat-ldm]]", "[[ping-2026-hfrw]]"]
 created: 2026-06-07
-updated: 2026-06-09
+updated: 2026-07-16
 ---
 
 # Latent Diffusion Watermarking
 
-## 定义
+## Definition
 
-潜在扩散模型水印（latent diffusion watermarking）是在 latent diffusion model 生成流程中嵌入隐藏信号。常见位置包括 VAE decoder、model weights、initial noise 或 generation-time adapters；核心目标是让 watermark 成为生成过程的一部分，而不是生成后附加的 post-processing watermark。
+Latent diffusion watermarking embeds a hidden signal inside a latent diffusion model's generation workflow. Common locations include the VAE decoder, model weights, initial noise, and generation-time adapters. The central goal is to make the watermark part of generation rather than an added post-processing step.
 
-## 核心思想
+## Core Idea
 
-Stable Diffusion 风格模型先在 latent space 中 denoise，再通过 decoder 生成 RGB 图像。由于 decoder 直接决定最终像素，把签名嵌入 decoder 可以让每张生成图像携带隐藏 signature，同时尽量不改变 denoising process 和 prompt 行为。
+Stable Diffusion-style models denoise in latent space and then use a decoder to produce an RGB image. Because the decoder directly determines the final pixels, embedding a signature there can make every generated image carry a hidden signal while leaving the denoising process and prompt behavior largely unchanged.
 
-## 相关论文
+## Related Papers
 
-- [[fernandez-2023-stable-signature]]：fine-tune latent decoder，嵌入固定 signature。
+- [[fernandez-2023-stable-signature]] fine-tunes the latent decoder to embed a fixed signature.
 
-- [[wen-2023-tree-ring-watermarks]]：在 initial noise 的 Fourier space 中嵌入 ring-shaped key，并用 DDIM inversion 检测。
+- [[wen-2023-tree-ring-watermarks]] embeds a ring-shaped key in the Fourier space of the initial noise and detects it through DDIM inversion.
 
-- [[kim-2024-wouaf]]：在 T2I diffusion models 中用 weight modulation 生成用户特定 fingerprints。
+- [[kim-2024-wouaf]] uses weight modulation to generate user-specific fingerprints in T2I diffusion models.
 
-- [[fei-2025-omnimark]]：用 OmniMark layers 修改 VAE decoder，以支持可扩展 fingerprint generation。
+- [[fei-2025-omnimark]] modifies the VAE decoder with OmniMark layers to support scalable fingerprint generation.
 
-- [[yang-2025-stableguard]]：用 MPW-VAE 在 VAE decoder 中嵌入 holistic watermark，并用 MoE-GFN 同时做 copyright verification 和 tamper localization。
+- [[yang-2025-stableguard]] uses MPW-VAE to embed a holistic watermark in the VAE decoder and MoE-GFN for copyright verification and tamper localization.
 
-- [[ping-2026-hfrw]]：不是 latent diffusion watermarking，但提供 post-hoc localized image watermarking 对照，说明 local patch embedding 可显著改善 fidelity 和 FSVR。
+- [[ci-2024-wmadapter]] adds a feature-conditioned adapter to the VAE decoder so one module can embed different messages without per-message decoder fine-tuning.
 
-## 设计权衡
+- [[dai-2026-secure-distribution]] applies watermark embedding to the VAE decoder, then uses paired spectral transforms to distribute parameter-distinct copies that resist collusion.
 
-- Decoder-only 修改通常更容易保持与不同 LDM tasks 的兼容性。
+- [[zhang-2026-msat-ldm]] trains a modular decoder message processor on free-generation latents for few-shot transfer to fine-tuned and LoRA-enhanced LDMs.
 
-- Post-generation watermarking 在 open-source pipeline 中更容易被绕过。
+- [[ping-2026-hfrw]] is not latent diffusion watermarking, but provides a post-hoc localized image watermarking comparator showing that local patch embedding can improve fidelity and FSVR.
 
-- Per-user fine-tuning 可以准确，但扩展到大量用户时成本高。
+## Design Trade-offs
 
-- Scalable fingerprint generation 必须同时维持 attribution accuracy 和 perceptual quality。
+- Decoder-only modification generally preserves compatibility across LDM tasks more easily.
 
-- Tamper localization 需要 watermark signal 具有足够空间分布，使局部缺失或破坏可以被 forensic detector 利用。
+- Post-generation watermarking is easier to bypass in open-source pipelines.
+
+- Per-user fine-tuning can be accurate but is expensive to scale to many users.
+
+- Scalable fingerprint generation must preserve both attribution accuracy and perceptual quality.
+
+- Flexible adapter control, transferable modules, and user-specific parameter variation solve different deployment problems and should not be treated as interchangeable scalability evidence.
+
+- Tamper localization requires enough spatial distribution in the watermark signal for a forensic detector to exploit local absence or corruption.

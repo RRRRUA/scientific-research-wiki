@@ -2,41 +2,49 @@
 type: concept
 title: "Watermark Robustness"
 tags: [watermarking, robustness, adversarial-attacks]
-related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[tree-ring-watermark]]", "[[stableguard]]", "[[hfrw]]", "[[advmark]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]"]
+related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[tree-ring-watermark]]", "[[stableguard]]", "[[hfrw]]", "[[advmark]]", "[[trustmark]]", "[[secure-distribution]]", "[[watermark-anything]]", "[[omniguard]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]"]
 created: 2026-06-07
-updated: 2026-06-17
+updated: 2026-07-06
 ---
 
 # Watermark Robustness
 
-## 定义
+## Definition
 
-水印鲁棒性（watermark robustness）指嵌入的 signature 或 fingerprint 在经历变换、质量退化或对抗性移除后仍能被检测和验证的能力。
+Watermark robustness is the ability of an embedded signature, watermark, or fingerprint to remain detectable after transformations, quality degradation, editing, regeneration, or adversarial removal attempts.
 
-## 图像级变换
+## Image-level Transformations
 
-常见评估包括 cropping、JPEG compression、亮度/对比度变化、rotation、blur、noise、text overlay、resizing、erasing，以及多种变换组合。
+Common evaluations include cropping, JPEG compression, brightness/contrast shifts, rotation, blur, noise, text overlay, resizing, erasing, color changes, and combinations of these transformations.
 
-## 模型级攻击
+## Model-level Attacks
 
-对 model fingerprinting 来说，white-box users 可能通过 pruning、quantization、parameter noise、model compression、fine-tuning 或 model purification 来削弱 fingerprint。
+For model fingerprinting, white-box users may try to weaken a fingerprint through pruning, quantization, parameter noise, model compression, fine-tuning, model purification, distillation, decoder replacement, or collusion.
 
-## 当前论文的共同模式
+## Patterns in the Current Corpus
 
-- [[fernandez-2023-stable-signature]] 表明 decoder-rooted watermarks 能抵抗许多 image edits，但在 informed model/image-level attacks 下仍有弱点。
+- [[fernandez-2023-stable-signature]] shows that decoder-rooted watermarks can survive many image edits, but remain vulnerable to informed image/model-level attacks.
 
-- [[wen-2023-tree-ring-watermarks]] 表明 initial-noise Fourier watermarking 可以在不 post-hoc 修改图像的情况下，对多种 common image transformations 保持较高 AUC。
+- [[wen-2023-tree-ring-watermarks]] shows that initial-noise Fourier watermarking can maintain high AUC under many common image transformations without post-hoc image editing.
 
-- [[kim-2024-wouaf]] 在实验中相对 Stable Signature 提高了对 image post-processing 的鲁棒性。
+- [[kim-2024-wouaf]] improves robustness to image post-processing relative to Stable Signature in its evaluation.
 
-- [[fei-2025-omnimark]] 通过 noise-layer training 和 sharpness-aware robustness 提升对 image attacks 与 model attacks 的抵抗力。
+- [[fei-2025-omnimark]] uses noise-layer training and sharpness-aware robustness to improve resistance to image attacks and model attacks.
 
-- [[yang-2025-stableguard]] 把 holistic watermark 用作 forensic cue；论文报告在 tampering ratio、compression、noise 等设置下保持较高 Bit Acc，但也承认 localization accuracy 会随 degradation 下降。
+- [[yang-2025-stableguard]] uses a holistic watermark as a forensic cue. It reports high Bit Acc under tampering ratios, compression, and noise, while noting that localization accuracy declines under degradation.
 
-- [[ping-2026-hfrw]] 通过 local patch embedding、DQN patch selection 和 localization/synchronization module 提升 ordinary image watermarking 的 fidelity、FSVR 和 common-attack robustness，但 severe cropping 仍是主要弱点。
+- [[ping-2026-hfrw]] uses local patch embedding, DQN patch selection, and a localization/synchronization module to improve ordinary image watermarking fidelity, FSVR, and common-attack robustness; severe cropping remains its main weakness.
 
-- [[chen-2026-advmark]] 将 adversarial defense 与 distortion / regeneration defense 解耦：Stage 1 主要提升 WEvade / Black-S 等 adversarial robustness，Stage 2 用 direct image optimization 补足 conventional distortions 与 diffusion regeneration robustness。
+- [[chen-2026-advmark]] decouples adversarial defense from distortion/regeneration defense. Stage 1 targets adversarial robustness, while Stage 2 uses direct image optimization to recover conventional distortion and diffusion regeneration robustness.
 
-## 研究张力
+- [[bui-2023-trustmark]] expands the post-hoc robustness frame to arbitrary-resolution images, broad differentiable noise simulation, and re-watermarking. Its evidence distinguishes perturbation robustness from removal and replacement workflows.
 
-更强 robustness 往往会与 image quality、计算成本和大规模用户扩展性发生冲突。AdvMark 进一步提示：不同攻击族可能需要不同防御策略，不能只用一个 aggregate robustness 数字概括。
+- [[dai-2026-secure-distribution]] treats collusion as a model-level threat. Its evaluated linear and nonlinear merges reduce recovered bits to random levels only while also degrading model outputs severely.
+
+- [[sander-2025-watermark-anything]] prioritizes recovery from small watermarked regions and splicing; its robustness profile differs from global watermarking and from purification resistance.
+
+- [[zhang-2025-omniguard]] uses a learned mask extractor to preserve localization under ordinary degradation, but reports a boundary where very severe degradation reduces proactive localization to passive-detection behavior.
+
+## Research Tensions
+
+Stronger robustness often trades off against image quality, payload length, compute overhead, public verifiability, and scalable user attribution. The post-hoc comparators add another caution: robustness to ordinary perturbations, diffusion regeneration, adversarial removal, and watermark replacement should not be collapsed into a single aggregate score.

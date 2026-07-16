@@ -5,33 +5,33 @@ aliases: ["Tree-Ring Watermarks"]
 tags: [method, watermarking, diffusion-models, ddim-inversion, fourier-noise]
 related: ["[[wen-2023-tree-ring-watermarks]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[generative-model-fingerprinting]]", "[[ddim-inversion-for-watermark-detection]]", "[[fourier-noise-watermarking]]", "[[private-vs-public-watermark-verification]]", "[[watermark-capacity-for-user-attribution]]"]
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-16
 sources: ["Wen 等 - 2023 - Tree-Ring Watermarks Fingerprints for Diffusion Images that are Invisible and Robust.pdf-009a7e2b-80bb-48a7-bf25-28b175fc8239/full.md"]
 ---
 
 # Tree-Ring Watermarking
 
-Tree-Ring Watermarking 是 [[wen-2023-tree-ring-watermarks]] 提出的 diffusion image watermarking 方法。它把秘密 key 嵌入 diffusion sampling 的初始 noise vector，而不是修改生成后的 image pixels，也不需要 fine-tune decoder。
+Tree-Ring Watermarking is a diffusion image watermarking method introduced by [[wen-2023-tree-ring-watermarks]]. It embeds a secret key in the initial noise vector used for diffusion sampling instead of modifying generated-image pixels or fine-tuning the decoder.
 
-## 核心机制
+## Core Mechanism
 
-方法在 sampling 开始前把初始 noise 转换到 Fourier space，并在预设 mask 中写入 key pattern。检测时，model owner 对待测图像执行 [[ddim-inversion-for-watermark-detection]]，近似恢复初始 noise，再检查 Fourier coefficients 是否匹配 secret key。
+Before sampling, the method transforms the initial noise into Fourier space and writes a key pattern inside a predefined mask. During detection, the model owner runs [[ddim-inversion-for-watermark-detection]] on a candidate image, approximately recovers the initial noise, and checks whether its Fourier coefficients match the secret key.
 
-Tree-Ring 的 ring-shaped key pattern 试图利用 Fourier domain 对 rotation 等变换的结构性质，从而提升对常见 image transformations 的鲁棒性。
+Tree-Ring's ring-shaped key pattern exploits structural properties of transformations such as rotation in the Fourier domain to improve robustness to common image transformations.
 
-## 与本项目的关系
+## Role in This Project
 
-Tree-Ring Watermarking 扩展了 [[latent-diffusion-watermarking]] 的方法谱系：watermark 可以根植于 sampling process，而不一定要根植于 decoder 或 model weights。它不同于 [[stable-signature]] 的 decoder-rooted watermarking，也不同于 [[wouaf]]、[[omnimark]] 这类更面向 user-specific model copies 的路线。
+Tree-Ring Watermarking broadens the [[latent-diffusion-watermarking]] lineage by showing that a watermark can be rooted in the sampling process rather than in the decoder or model weights. It differs from decoder-rooted [[stable-signature]] and from [[wouaf]] and [[omnimark]], which target user-specific model copies more directly.
 
-## 关键性质
+## Key Properties
 
-- 不对最终图像做 post-hoc 修改。
-- 不需要重新训练 diffusion model。
-- 检测通常依赖 model owner 可执行的 DDIM inversion，因此更接近 private verification。
-- 更适合 generated-image detection / provenance；是否能扩展为大规模 [[user-attribution]] 仍未被证明。
+- Does not apply post-hoc modifications to the final image.
+- Does not require retraining the diffusion model.
+- Detection generally depends on DDIM inversion performed by the model owner, making it closer to private verification.
+- Better suited to generated-image detection and provenance; scalability to large-scale [[user-attribution]] is not established.
 
-## 局限
+## Limitations
 
-- 方法依赖兼容的 sampling 与 inversion procedure。
-- 多个 image transformations 叠加时，低 false positive rate 下的 true positive rate 会明显下降。
-- 多 key capacity 仍是开放问题，因此不能直接替代 WOUAF 或 OmniMark 的 user attribution 目标。
+- Requires compatible sampling and inversion procedures.
+- Under combined image transformations, true positive rate drops substantially at low false positive rate.
+- Multi-key capacity remains open, so the method cannot directly replace the user-attribution goals of WOUAF or OmniMark.

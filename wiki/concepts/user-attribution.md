@@ -2,30 +2,35 @@
 type: concept
 title: "User Attribution"
 tags: [attribution, accountability, model-distribution]
-related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[watermark-capacity-for-user-attribution]]", "[[how-to-scale-user-attribution-for-ldm]]"]
+related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[watermark-capacity-for-user-attribution]]", "[[how-to-scale-user-attribution-for-ldm]]", "[[secure-distribution]]", "[[dai-2026-secure-distribution]]"]
 created: 2026-06-07
-updated: 2026-06-09
+updated: 2026-07-16
 ---
 
 # User Attribution
 
-## 定义
-用户归因（user attribution）是把生成内容回溯到产生它的具体用户、客户或模型副本。
+## Definition
+User attribution links generated content to the specific user, customer, or model copy that produced it.
 
-## 典型流程
-1. Provider 或 distributor 为每个用户分配唯一 fingerprint。
-2. 生成图像以不可见方式携带该 fingerprint。
-3. Verifier 从可疑图像中提取候选 fingerprint。
-4. 系统用 statistical test 把提取结果与已注册用户 fingerprints 比对。
+## Typical Workflow
+1. A provider or distributor assigns a unique fingerprint to each user.
+2. Generated images carry that fingerprint invisibly.
+3. A verifier extracts a candidate fingerprint from a suspicious image.
+4. A statistical test compares the extracted bits with registered user fingerprints.
 
-## 为什么比检测更难
-Detection 只问图像是否来自某个 model family；attribution 要问大量候选用户中的哪一个生成了图像。用户数量越大，false positive control 越严格，匹配阈值通常也要更高。
+## Why It Is Harder Than Detection
+Detection asks whether an image came from a model family. Attribution asks which user among many candidates generated it. As the user population grows, false-positive control becomes stricter and the matching threshold generally must increase.
 
-## 相关论文
-- [[fernandez-2023-stable-signature]] 用 binomial tests 建模 detection 和 identification。
-- [[kim-2024-wouaf]] 聚焦 distributor-oriented attribution。
-- [[fei-2025-omnimark]] 聚焦 scalable per-user fingerprint generation。
+## Related Papers
+- [[fernandez-2023-stable-signature]] models detection and identification with binomial tests.
+- [[kim-2024-wouaf]] focuses on distributor-oriented attribution.
+- [[fei-2025-omnimark]] focuses on scalable per-user fingerprint generation.
+- [[dai-2026-secure-distribution]] adds a collusion-defense mechanism: user copies remain functionally equivalent before collusion, while the evaluated merges damage usability when traceability is removed.
 
-## 边界案例
+## Collusion Boundary
 
-[[tree-ring-watermark]] 和 stableguard 都能支持 provenance 或 copyright verification，但它们当前不是大规模 user attribution 的主要证据：前者的多 key capacity 尚未证明，后者主要面向 tamper localization。
+Fast copy generation and high bit accuracy do not establish collusion resistance. A distribution protocol must state whether it seeks to identify colluders, make colluded copies unusable, or merely preserve a watermark after a merge. [[secure-distribution]] supplies evidence for the second objective, not the first.
+
+## Boundary Cases
+
+[[tree-ring-watermark]] and [[stableguard]] support provenance or copyright verification, but they are not primary evidence for large-scale user attribution. Tree-Ring has not established multi-key capacity, while StableGuard primarily targets tamper localization.

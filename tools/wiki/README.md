@@ -20,7 +20,7 @@ and `research-reference-scout`.
 | `make_batches.py` | Split genuinely new papers or explicit lists into batches. | `--size`, `--input`, `--json` |
 | `corpus_counts.py` | Exact page counts per wiki type plus raw/sources count and log size. | `--json` |
 | `process_refs.py` | Find process narration that leaked into pages other than `wiki/log.md`. | `--json` |
-| `language_audit.py` | Block wrong-language wiki pages; agent-facing prose should be concise English, with Chinese reserved for orientation/navigation pages. | `--json` |
+| `language_audit.py` | Block wrong-language wiki pages; agent-facing prose must be English, while exact filenames in frontmatter/code literals and Chinese navigation pages remain allowed. | `--json` |
 | `index_audit.py` | Reconcile wiki page inventory against `wiki/index.md`. | `--ignore`, `--json` |
 | `frontmatter_audit.py` | Lint frontmatter structure, required keys, type-directory consistency, H1, and self-references. | `--type`, `--show-soft`, `--ignore`, `--json` |
 | `entity_roster_audit.py` | Advisory cross-check for author/tool entity rosters against source pages. | `--input`, `--json` |

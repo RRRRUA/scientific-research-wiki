@@ -4,7 +4,7 @@ title: "WOUAF Generates User-Fingerprinted Models under One Second"
 tags: [finding, wouaf, scalability, user-attribution, weight-modulation]
 related: ["[[kim-2024-wouaf]]", "[[user-attribution]]", "[[generative-model-fingerprinting]]", "[[how-to-scale-user-attribution-for-ldm]]", "[[decoder-fingerprinting-scalability-comparison]]"]
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-16
 source: "[[kim-2024-wouaf]]"
 confidence: high
 replicated: false
@@ -12,18 +12,18 @@ replicated: false
 
 # WOUAF Generates User-Fingerprinted Models under One Second
 
-## 发现
+## Finding
 
-[[kim-2024-wouaf]] 把 per-user fingerprint generation 从 fine-tuning 问题转成 weight modulation forward pass，因此报告的 user-specific model creation 时间低于 1 秒。
+[[kim-2024-wouaf]] turns per-user fingerprint generation from a fine-tuning problem into a weight-modulation forward pass, reporting user-specific model creation in under one second.
 
-## 证据
+## Evidence
 
-WOUAF raw parse 的 Table 1 比较了 fingerprinting time：DAG 为 8.4 hr，Stable Signature 为 `< 1 min`，WOUAF-conv 和 WOUAF-all 都为 `< 1 sec`。论文正文还说明，WOUAF 在一次训练后只需为用户 fingerprint 运行轻量 forward pass，即可调制 decoder weights。
+Table 1 compares fingerprinting time: 8.4 hr for DAG, `< 1 min` for Stable Signature, and `< 1 sec` for WOUAF-conv and WOUAF-all. The paper also states that after one training stage, WOUAF only needs a lightweight forward pass over the user fingerprint to modulate decoder weights.
 
-## 解释
+## Interpretation
 
-这个结果直接支撑本项目 hypothesis：大规模 user attribution 不应依赖每个用户重新 fine-tune，而应通过 weight modulation 或 weight encoding 生成用户特定副本。
+This directly supports the project's hypothesis that large-scale user attribution should create user-specific copies through weight modulation or weight encoding rather than per-user fine-tuning.
 
-## 注意
+## Caveat
 
-`< 1 sec` 是论文环境中的模型生成成本，不等于完整平台分发成本。真实系统还要考虑模型存储、下载、数据库登记、密钥管理和 verifier 部署。
+`< 1 sec` is the model-creation cost in the paper's environment, not total platform distribution cost. A real system must also account for model storage, download, registry operations, key management, and verifier deployment.

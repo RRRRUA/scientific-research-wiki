@@ -4,11 +4,11 @@ title: "OmniMark"
 tags: [method, scalable-fingerprinting, latent-diffusion]
 related: ["[[fei-2025-omnimark]]", "[[user-attribution]]", "[[generative-model-fingerprinting]]"]
 created: 2026-06-08
-updated: 2026-06-08
+updated: 2026-07-16
 ---
 
 # OmniMark
 
-OmniMark 是 [[fei-2025-omnimark]] 提出的 LDM 指纹方法，目标是在保持生成质量的同时快速生成带唯一用户指纹的模型副本。
+OmniMark is an LDM fingerprinting method introduced by [[fei-2025-omnimark]]. It creates model copies with unique user fingerprints quickly while preserving generation quality.
 
-它的关键价值是 scalable fingerprinted model generation：经过一次训练后，可以用权重编码快速产生不同用户的模型副本。
+Its central value is scalable fingerprinted model generation: after one training stage, weight encoding can rapidly produce model copies for different users.

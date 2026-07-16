@@ -2,26 +2,28 @@
 type: concept
 title: "Post-hoc Image Watermarking"
 tags: [image-watermarking, post-hoc-watermarking, watermark-robustness, copyright-protection]
-related: ["[[hfrw]]", "[[advmark]]", "[[ping-2026-hfrw]]", "[[chen-2026-advmark]]", "[[localized-invisible-watermarking]]", "[[watermark-robustness]]", "[[latent-diffusion-watermarking]]"]
+related: ["[[advmark]]", "[[trustmark]]", "[[hfrw]]", "[[watermark-anything]]", "[[editguard]]", "[[omniguard]]", "[[chen-2026-advmark]]", "[[bui-2023-trustmark]]", "[[ping-2026-hfrw]]", "[[sander-2025-watermark-anything]]", "[[zhang-2023-editguard]]", "[[zhang-2025-omniguard]]", "[[localized-invisible-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[watermark-robustness]]", "[[latent-diffusion-watermarking]]"]
 created: 2026-06-17
-updated: 2026-06-17
-sources: ["HFRW_High_Fidelity_and_Robust_Watermarking_using_Deep_Reinforcement_Learning.pdf-1d97070b-78d6-4eb4-a7a0-f24fbfba014c/full.md", "Chen 等 - 2026 - Decoupling Defense Strategies for Robust Image Watermarking.pdf-8147032b-37f6-4091-8de2-a8ec3a76b5f6/full.md"]
+updated: 2026-07-06
+sources: ["Chen 等 - 2026 - Decoupling Defense Strategies for Robust Image Watermarking.pdf-8147032b-37f6-4091-8de2-a8ec3a76b5f6/full.md", "Bui 等 - 2023 - TrustMark Universal Watermarking for Arbitrary Resolution Images.pdf-28de830f-aa55-4f9a-b0ee-83e4bffaa789/full.md"]
 ---
 
 # Post-hoc Image Watermarking
 
-Post-hoc image watermarking 指在图像已经生成或取得之后，再通过 encoder、patch embedding、image optimization 等方式把 watermark message 写入像素空间。它不同于 [[latent-diffusion-watermarking]]：后者把 provenance signal 放进 generation workflow，例如 decoder、initial noise 或 model weights。
+Post-hoc image watermarking embeds a watermark after an image already exists, usually in pixel space through an encoder, local patch embedding, residual scaling, or image optimization. It differs from [[latent-diffusion-watermarking]], where the provenance signal is rooted inside the generation workflow, such as the decoder, initial noise, or model weights.
 
-## 当前语料中的两条路线
+## Current Routes in the Corpus
 
-[[ping-2026-hfrw]] 代表 localized invisible watermarking：只在局部 patch 中嵌入 watermark，以降低整图质量损失和 file size growth rate。
+ping-2026-hfrw represents localized invisible watermarking. It embeds only in a selected local patch to reduce whole-image distortion and file size growth.
 
-[[chen-2026-advmark]] 代表 advanced-attack oriented robust watermarking：不主打局部嵌入，而是把 adversarial attack defense 与 distortion / regeneration defense 拆成两个阶段。
+[[chen-2026-advmark]] represents advanced-attack-oriented robust watermarking. It does not focus on local embedding; instead, it separates adversarial defense from distortion and regeneration defense.
 
-## 评价维度
+[[bui-2023-trustmark]] represents arbitrary-resolution asset watermarking. It uses a fixed-resolution neural watermarking model, residual-based resolution scaling, and TrustMark-RM for watermark removal and re-watermarking workflows.
 
-Post-hoc image watermarking 通常更关注 PSNR、SSIM、LPIPS、file size growth、bit accuracy 和 image post-processing robustness。AdvMark 进一步把 diffusion regeneration 和 adversarial attacks 纳入核心评估，说明 conventional distortions 之外还需要单独衡量 advanced removal attacks。
+## Evaluation Dimensions
 
-## 与 diffusion-native 方法的边界
+Post-hoc image watermarking usually emphasizes PSNR, SSIM, LPIPS, file size growth, bit accuracy, payload size, image post-processing robustness, and deployment cost. AdvMark adds diffusion regeneration and adversarial removal to this evaluation frame. TrustMark adds arbitrary-resolution behavior and re-watermarking quality.
 
-Post-hoc image watermarking 可以保护普通图像，也可以作为 generated images 的后处理步骤，但它通常不能证明图像来自某个特定 model copy，也不天然解决大规模 [[user-attribution]]。因此它适合作为 LDM provenance 的外部对照，而不是替代 [[stable-signature]]、[[tree-ring-watermark]]、[[wouaf]]、[[omnimark]] 或 [[stableguard]]。
+## Boundary with Diffusion-native Methods
+
+Post-hoc image watermarking can protect ordinary images and can also be applied to generated images after generation. By itself, however, it usually cannot prove that an image came from a specific model copy or solve large-scale [[user-attribution]]. It is therefore an external comparator for LDM provenance rather than a replacement for [[stable-signature]], [[tree-ring-watermark]], [[wouaf]], [[omnimark]], or [[stableguard]].

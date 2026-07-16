@@ -2,7 +2,7 @@
 type: concept
 title: "Fourier Noise Watermarking"
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-16
 tags: [fourier-transform, diffusion-noise, watermarking, robustness]
 related: ["[[tree-ring-watermark]]", "[[ddim-inversion-for-watermark-detection]]", "[[watermark-robustness]]", "[[latent-diffusion-watermarking]]", "[[generative-model-fingerprinting]]"]
 sources: ["Wen 等 - 2023 - Tree-Ring Watermarks Fingerprints for Diffusion Images that are Invisible and Robust.pdf-009a7e2b-80bb-48a7-bf25-28b175fc8239/full.md"]
@@ -10,16 +10,16 @@ sources: ["Wen 等 - 2023 - Tree-Ring Watermarks Fingerprints for Diffusion Imag
 
 # Fourier Noise Watermarking
 
-Fourier noise watermarking 是把 watermark signal 写入 diffusion model 初始 noise 的 Fourier coefficients，而不是写入最终图像或 decoder weights。[[tree-ring-watermark]] 是本 wiki 中这个路线的代表。
+Fourier noise watermarking writes a watermark signal into the Fourier coefficients of a diffusion model's initial noise rather than into the final image or decoder weights. [[tree-ring-watermark]] represents this route in the wiki.
 
-## 为什么使用 Fourier space
+## Why Fourier Space
 
-Fourier transform 对 rotation、translation、cropping、scaling 等图像变换有可分析的结构关系。Tree-Ring 把 key 放进 circular 或 ring-shaped mask 中，使检测器在常见 image transformations 后仍有机会从恢复出的初始 noise 中找到 key。
+The Fourier transform has analyzable structural relationships with image transformations such as rotation, translation, cropping, and scaling. Tree-Ring places a key in a circular or ring-shaped mask so the detector can still recover it from estimated initial noise after common image transformations.
 
-## 与图像水印的区别
+## Difference from Image Watermarking
 
-传统 Fourier image watermarking 通常改动最终图像的频域系数。Fourier noise watermarking 则在 generation before image formation 阶段改动初始 noise。最终图像并没有一个简单的后处理叠加 pattern，而是保留了被控制 sampling trajectory 的统计痕迹。
+Conventional Fourier image watermarking modifies frequency-domain coefficients of the final image. Fourier noise watermarking instead changes the initial noise before image formation. The output does not contain a simple post-hoc overlay; it retains statistical traces of a controlled sampling trajectory.
 
-## 与鲁棒性的关系
+## Relation to Robustness
 
-Tree-Ring 的实验表明，ring-shaped variant 对多种单一 common image transformations 有较强 AUC。但这不是绝对鲁棒：多个攻击叠加时，检测性能会下降；不同 key pattern 也有不同弱点。
+Tree-Ring experiments show strong AUC for the ring-shaped variant under many individual common image transformations. This is not absolute robustness: detection declines under combined attacks, and different key patterns have different weaknesses.
