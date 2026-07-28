@@ -2,9 +2,9 @@
 type: concept
 title: "Watermark Robustness"
 tags: [watermarking, robustness, adversarial-attacks]
-related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[tree-ring-watermark]]", "[[stableguard]]", "[[hfrw]]", "[[advmark]]", "[[trustmark]]", "[[secure-distribution]]", "[[watermark-anything]]", "[[omniguard]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]"]
+related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[tree-ring-watermark]]", "[[stableguard]]", "[[ftfaw]]", "[[hfrw]]", "[[advmark]]", "[[trustmark]]", "[[secure-distribution]]", "[[watermark-anything]]", "[[omniguard]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]"]
 created: 2026-06-07
-updated: 2026-07-06
+updated: 2026-07-20
 ---
 
 # Watermark Robustness
@@ -28,6 +28,8 @@ For model fingerprinting, white-box users may try to weaken a fingerprint throug
 - [[wen-2023-tree-ring-watermarks]] shows that initial-noise Fourier watermarking can maintain high AUC under many common image transformations without post-hoc image editing.
 
 - [[kim-2024-wouaf]] improves robustness to image post-processing relative to Stable Signature in its evaluation.
+
+- [[pan-2025-ftfaw]] treats post-processing robustness as a curriculum: the attack layer starts with one low-intensity operation and expands after fingerprint recovery crosses a threshold. Its 128-bit ablation reports much higher convergence with this dynamic layer than with static augmentation.
 
 - [[fei-2025-omnimark]] uses noise-layer training and sharpness-aware robustness to improve resistance to image attacks and model attacks.
 

@@ -5,8 +5,8 @@ aliases: ["Decoupling Defense Strategies for Robust Image Watermarking"]
 tags: [method, image-watermarking, robust-watermarking, adversarial-training, post-hoc-image-watermarking]
 related: ["[[chen-2026-advmark]]", "[[post-hoc-image-watermarking]]", "[[watermark-robustness]]", "[[advmark-decoupled-training-preserves-clean-accuracy]]", "[[advmark-improves-quality-over-joint-training-baselines]]", "[[advmark-improves-comprehensive-robustness-against-advanced-attacks]]", "[[advmark-ablation-shows-two-defense-stages-are-complementary]]"]
 created: 2026-06-17
-updated: 2026-07-16
-sources: ["Chen 等 - 2026 - Decoupling Defense Strategies for Robust Image Watermarking.pdf-8147032b-37f6-4091-8de2-a8ec3a76b5f6/full.md", "Chen 等 - 2026 - Decoupling Defense Strategies for Robust Image Watermarking.pdf-8147032b-37f6-4091-8de2-a8ec3a76b5f6/2e67c9e1-0e9f-47d0-b921-f7013c3073cd_origin.pdf"]
+updated: 2026-07-27
+sources: ["Chen 等 - 2026 - Decoupling Defense Strategies for Robust Image Watermarking.pdf-8147032b-37f6-4091-8de2-a8ec3a76b5f6/full.md", "Chen 等 - 2026 - Decoupling Defense Strategies for Robust Image Watermarking.pdf-8147032b-37f6-4091-8de2-a8ec3a76b5f6/2e67c9e1-0e9f-47d0-b921-f7013c3073cd_origin.pdf", "Chen 等 - 2026 - Decoupling Defense Strategies for Robust Image Watermarking.pdf-c4be9a35-2d88-4885-b7f2-444e7115fc31/full.md", "Chen 等 - 2026 - Decoupling Defense Strategies for Robust Image Watermarking.pdf-c4be9a35-2d88-4885-b7f2-444e7115fc31/b74a3a72-87ec-4448-9c0f-051e723fb9f2_origin.pdf"]
 ---
 
 # AdvMark

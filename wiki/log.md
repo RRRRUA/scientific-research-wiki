@@ -4,10 +4,20 @@ title: "Wiki Log"
 tags: [log, research-wiki]
 related: ["[[overview]]"]
 created: 2026-06-07
-updated: 2026-07-16
+updated: 2026-07-27
 ---
 
 # Wiki Log
+
+## 2026-07-27
+
+- 按 `research-wiki-curator` 核对新增 raw source，确认其标题、作者、方法与实验结果均对应已入库的 [[chen-2026-advmark]]；将第二份 MinerU parse 与 origin PDF 归并到 canonical source 和 [[advmark]] entity，避免重复建页与重复计数。
+- 按 `research-wiki-synthesizer` 复核 AdvMark 的 4 个既有 findings 及相关综合链接；新增 parse 未提供需要单独建 finding、comparison 或 thesis 的新证据，因此保留现有分析结构。
+
+## 2026-07-20
+
+- 按 `research-wiki-curator` 入库 [[pan-2025-ftfaw]]，并新增方法实体 [[ftfaw]]；证据覆盖 two-stage fine-tuning、adaptive loss weighting、dynamic post-processing、质量、robustness 与 sampled-pool tracing。
+- 按 `research-wiki-synthesizer` 新增 3 个 FTFAW findings，并更新 decoder fingerprinting comparison、user-attribution query、working thesis、综合页、概念页与中文导航。
 
 ## 2026-07-16
 

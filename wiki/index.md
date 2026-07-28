@@ -2,9 +2,9 @@
 type: overview
 title: "Wiki Index"
 tags: [index, research-wiki]
-related: ["[[overview]]", "[[diffusion-model-fingerprinting-comparison]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[advmark]]", "[[trustmark]]", "[[wmadapter]]", "[[secure-distribution]]", "[[msat-ldm]]", "[[watermark-anything]]", "[[editguard]]", "[[omniguard]]"]
+related: ["[[overview]]", "[[diffusion-model-fingerprinting-comparison]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[advmark]]", "[[trustmark]]", "[[wmadapter]]", "[[secure-distribution]]", "[[msat-ldm]]", "[[watermark-anything]]", "[[editguard]]", "[[omniguard]]", "[[ftfaw]]"]
 created: 2026-06-11
-updated: 2026-07-16
+updated: 2026-07-27
 ---
 
 # Wiki Index
@@ -30,6 +30,7 @@ updated: 2026-07-16
 - [[watermark-anything]] — Watermark Anything 方法实体。
 - [[editguard]] — EditGuard 方法实体。
 - [[omniguard]] — OmniGuard 方法实体。
+- [[ftfaw]] — FTFAW 方法实体。
 
 ## Concepts
 
@@ -51,6 +52,7 @@ updated: 2026-07-16
 - [[fernandez-2023-stable-signature]] — Stable Signature: Rooting watermarks in latent diffusion models。
 - [[wen-2023-tree-ring-watermarks]] — Tree-Ring Watermarks: Fingerprints for Diffusion Images that are Invisible and Robust。
 - [[kim-2024-wouaf]] — WOUAF: Weight Modulation for User Attribution and Fingerprinting。
+- [[pan-2025-ftfaw]] — FTFAW: Two-Stage Fine-Tuning and Adaptive Loss Weighting for LDM Fingerprinting。
 - [[fei-2025-omnimark]] — OmniMark: Efficient and Scalable Latent Diffusion Model Fingerprinting。
 - [[yang-2025-stableguard]] — StableGuard: Copyright protection and tamper localization in LDMs。
 - [[chen-2026-advmark]] — AdvMark: Decoupling Defense Strategies for Robust Image Watermarking。
@@ -107,6 +109,9 @@ updated: 2026-07-16
 - [[watermark-anything-decodes-localized-messages-from-small-regions]] — WAM 从小区域定位并解码多个 watermark messages。
 - [[editguard-separates-copyright-recovery-from-tamper-localization]] — EditGuard 分离 copyright recovery 与 tamper localization。
 - [[omniguard-improves-localization-under-degradation]] — OmniGuard 在 reported degradation 下改善 localization F1。
+- [[ftfaw-improves-fidelity-with-near-perfect-robustness]] — FTFAW 在报告的鲁棒性下提升 fingerprinted image fidelity。
+- [[ftfaw-traces-one-million-user-pool]] — FTFAW 在采样的百万用户池上报告完美 tracing accuracy。
+- [[ftfaw-dynamic-postprocessing-converges-at-128-bits]] — FTFAW 的 dynamic post-processing 支持 128-bit fingerprint training convergence。
 
 ## References
 

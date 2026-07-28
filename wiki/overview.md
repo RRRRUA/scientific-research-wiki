@@ -2,9 +2,9 @@
 type: overview
 title: "项目概览"
 tags: [overview, latent-diffusion, watermarking, fingerprinting, user-attribution, tamper-localization]
-related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[decoder-fingerprinting-scalability-comparison]]", "[[decoder-rooted-fingerprinting-scales-through-weight-encoding]]", "[[advmark]]", "[[trustmark]]", "[[wmadapter]]", "[[secure-distribution]]", "[[msat-ldm]]", "[[watermark-anything]]", "[[editguard]]", "[[omniguard]]"]
+related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[decoder-fingerprinting-scalability-comparison]]", "[[decoder-rooted-fingerprinting-scales-through-weight-encoding]]", "[[advmark]]", "[[trustmark]]", "[[wmadapter]]", "[[secure-distribution]]", "[[msat-ldm]]", "[[watermark-anything]]", "[[editguard]]", "[[omniguard]]", "[[ftfaw]]"]
 created: 2026-06-11
-updated: 2026-07-16
+updated: 2026-07-27
 ---
 
 # 项目概览
@@ -13,11 +13,14 @@ updated: 2026-07-16
 
 ## 当前语料
 
-当前语料包含八篇 latent diffusion / generative provenance 论文，以及六篇 post-hoc / proactive image watermarking 对照论文：
+当前语料包含九篇 latent diffusion / generative provenance 论文，以及六篇 post-hoc / proactive image watermarking 对照论文：
+
+其中 AdvMark 的两份 MinerU parse 已归并到同一个 canonical source [[chen-2026-advmark]]，不重复计入论文数量。
 
 - [[fernandez-2023-stable-signature]]：把 signature root 到 latent decoder，用于 generated-image detection 和有限 user identification。
 - [[wen-2023-tree-ring-watermarks]]：把 key pattern 写入 initial noise 的 Fourier space，并通过 [[ddim-inversion-for-watermark-detection]] 检测。
 - [[kim-2024-wouaf]]：用 user fingerprint 调制 decoder weights，面向 distributor-side user attribution。
+- [[pan-2025-ftfaw]]：以 two-stage fine-tuning、adaptive loss weighting 和 dynamic post-processing 改善 decoder weight modulation 的 fidelity / robustness trade-off。
 - [[fei-2025-omnimark]]：用 OmniMark layers 在 VAE decoder weights 的多个维度编码 fingerprint，强调快速生成大量 fingerprinted model copies。
 - [[yang-2025-stableguard]]：用 MPW-VAE 和 MoE-GFN 把 copyright verification 与 [[tamper-localization-for-generated-images]] 放进 unified diffusion-native framework。
 - [[ping-2026-hfrw]]：用 localized invisible watermarking 和 deep reinforcement learning 保护普通高分辨率图像，是 post-hoc / image-level watermarking 的 fidelity 对照路线。
@@ -38,7 +41,7 @@ updated: 2026-07-16
 
 ## 当前结论
 
-Decoder-rooted watermarking 是 LDM provenance 的实用起点，但大规模 user attribution 更可能依赖 weight modulation 或 multi-dimensional weight encoding，而不是为每个用户单独 fine-tune decoder。Tree-Ring 说明 initial-noise watermarking 可以在不训练模型的情况下提供强 provenance detection，但多 key capacity 仍是开放问题。StableGuard 说明同一个 watermark signal 可以进一步服务 tamper localization。
+Decoder-rooted watermarking 是 LDM provenance 的实用起点，但大规模 user attribution 更可能依赖 weight modulation 或 multi-dimensional weight encoding，而不是为每个用户单独 fine-tune decoder。FTFAW 进一步说明这条路线的核心优化目标不只在 distribution speed，也在于先稳定 fingerprint learning、再恢复 image-quality optimization。Tree-Ring 说明 initial-noise watermarking 可以在不训练模型的情况下提供强 provenance detection，但多 key capacity 仍是开放问题。StableGuard 说明同一个 watermark signal 可以进一步服务 tamper localization。
 
 WMAdapter 和 MSAT-LDM 说明 adapter / modular route 可以把 flexible message control、training-data alignment 与 model-variant transfer 单独优化；Secure Distribution 进一步把 white-box collusion 加入分发模型的 threat model。现有证据表明“抗合谋”需要单独区分：让 colluded model 不可用不等于识别全部 colluders。
 
@@ -48,6 +51,7 @@ HFRW、AdvMark、TrustMark、WAM、EditGuard 和 OmniGuard 说明 post-hoc / pro
 
 - Stable Signature 支持低 FPR generated-image detection，但 user identification 会随用户规模和 image edits 下降。
 - WOUAF 和 OmniMark 把用户差异编码到权重或权重层中，明显更接近平台分发场景。
+- FTFAW 在其采样的 `10^4`、`10^5`、`10^6` user pools 上报告 `1.000` tracing accuracy，并在相同 Table II 中以更高 PSNR/SSIM 和更低 LPIPS 对比 WOUAF-Robust。
 - Tree-Ring 把 watermark 放进 sampling process，强化 private provenance verification。
 - StableGuard 把 proactive watermarking 与 tamper localization 结合，在 AIGC tampering benchmark 上报告高 F1/AUC/IoU。
 - HFRW 在 ordinary image watermarking 中报告高 PSNR/SSIM、低 FSVR 和常见攻击下较高 bit accuracy，但 severe cropping 是局部嵌入弱点。

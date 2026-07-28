@@ -2,9 +2,9 @@
 type: synthesis
 title: "Diffusion Model Fingerprinting Comparison"
 tags: [synthesis, latent-diffusion, watermarking, fingerprinting, user-attribution, tamper-localization]
-related: ["[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[kim-2024-wouaf]]", "[[fei-2025-omnimark]]", "[[yang-2025-stableguard]]", "[[ci-2024-wmadapter]]", "[[dai-2026-secure-distribution]]", "[[zhang-2026-msat-ldm]]", "[[ping-2026-hfrw]]", "[[sander-2025-watermark-anything]]", "[[zhang-2023-editguard]]", "[[zhang-2025-omniguard]]", "[[chen-2026-advmark]]", "[[bui-2023-trustmark]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[decoder-fingerprinting-scalability-comparison]]", "[[decoder-rooted-fingerprinting-scales-through-weight-encoding]]"]
+related: ["[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[kim-2024-wouaf]]", "[[pan-2025-ftfaw]]", "[[fei-2025-omnimark]]", "[[yang-2025-stableguard]]", "[[ci-2024-wmadapter]]", "[[dai-2026-secure-distribution]]", "[[zhang-2026-msat-ldm]]", "[[ping-2026-hfrw]]", "[[sander-2025-watermark-anything]]", "[[zhang-2023-editguard]]", "[[zhang-2025-omniguard]]", "[[chen-2026-advmark]]", "[[bui-2023-trustmark]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[decoder-fingerprinting-scalability-comparison]]", "[[decoder-rooted-fingerprinting-scales-through-weight-encoding]]"]
 created: 2026-06-07
-updated: 2026-07-16
+updated: 2026-07-20
 ---
 
 # Diffusion Model Fingerprinting Comparison
@@ -20,6 +20,7 @@ The wiki's central question is still diffusion and generative model provenance. 
 | [[fernandez-2023-stable-signature]] | Fine-tune the LDM decoder so generated images carry a fixed binary signature | Generated-image detection and limited user identification | Clear foundation, but per-signature training is not ideal for large user distribution |
 | [[wen-2023-tree-ring-watermarks]] | Write a key pattern into the initial noise Fourier space, then detect through DDIM inversion | Provenance detection / model-owner verification | No model training required, but multi-key user-attribution capacity is not established |
 | [[kim-2024-wouaf]] | Modulate decoder weights with a user fingerprint | Distributor-side user attribution | More scalable than per-user training; reports user model generation under 1 second |
+| [[pan-2025-ftfaw]] | Decoder-convolution weight modulation with two-stage fine-tuning, adaptive quality weights, and dynamic post-processing | Quality-focused multi-user LDM fingerprinting | Reports perfect tracing in sampled pools through `10^6` users, but lacks collusion and model-replacement evaluation |
 | [[fei-2025-omnimark]] | OmniMark layers plus multi-dimensional decoder weight encoding | Scalable model-copy fingerprinting | Strongest fast-distribution evidence in the corpus; reports fingerprinted model copies under 100 ms |
 | [[ci-2024-wmadapter]] | Contextual VAE-decoder adapter conditioned on bits and decoder features | Flexible diffusion-native message embedding | Avoids per-message decoder copies; quality/robustness trade-off remains explicit |
 | [[dai-2026-secure-distribution]] | Lie-group LoRA watermarking plus paired spectral weight transforms | Anti-collusion model distribution | Evaluated merges make watermark recovery random only with severe output degradation; not traitor tracing |
@@ -47,7 +48,7 @@ The wiki's central question is still diffusion and generative model provenance. 
 The wiki should keep these tasks separate:
 
 1. Generated-image detection: decide whether an image came from a watermarked generation flow. Stable Signature and Tree-Ring are core evidence.
-2. User attribution: identify the user, key, or model copy. WOUAF and OmniMark are core evidence.
+2. User attribution: identify the user, key, or model copy. WOUAF, FTFAW, and OmniMark are core evidence.
 3. Tamper localization: identify which image regions were modified. StableGuard, EditGuard, and OmniGuard are core proactive evidence; WAM localizes watermark evidence rather than directly asserting a tamper mask.
 4. Ordinary image copyright traceability: protect non-generated or already-generated image assets. HFRW, WAM, and TrustMark are post-hoc comparators.
 5. Advanced watermark removal robustness: distinguish conventional distortions, diffusion regeneration, adversarial examples, and watermark removal/replacement. AdvMark and TrustMark contribute evidence here.
@@ -61,7 +62,8 @@ The corpus still needs stronger platform-level evidence: larger user counts, exp
 ## Evidence Index
 
 - Detection / identification foundations: [[stable-signature-detects-generated-images-at-low-fpr]], [[stable-signature-user-identification-degrades-with-scale-and-edits]].
-- Scalability path: [[wouaf-generates-user-fingerprinted-models-under-one-second]], [[omnimark-generates-fingerprinted-model-copies-under-100-ms]].
+- Scalability path: [[wouaf-generates-user-fingerprinted-models-under-one-second]], [[ftfaw-traces-one-million-user-pool]], [[omnimark-generates-fingerprinted-model-copies-under-100-ms]].
+- Weight-modulation quality/robustness trade-off: [[ftfaw-improves-fidelity-with-near-perfect-robustness]], [[ftfaw-dynamic-postprocessing-converges-at-128-bits]].
 - Adapter and transferability: [[wmadapter-hybrid-finetuning-improves-image-quality]].
 - Collusion boundary: [[secure-distribution-collusion-removal-destroys-model-utility]].
 - Quality and robustness: [[wouaf-decoder-only-modulation-preserves-quality-better]], [[omnimark-maintains-high-bit-accuracy-with-low-quality-impact]], [[stableguard-maintains-watermark-accuracy-under-degradation-and-tampering]], [[hfrw-local-watermarking-improves-fidelity-and-file-size-growth]], [[advmark-improves-quality-over-joint-training-baselines]], [[trustmark-achieves-high-quality-watermarking-on-arbitrary-resolution-benchmarks]].

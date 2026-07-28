@@ -2,9 +2,9 @@
 type: concept
 title: "Latent Diffusion Watermarking"
 tags: [latent-diffusion-models, watermarking, stable-diffusion]
-related: ["[[generative-model-fingerprinting]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[tamper-localization-for-generated-images]]", "[[localized-invisible-watermarking]]", "[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[fei-2025-omnimark]]", "[[kim-2024-wouaf]]", "[[yang-2025-stableguard]]", "[[ci-2024-wmadapter]]", "[[dai-2026-secure-distribution]]", "[[zhang-2026-msat-ldm]]", "[[ping-2026-hfrw]]"]
+related: ["[[generative-model-fingerprinting]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[tamper-localization-for-generated-images]]", "[[localized-invisible-watermarking]]", "[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[fei-2025-omnimark]]", "[[kim-2024-wouaf]]", "[[pan-2025-ftfaw]]", "[[yang-2025-stableguard]]", "[[ci-2024-wmadapter]]", "[[dai-2026-secure-distribution]]", "[[zhang-2026-msat-ldm]]", "[[ping-2026-hfrw]]"]
 created: 2026-06-07
-updated: 2026-07-16
+updated: 2026-07-20
 ---
 
 # Latent Diffusion Watermarking
@@ -24,6 +24,8 @@ Stable Diffusion-style models denoise in latent space and then use a decoder to 
 - [[wen-2023-tree-ring-watermarks]] embeds a ring-shaped key in the Fourier space of the initial noise and detects it through DDIM inversion.
 
 - [[kim-2024-wouaf]] uses weight modulation to generate user-specific fingerprints in T2I diffusion models.
+
+- [[pan-2025-ftfaw]] uses decoder weight modulation with staged fine-tuning and dynamic robustness training to improve the reported fidelity of fingerprinted images.
 
 - [[fei-2025-omnimark]] modifies the VAE decoder with OmniMark layers to support scalable fingerprint generation.
 

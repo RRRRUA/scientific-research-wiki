@@ -10,10 +10,11 @@
 
 ## Background
 
-This project currently studies eight latent-diffusion-focused papers plus six image-watermarking and proactive-forensics comparators:
+This project currently studies nine latent-diffusion-focused papers plus six image-watermarking and proactive-forensics comparators:
 
 - [[fernandez-2023-stable-signature]] roots invisible watermarks in the latent decoder.
 - [[kim-2024-wouaf]] uses weight modulation for distributor-oriented user attribution.
+- [[pan-2025-ftfaw]] uses two-stage fine-tuning and adaptive loss weighting to improve the quality-robustness trade-off of decoder weight modulation.
 - [[fei-2025-omnimark]] improves scalability by rapidly generating uniquely fingerprinted model copies.
 - [[wen-2023-tree-ring-watermarks]] embeds watermark keys into the initial diffusion noise in Fourier space and detects them through DDIM inversion.
 - [[yang-2025-stableguard]] integrates a binary watermark into the LDM VAE decoder and uses it for both copyright verification and tamper localization.
@@ -73,7 +74,7 @@ The motivating gap is accountability for AI-generated images: platforms and mode
 
 ## Current Status
 
-> Started on 2026-06-07. Fourteen papers have been imported, summarized, and linked into the wiki.
+> Started on 2026-06-07. Fifteen papers have been imported, summarized, and linked into the wiki.
 
 ## Language Policy
 

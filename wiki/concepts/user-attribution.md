@@ -2,9 +2,9 @@
 type: concept
 title: "User Attribution"
 tags: [attribution, accountability, model-distribution]
-related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[watermark-capacity-for-user-attribution]]", "[[how-to-scale-user-attribution-for-ldm]]", "[[secure-distribution]]", "[[dai-2026-secure-distribution]]"]
+related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[watermark-capacity-for-user-attribution]]", "[[how-to-scale-user-attribution-for-ldm]]", "[[ftfaw]]", "[[pan-2025-ftfaw]]", "[[secure-distribution]]", "[[dai-2026-secure-distribution]]"]
 created: 2026-06-07
-updated: 2026-07-16
+updated: 2026-07-20
 ---
 
 # User Attribution
@@ -25,6 +25,7 @@ Detection asks whether an image came from a model family. Attribution asks which
 - [[fernandez-2023-stable-signature]] models detection and identification with binomial tests.
 - [[kim-2024-wouaf]] focuses on distributor-oriented attribution.
 - [[fei-2025-omnimark]] focuses on scalable per-user fingerprint generation.
+- [[pan-2025-ftfaw]] adds a quality-focused two-stage optimization schedule and reports perfect tracing in its sampled `10^4`, `10^5`, and `10^6` user-pool evaluations.
 - [[dai-2026-secure-distribution]] adds a collusion-defense mechanism: user copies remain functionally equivalent before collusion, while the evaluated merges damage usability when traceability is removed.
 
 ## Collusion Boundary
