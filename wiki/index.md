@@ -2,9 +2,9 @@
 type: overview
 title: "Wiki Index"
 tags: [index, research-wiki]
-related: ["[[overview]]", "[[diffusion-model-fingerprinting-comparison]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[advmark]]", "[[trustmark]]", "[[wmadapter]]", "[[secure-distribution]]", "[[msat-ldm]]", "[[watermark-anything]]", "[[editguard]]", "[[omniguard]]", "[[ftfaw]]"]
+related: ["[[overview]]", "[[diffusion-model-fingerprinting-comparison]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[decoder-fingerprinting-scalability-comparison]]", "[[anti-collusion-model-distribution-comparison]]", "[[inversion-watermark-robustness-comparison]]", "[[watermark-verification-operands]]", "[[latentshield]]", "[[syntag]]", "[[molm]]", "[[genptw]]", "[[robin]]", "[[robin-plus-plus]]", "[[latent-watermark]]"]
 created: 2026-06-11
-updated: 2026-07-27
+updated: 2026-09-08
 ---
 
 # Wiki Index
@@ -31,6 +31,13 @@ updated: 2026-07-27
 - [[editguard]] — EditGuard 方法实体。
 - [[omniguard]] — OmniGuard 方法实体。
 - [[ftfaw]] — FTFAW 方法实体。
+- [[latentshield]] — LatentShield 多目标 latent watermarking 方法实体。
+- [[syntag]] — SynTag 几何同步增强方法实体。
+- [[molm]] — MOLM compositional LoRA marker 方法实体。
+- [[genptw]] — GenPTW provenance tracing 与 tamper localization 方法实体。
+- [[robin]] — ROBIN inversion-based zero-bit watermarking 方法实体。
+- [[robin-plus-plus]] — ROBIN++ dual-domain copyright 与 localization 方法实体。
+- [[latent-watermark]] — Latent Watermark latent-space payload 方法实体。
 
 ## Concepts
 
@@ -53,7 +60,6 @@ updated: 2026-07-27
 - [[wen-2023-tree-ring-watermarks]] — Tree-Ring Watermarks: Fingerprints for Diffusion Images that are Invisible and Robust。
 - [[kim-2024-wouaf]] — WOUAF: Weight Modulation for User Attribution and Fingerprinting。
 - [[pan-2025-ftfaw]] — FTFAW: Two-Stage Fine-Tuning and Adaptive Loss Weighting for LDM Fingerprinting。
-- [[fei-2025-omnimark]] — OmniMark: Efficient and Scalable Latent Diffusion Model Fingerprinting。
 - [[yang-2025-stableguard]] — StableGuard: Copyright protection and tamper localization in LDMs。
 - [[chen-2026-advmark]] — AdvMark: Decoupling Defense Strategies for Robust Image Watermarking。
 - [[bui-2023-trustmark]] — TrustMark: Universal Watermarking for Arbitrary Resolution Images。
@@ -64,6 +70,15 @@ updated: 2026-07-27
 - [[zhang-2023-editguard]] — EditGuard: Versatile Image Watermarking for Tamper Localization and Copyright Protection。
 - [[zhang-2025-omniguard]] — OmniGuard: Hybrid Manipulation Localization via Augmented Versatile Deep Image Watermarking。
 - [[zhang-2026-msat-ldm]] — MSAT-LDM: Transferable High-Fidelity Watermarking for LDMs。
+- [[fei-2025-omnimark]] — OmniMark: Efficient and Scalable Latent Diffusion Model Fingerprinting。
+- [[meng-2024-latent-watermark]] — Latent Watermark: Inject and Detect Watermarks in Latent Diffusion Space。
+- [[huang-2024-robin]] — ROBIN: Robust and Invisible Watermarks for Diffusion Models with Adversarial Optimization。
+- [[fang-2025-syntag]] — SynTag: Geometric Robustness for Inversion-based Generative Image Watermarking。
+- [[fares-2026-molm]] — MOLM: Mixture of LoRA Markers。
+- [[fei-2026-anti-collusion-fingerprinting]] — Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models。
+- [[gan-2026-genptw]] — GenPTW: Provenance Tracing and Tamper Localization。
+- [[huang-2026-robin-plus-plus]] — ROBIN++: Dual-Domain Copyright Protection and Tamper Localization。
+- [[bekkari-2026-latentshield]] — LatentShield: Multi-Objective Robust Latent Watermarking。
 
 ## Queries
 
@@ -71,8 +86,14 @@ updated: 2026-07-27
 
 ## Comparisons
 
-- [[decoder-fingerprinting-scalability-comparison]] — Stable Signature、WOUAF、OmniMark 的 decoder-rooted user-attribution scalability 对比。
+- [[decoder-fingerprinting-scalability-comparison]] — Decoder / weight personalization 的 user-attribution scalability 对比。
 - [[localized-watermarking-for-tamper-localization-comparison]] — HFRW、WAM、EditGuard 与 OmniGuard 的局部水印和篡改定位边界。
+- [[anti-collusion-model-distribution-comparison]] — Secure Distribution 与 personalized-normalization ACT 的模型合谋边界。
+- [[inversion-watermark-robustness-comparison]] — Tree-Ring、ROBIN、SynTag 与 ROBIN++ 的 inversion robustness 对比。
+
+## Methodology
+
+- [[watermark-verification-operands]] — 区分 raw BitAcc、exact recovery、TPR@FPR、zero-bit classification、candidate-pool attribution 与 localization metrics。
 
 ## Synthesis
 
@@ -93,6 +114,14 @@ updated: 2026-07-27
 - [[stableguard-unifies-watermark-verification-and-tamper-localization]] — StableGuard 统一 copyright verification 与 tamper localization。
 - [[stableguard-mpw-vae-enables-self-supervised-tamper-training]] — StableGuard 的 MPW-VAE 支撑 self-supervised tamper training。
 - [[stableguard-maintains-watermark-accuracy-under-degradation-and-tampering]] — StableGuard 在 tampering ratio 与 image degradation 下保持较高 watermark accuracy。
+- [[latentshield-multi-objective-training-improves-composite-attack-recovery]] — LatentShield 多目标训练提高复合攻击下的 payload recovery，但论文有结果叙述与 FPR 分辨率问题。
+- [[syntag-restores-geometric-robustness-to-inversion-watermarks]] — SynTag 通过预测和校正几何变换恢复 inversion watermark detection。
+- [[molm-routes-keys-without-per-key-retraining]] — MOLM 通过 LoRA marker 组合路由编码 key，无需逐 key 训练。
+- [[act-makes-colluded-fingerprint-models-unusable]] — ACT 让参数合谋模型严重失去生成质量，但不识别 colluders。
+- [[genptw-unifies-provenance-recovery-and-tamper-localization]] — GenPTW 用同一 latent embedding 联合支持 provenance bits 与 localization。
+- [[robin-active-hiding-improves-inversion-watermark-quality]] — ROBIN 用 active hiding 改善 inversion watermark 的同 seed 图像质量。
+- [[robin-plus-plus-dual-domain-synergy-improves-joint-verification]] — ROBIN++ 的 dual-domain synergy 同时改善 copyright verification 与 localization。
+- [[latent-watermark-separates-thresholded-detection-from-bit-recovery]] — Latent Watermark 显示 thresholded detection 与 raw payload recovery 必须分开解释。
 - [[hfrw-local-watermarking-improves-fidelity-and-file-size-growth]] — HFRW 的局部水印显著改善 fidelity 和 file size growth。
 - [[hfrw-rl-patch-selection-improves-embedding-quality]] — HFRW 的 RL patch selection 提升嵌入质量。
 - [[hfrw-localized-embedding-trades-cropping-robustness-for-fidelity]] — HFRW 用 cropping robustness 换取高 fidelity 和低 FSVR。

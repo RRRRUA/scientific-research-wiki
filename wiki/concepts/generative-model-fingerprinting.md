@@ -2,9 +2,9 @@
 type: concept
 title: "Generative Model Fingerprinting"
 tags: [model-fingerprinting, generative-ai-safety, attribution]
-related: ["[[user-attribution]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[tamper-localization-for-generated-images]]", "localized-invisible-watermarking", "[[tree-ring-watermark]]", "[[stableguard]]", "hfrw", "[[fei-2025-omnimark]]", "[[kim-2024-wouaf]]", "[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[yang-2025-stableguard]]", "ping-2026-hfrw"]
+related: ["[[user-attribution]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[watermark-verification-operands]]", "[[tree-ring-watermark]]", "[[fei-2025-omnimark]]", "[[kim-2024-wouaf]]", "[[fares-2026-molm]]", "[[fei-2026-anti-collusion-fingerprinting]]", "[[meng-2024-latent-watermark]]"]
 created: 2026-06-07
-updated: 2026-07-16
+updated: 2026-09-08
 ---
 
 # Generative Model Fingerprinting
@@ -23,6 +23,9 @@ For text-to-image diffusion models, fingerprinting addresses accountability for 
 - Noise-space watermarking: [[wen-2023-tree-ring-watermarks]] places a key pattern in the Fourier space of the diffusion initial noise and detects it through DDIM inversion.
 - Weight modulation: [[kim-2024-wouaf]] uses user-specific weight modulation for distributor-side user attribution.
 - Scalable multi-dimensional fingerprint encoding: [[fei-2025-omnimark]] encodes a fingerprint across kernel, filter, channel, and spatial dimensions of decoder weights to create model copies quickly.
+- Routed adapter keys: [[fares-2026-molm]] selects LoRA paths in frozen-generator blocks, avoiding key-specific optimization.
+- Personalized normalization with collusion deterrence: [[fei-2026-anti-collusion-fingerprinting]] personalizes VAE normalization coefficients and transforms user copies so parameter merging damages utility.
+- Latent message coupling: [[meng-2024-latent-watermark]] embeds and decodes a payload in latent space for image identification and attribution.
 - Proactive forensic watermarking: [[yang-2025-stableguard]] uses a holistic watermark as a shared cue for copyright verification and [[tamper-localization-for-generated-images]].
 - Post-hoc image watermarking comparator: ping-2026-hfrw is outside generative model fingerprinting, but provides comparative evidence on local invisible watermarking fidelity, FSVR, and robustness to common attacks.
 
@@ -34,6 +37,7 @@ For text-to-image diffusion models, fingerprinting addresses accountability for 
 - Robustness to image post-processing and model-level attacks.
 - Generation, storage, and verification cost at large user scale.
 - For tamper localization, F1, AUC, IoU, and mask quality under degradation.
+- Exact metric operands and negative-set size; see [[watermark-verification-operands]].
 
 ## Open Questions
 

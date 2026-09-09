@@ -2,10 +2,10 @@
 type: concept
 title: "DDIM Inversion for Watermark Detection"
 created: 2026-06-09
-updated: 2026-07-16
+updated: 2026-09-08
 tags: [ddim-inversion, diffusion-models, watermark-detection]
-related: ["[[tree-ring-watermark]]", "[[fourier-noise-watermarking]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[private-vs-public-watermark-verification]]"]
-sources: ["Wen 等 - 2023 - Tree-Ring Watermarks Fingerprints for Diffusion Images that are Invisible and Robust.pdf-009a7e2b-80bb-48a7-bf25-28b175fc8239/full.md"]
+related: ["[[tree-ring-watermark]]", "[[fourier-noise-watermarking]]", "[[latent-diffusion-watermarking]]", "[[watermark-robustness]]", "[[private-vs-public-watermark-verification]]", "[[robin]]", "[[syntag]]", "[[robin-plus-plus]]", "[[inversion-watermark-robustness-comparison]]"]
+sources: ["Wen 等 - 2023 - Tree-Ring Watermarks Fingerprints for Diffusion Images that are Invisible and Robust.pdf-009a7e2b-80bb-48a7-bf25-28b175fc8239/full.md", "Huang 等 - 2025 - ROBIN Robust and Invisible Watermarks for Diffusion Models with Adversarial Optimization/full.md", "Fang 等 - 2025 - SynTag Enhancing the Geometric Robustness of Inversion-based Generative Image Watermarking/full.md"]
 ---
 
 # DDIM Inversion for Watermark Detection
@@ -25,3 +25,7 @@ Tree-Ring writes a key into the initial noise during generation. Detection start
 ## Limitations
 
 Detection quality depends directly on inversion quality. Strong image edits, combined transformations, sampler changes, or lack of access to a compatible model can weaken this path. It is therefore generally better suited to private verification by the model owner than to fully open public verification.
+
+## Later Variants
+
+[[robin]] reduces inversion distance by inserting the watermark at an intermediate denoising step. [[syntag]] first estimates and reverses geometric distortion, then applies the underlying inversion verifier. [[robin-plus-plus]] retains inversion for a robust copyright pattern while using a separate learned spatial branch for tamper localization. These address different sources of error and should be compared by verification path as well as by reported AUC; see [[inversion-watermark-robustness-comparison]].

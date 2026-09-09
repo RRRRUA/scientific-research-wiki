@@ -10,7 +10,7 @@
 
 ## Background
 
-This project currently studies nine latent-diffusion-focused papers plus six image-watermarking and proactive-forensics comparators:
+This project currently studies twenty-three papers spanning diffusion-native provenance, scalable model-copy fingerprinting, inversion robustness, anti-collusion distribution, and post-hoc/proactive forensic comparators:
 
 - [[fernandez-2023-stable-signature]] roots invisible watermarks in the latent decoder.
 - [[kim-2024-wouaf]] uses weight modulation for distributor-oriented user attribution.
@@ -27,6 +27,14 @@ This project currently studies nine latent-diffusion-focused papers plus six ima
 - [[sander-2025-watermark-anything]] localizes watermarked areas and decodes several messages from small image regions.
 - [[zhang-2023-editguard]] pairs copyright recovery with semi-fragile tamper-localization evidence.
 - [[zhang-2025-omniguard]] augments versatile watermarking with blind, degradation-aware tamper extraction.
+- [[meng-2024-latent-watermark]] injects and decodes 64-bit messages directly in the latent space and exposes the distinction between raw bit recovery and thresholded detection.
+- [[huang-2024-robin]] hides a robust frequency-domain pattern with prompt optimization and verifies it through inversion.
+- [[fang-2025-syntag]] adds a geometric synchronization tag and correction module to inversion-based watermarks.
+- [[fares-2026-molm]] composes binary fingerprints by routing generation through mixtures of LoRA markers.
+- [[fei-2026-anti-collusion-fingerprinting]] combines personalized normalization with function-invariant transforms to deter model-copy collusion.
+- [[gan-2026-genptw]] uses one latent embedding route for provenance tracing and tamper localization.
+- [[huang-2026-robin-plus-plus]] couples robust copyright verification with fragile spatial tamper evidence in two domains.
+- [[bekkari-2026-latentshield]] optimizes latent payload robustness with adversarial, semantic, and dynamically weighted objectives.
 
 The motivating gap is accountability for AI-generated images: platforms and model providers need to detect generated content and, in some settings, trace misuse to a specific user or model copy.
 
@@ -41,6 +49,8 @@ The motivating gap is accountability for AI-generated images: platforms and mode
 7. How should arbitrary-resolution deployment, watermark removal, and re-watermarking be evaluated alongside robustness?
 8. Can model distribution remain accountable under white-box collusion, and does the design identify colluders or merely make colluded copies unusable?
 9. When is a localized watermark mask evidence of provenance, and when is it a defensible tamper-localization mask?
+10. How should geometric synchronization be evaluated separately from ordinary photometric robustness in inversion-based watermarks?
+11. Which metric operand is actually reported: raw BitAcc, exact recovery, zero-bit accuracy/AUC, TPR at a fixed FPR, candidate-pool attribution, or localization quality?
 
 ## Scope
 
@@ -74,7 +84,7 @@ The motivating gap is accountability for AI-generated images: platforms and mode
 
 ## Current Status
 
-> Started on 2026-06-07. Fifteen papers have been imported, summarized, and linked into the wiki.
+> Started on 2026-06-07. Twenty-three distinct papers have been imported, summarized, and linked into the wiki; duplicate parses are counted once.
 
 ## Language Policy
 

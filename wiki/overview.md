@@ -2,9 +2,9 @@
 type: overview
 title: "项目概览"
 tags: [overview, latent-diffusion, watermarking, fingerprinting, user-attribution, tamper-localization]
-related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[decoder-fingerprinting-scalability-comparison]]", "[[decoder-rooted-fingerprinting-scales-through-weight-encoding]]", "[[advmark]]", "[[trustmark]]", "[[wmadapter]]", "[[secure-distribution]]", "[[msat-ldm]]", "[[watermark-anything]]", "[[editguard]]", "[[omniguard]]", "[[ftfaw]]"]
+related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[decoder-fingerprinting-scalability-comparison]]", "[[anti-collusion-model-distribution-comparison]]", "[[inversion-watermark-robustness-comparison]]", "[[watermark-verification-operands]]", "[[decoder-rooted-fingerprinting-scales-through-weight-encoding]]", "[[latentshield]]", "[[syntag]]", "[[molm]]", "[[genptw]]", "[[robin]]", "[[robin-plus-plus]]", "[[latent-watermark]]"]
 created: 2026-06-11
-updated: 2026-07-27
+updated: 2026-09-08
 ---
 
 # 项目概览
@@ -13,7 +13,7 @@ updated: 2026-07-27
 
 ## 当前语料
 
-当前语料包含九篇 latent diffusion / generative provenance 论文，以及六篇 post-hoc / proactive image watermarking 对照论文：
+当前语料包含 23 篇去重后的论文，覆盖 latent diffusion / generative provenance、model-copy fingerprinting、inversion robustness、anti-collusion distribution，以及 post-hoc / proactive image watermarking：
 
 其中 AdvMark 的两份 MinerU parse 已归并到同一个 canonical source [[chen-2026-advmark]]，不重复计入论文数量。
 
@@ -32,12 +32,20 @@ updated: 2026-07-27
 - [[sander-2025-watermark-anything]]：把 watermark extraction 做成 pixel-level detection 和 message decoding，支持小区域与多消息。
 - [[zhang-2023-editguard]]：以 robust copyright watermark 加 semi-fragile localization watermark 做主动篡改定位。
 - [[zhang-2025-omniguard]]：以 adaptive localized watermark 和 degradation-aware extractor 改善 EditGuard 类框架的 fidelity 与 degradation robustness。
+- [[meng-2024-latent-watermark]]：在 VAE latent 中注入和恢复 64-bit message，并显示 raw BitAcc 与 thresholded detection 的结论可能不同。
+- [[huang-2024-robin]]：在 initial noise 的中频区域嵌入 zero-bit pattern，并用 optimized prompt 隐藏可见影响。
+- [[fang-2025-syntag]]：给 inversion-based watermark 加 transformation-sensitive tag、homography predictor 和几何校正。
+- [[fares-2026-molm]]：通过 LoRA marker 的组合路由编码用户 key，避免逐 key 重新训练完整模型。
+- [[fei-2026-anti-collusion-fingerprinting]]：用 personalized normalization 与 channel transforms 让合谋模型显著失去生成效用，但不直接识别 colluders。
+- [[gan-2026-genptw]]：用同一 latent embedding 同时支持 provenance bits 与 tamper localization。
+- [[huang-2026-robin-plus-plus]]：把 robust frequency-domain copyright mark 与 fragile spatial localization pattern 联合起来。
+- [[bekkari-2026-latentshield]]：通过 adversarial、semantic 和 dynamic-weight objectives 提高 latent payload 的复合攻击恢复能力。
 
 ## 阅读路径
 
 先读 [[generative-model-fingerprinting]]、[[latent-diffusion-watermarking]] 和 [[watermark-robustness]]，建立任务和指标框架。随后读 source pages，重点比较嵌入位置：decoder、initial noise、weight modulation、multi-dimensional weight encoding、VAE adapter + forensic network、post-hoc local patch、post-hoc robust image optimization、post-hoc residual scaling。
 
-如果目标是大规模 user attribution，继续读 [[user-attribution]]、[[watermark-capacity-for-user-attribution]]、[[how-to-scale-user-attribution-for-ldm]] 和 [[decoder-fingerprinting-scalability-comparison]]；抗合谋可从 [[secure-distribution]] 进入。如果目标是 forensic localization，读 [[tamper-localization-for-generated-images]]、[[localized-watermarking-for-tamper-localization-comparison]]、[[stableguard]]、[[editguard]]、[[omniguard]] 与 [[watermark-anything]]。如果目标是理解普通图像水印的 fidelity / robustness / arbitrary-resolution trade-off，读 [[localized-invisible-watermarking]]、[[post-hoc-image-watermarking]]、[[arbitrary-resolution-image-watermarking]]、[[hfrw]]、[[advmark]]、[[trustmark]] 和对应 findings。
+如果目标是大规模 user attribution，继续读 [[user-attribution]]、[[watermark-capacity-for-user-attribution]]、[[how-to-scale-user-attribution-for-ldm]] 和 [[decoder-fingerprinting-scalability-comparison]]；模型合谋证据看 [[anti-collusion-model-distribution-comparison]]。如果目标是 inversion 与几何攻击，读 [[inversion-watermark-robustness-comparison]]。如果目标是 forensic localization，读 [[tamper-localization-for-generated-images]] 和 [[localized-watermarking-for-tamper-localization-comparison]]。跨论文抄录指标前先读 [[watermark-verification-operands]]，避免把 raw BitAcc、TPR@FPR、zero-bit accuracy 与定位指标混为一谈。
 
 ## 当前结论
 
@@ -46,6 +54,8 @@ Decoder-rooted watermarking 是 LDM provenance 的实用起点，但大规模 us
 WMAdapter 和 MSAT-LDM 说明 adapter / modular route 可以把 flexible message control、training-data alignment 与 model-variant transfer 单独优化；Secure Distribution 进一步把 white-box collusion 加入分发模型的 threat model。现有证据表明“抗合谋”需要单独区分：让 colluded model 不可用不等于识别全部 colluders。
 
 HFRW、AdvMark、TrustMark、WAM、EditGuard 和 OmniGuard 说明 post-hoc / proactive image watermarking 仍然有重要参考价值：HFRW 展示 local embedding 对 fidelity 和 file-size growth 的改善，TrustMark 展示 arbitrary-resolution deployment 与 re-watermarking workflow，WAM 把 local messages 变成 pixel-level evidence，EditGuard 与 OmniGuard 将 copyright recovery 和 tamper localization 分离。但这类方法通常不能替代 diffusion-native provenance，因为它们缺少与用户、模型副本或生成过程的内生绑定。
+
+新增证据把原有结论拆成三条更清楚的路线。MOLM 展示了 compositional LoRA routing 的容量优势；Fei et al. (2026) 与 Secure Distribution 都把 anti-collusion 表述为 merged model 的 utility destruction，而不是 colluder identification；SynTag、ROBIN 与 ROBIN++ 则说明 inversion-based detection 的几何同步、可逆轨迹和多重攻击需要独立评估。GenPTW 与 ROBIN++ 扩展了 joint provenance-localization 路线，但它们的 F1/IoU 不能替代 payload 或 attribution 指标。
 
 ## 关键证据
 
@@ -59,6 +69,11 @@ HFRW、AdvMark、TrustMark、WAM、EditGuard 和 OmniGuard 说明 post-hoc / pro
 - TrustMark 在 CLIC、DIV2K 和 MetFace 上报告高 PSNR/SSIM 与较高 noised bit accuracy，并用 residual-based Resolution Scaling 支持 original-resolution evaluation。
 - Secure Distribution 在报告的 nonlinear collusion 下把 Bit Acc 降到约 random guessing，同时 PSNR 低于 `7 dB`，将 anti-collusion 表述为 utility destruction。
 - WAM、EditGuard 和 OmniGuard 的核心指标除了 bit recovery 还包括 watermarked-area localization 或 tamper-mask F1/AUC/IoU。
+- MOLM 的默认 28-bit 方案通过 LoRA 组合路由免除逐 key 训练；论文中的 generated-image sample averaging 不是 model-parameter collusion。
+- Fei et al. (2026) 的两方平均合谋让 ACT 模型 FID 升至 `79.51`，说明其防御代价主要体现为效用破坏。
+- SynTag 在几何攻击下显著恢复 GauShad/Tree-Ring 检测，但主实验只有 50 张图，1,000 个 negative samples 也不足以直接验证 `10^-6` 级 FPR。
+- Latent Watermark 的复合攻击 raw BitAcc 为 `90.00%`，同时 thresholded TPR@1%FPR 为 `100%`；这不是 exact 64-bit recovery。
+- GenPTW 与 ROBIN++ 报告高 localization F1/AUC/IoU，但跨架构结果和 zero-bit classification accuracy 需要按各自实验操作数解释。
 
 ## 待跟踪问题
 
@@ -69,3 +84,5 @@ HFRW、AdvMark、TrustMark、WAM、EditGuard 和 OmniGuard 说明 post-hoc / pro
 - Arbitrary-resolution evaluation、watermark removal 和 re-watermarking 应该与 robustness 指标分开记录。
 - Public verification 与 private verification 的部署取舍。
 - 同一 benchmark 中联合评估 detection、user attribution、tamper localization、fidelity 和 storage cost 的 protocol。
+- 低 FPR 声明所需的 negative-set 规模、置信区间，以及 candidate-pool sampling 规则。
+- 在相同攻击强度下分别报告 payload recovery、zero-bit verification、exact attribution 与 localization，避免跨 protocol 排名。

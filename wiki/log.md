@@ -4,10 +4,17 @@ title: "Wiki Log"
 tags: [log, research-wiki]
 related: ["[[overview]]"]
 created: 2026-06-07
-updated: 2026-07-27
+updated: 2026-09-08
 ---
 
 # Wiki Log
+
+## 2026-09-08
+
+- 按 `research-wiki-curator` 入库 8 篇新论文：[[bekkari-2026-latentshield]]、[[fang-2025-syntag]]、[[fares-2026-molm]]、[[fei-2026-anti-collusion-fingerprinting]]、[[gan-2026-genptw]]、[[huang-2024-robin]]、[[huang-2026-robin-plus-plus]]、[[meng-2024-latent-watermark]]；同时从仍在 raw/sources 的原始解析恢复此前被 external delete 移除的 [[fei-2025-omnimark]] source page。
+- 新增 7 个方法实体与 8 个 grounded findings，覆盖 multi-objective latent robustness、geometric synchronization、LoRA marker routing、model-copy collusion、joint provenance-localization、dual-domain forensics，以及 thresholded detection 与 payload recovery 的边界。
+- 按 `research-wiki-synthesizer` 新增 [[anti-collusion-model-distribution-comparison]]、[[inversion-watermark-robustness-comparison]] 和 [[watermark-verification-operands]]，并维护总综合、scalability comparison、research query、working thesis、核心 concepts 与中文导航。
+- 明确记录三类证据限制：LatentShield 的表格/正文排序矛盾与低 FPR 样本分辨率；SynTag 的 50-image 主测试和 1,000-negative 边界；ROBIN++ 的 zero-bit classification accuracy 不是 payload BitAcc。MOLM 的 generated-image sample averaging 也不按 model-parameter collusion 计入。
 
 ## 2026-07-27
 
@@ -111,3 +118,14 @@ Sources:
 
 - 按 curator 流程入库 10 个 raw/sources：新增 WMAdapter、Secure Distribution、HFRW、Watermark Anything、EditGuard、OmniGuard、MSAT-LDM source pages，并重新绑定 Stable Signature、WOUAF、OmniMark 到当前 raw parses。
 - 按 synthesizer 流程新增局部水印概念、七个方法实体、五条 findings 和局部水印/篡改定位 comparison；将 anti-collusion、模块化 adapter transfer、pixel-level watermark evidence 与 degradation-aware tamper localization 接入总综合、研究问题和导航。
+## [2026-07-29] external delete | Fei 等 - 2025 - OmniMark Efficient and Scalable Latent Diffusion Model Fingerprinting/full.md
+
+Deleted 1 source file and 1 wiki pages.
+## [2026-09-08] external batch delete | 3 source files
+
+Deleted 3 source files and 0 wiki pages.
+
+Sources:
+- Dai 等 - 2026 - Secure Distribution Anti-Collusion Watermarking via Spectral Weight Modulation in Latent Diffusion Models/Ci 等 - 2024 - WMAdapter Adding WaterMark Control to Latent Diffusion Models/899ea805-a504-4c06-8bdc-075daf7ed090_origin.pdf
+- Dai 等 - 2026 - Secure Distribution Anti-Collusion Watermarking via Spectral Weight Modulation in Latent Diffusion Models/Ci 等 - 2024 - WMAdapter Adding WaterMark Control to Latent Diffusion Models/full.md
+- Dai 等 - 2026 - Secure Distribution Anti-Collusion Watermarking via Spectral Weight Modulation in Latent Diffusion Models/Fares 等 - 2026 - MOLM Mixture of LoRA Markers/full.md

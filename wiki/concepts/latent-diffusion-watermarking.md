@@ -2,9 +2,9 @@
 type: concept
 title: "Latent Diffusion Watermarking"
 tags: [latent-diffusion-models, watermarking, stable-diffusion]
-related: ["[[generative-model-fingerprinting]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[tamper-localization-for-generated-images]]", "[[localized-invisible-watermarking]]", "[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[fei-2025-omnimark]]", "[[kim-2024-wouaf]]", "[[pan-2025-ftfaw]]", "[[yang-2025-stableguard]]", "[[ci-2024-wmadapter]]", "[[dai-2026-secure-distribution]]", "[[zhang-2026-msat-ldm]]", "[[ping-2026-hfrw]]"]
+related: ["[[generative-model-fingerprinting]]", "[[user-attribution]]", "[[watermark-robustness]]", "[[tamper-localization-for-generated-images]]", "[[watermark-verification-operands]]", "[[fernandez-2023-stable-signature]]", "[[wen-2023-tree-ring-watermarks]]", "[[fei-2025-omnimark]]", "[[kim-2024-wouaf]]", "[[pan-2025-ftfaw]]", "[[ci-2024-wmadapter]]", "[[dai-2026-secure-distribution]]", "[[zhang-2026-msat-ldm]]", "[[meng-2024-latent-watermark]]", "[[fang-2025-syntag]]", "[[fares-2026-molm]]", "[[fei-2026-anti-collusion-fingerprinting]]", "[[gan-2026-genptw]]", "[[huang-2024-robin]]", "[[huang-2026-robin-plus-plus]]", "[[bekkari-2026-latentshield]]"]
 created: 2026-06-07
-updated: 2026-07-20
+updated: 2026-09-08
 ---
 
 # Latent Diffusion Watermarking
@@ -36,6 +36,22 @@ Stable Diffusion-style models denoise in latent space and then use a decoder to 
 - [[dai-2026-secure-distribution]] applies watermark embedding to the VAE decoder, then uses paired spectral transforms to distribute parameter-distinct copies that resist collusion.
 
 - [[zhang-2026-msat-ldm]] trains a modular decoder message processor on free-generation latents for few-shot transfer to fine-tuned and LoRA-enhanced LDMs.
+
+- [[meng-2024-latent-watermark]] injects and decodes multi-bit messages in VAE latent space while freezing the base diffusion model.
+
+- [[fang-2025-syntag]] adds geometric synchronization to inversion-based watermarks rather than seeking a universally invariant watermark representation.
+
+- [[huang-2024-robin]] inserts an optimized frequency pattern at an intermediate denoising state and actively hides it with prompt guidance.
+
+- [[fares-2026-molm]] routes binary keys through LoRA adapter choices in VAE-decoder blocks without per-key retraining.
+
+- [[fei-2026-anti-collusion-fingerprinting]] combines personalized normalization with function-invariant parameter transforms that make colluded model copies unusable.
+
+- [[gan-2026-genptw]] uses latent semantic and spatial fusion for message recovery plus tamper localization in generation and post-hoc paths.
+
+- [[huang-2026-robin-plus-plus]] separates robust frequency-domain copyright evidence from fragile spatial localization evidence.
+
+- [[bekkari-2026-latentshield]] uses a learnable latent projection and metaheuristic loss-weight search; its strong self-reported results require caution because the parse contains numerical inconsistencies.
 
 - [[ping-2026-hfrw]] is not latent diffusion watermarking, but provides a post-hoc localized image watermarking comparator showing that local patch embedding can improve fidelity and FSVR.
 

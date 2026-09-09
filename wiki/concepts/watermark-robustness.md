@@ -2,9 +2,9 @@
 type: concept
 title: "Watermark Robustness"
 tags: [watermarking, robustness, adversarial-attacks]
-related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[tree-ring-watermark]]", "[[stableguard]]", "[[ftfaw]]", "[[hfrw]]", "[[advmark]]", "[[trustmark]]", "[[secure-distribution]]", "[[watermark-anything]]", "[[omniguard]]", "[[localized-invisible-watermarking]]", "[[post-hoc-image-watermarking]]", "[[arbitrary-resolution-image-watermarking]]", "[[tamper-localization-for-generated-images]]", "[[diffusion-model-fingerprinting-comparison]]"]
+related: ["[[generative-model-fingerprinting]]", "[[latent-diffusion-watermarking]]", "[[user-attribution]]", "[[watermark-verification-operands]]", "[[tree-ring-watermark]]", "[[stableguard]]", "[[ftfaw]]", "[[advmark]]", "[[trustmark]]", "[[secure-distribution]]", "[[syntag]]", "[[robin]]", "[[robin-plus-plus]]", "[[latentshield]]", "[[molm]]", "[[latent-watermark]]", "[[inversion-watermark-robustness-comparison]]", "[[anti-collusion-model-distribution-comparison]]"]
 created: 2026-06-07
-updated: 2026-07-20
+updated: 2026-09-08
 ---
 
 # Watermark Robustness
@@ -47,6 +47,16 @@ For model fingerprinting, white-box users may try to weaken a fingerprint throug
 
 - [[zhang-2025-omniguard]] uses a learned mask extractor to preserve localization under ordinary degradation, but reports a boundary where very severe degradation reduces proactive localization to passive-detection behavior.
 
+- [[fang-2025-syntag]] treats geometric desynchronization as an alignment problem: an injected template predicts a homography before inversion-based extraction.
+
+- [[huang-2024-robin]] strengthens an intermediate frequency watermark and hides it during later denoising; its zero-bit AUC remains separate from payload recovery.
+
+- [[fares-2026-molm]] reports resistance to distortion, regeneration, sample averaging, and extractor attacks, but its image-averaging test is not model-copy collusion.
+
+- [[fei-2026-anti-collusion-fingerprinting]] uses ACT to make parameter-merged models unusable rather than preserving attribution after merging.
+
+- [[bekkari-2026-latentshield]] reports strong composite-attack recovery after multi-objective weight search, but its internal numeric inconsistencies lower evidential confidence.
+
 ## Research Tensions
 
-Stronger robustness often trades off against image quality, payload length, compute overhead, public verifiability, and scalable user attribution. The post-hoc comparators add another caution: robustness to ordinary perturbations, diffusion regeneration, adversarial removal, and watermark replacement should not be collapsed into a single aggregate score.
+Stronger robustness often trades off against image quality, payload length, compute overhead, public verifiability, and scalable user attribution. Ordinary perturbations, geometric synchronization, diffusion regeneration, extractor attacks, sample averaging, parameter collusion, and watermark replacement should not be collapsed into one aggregate score. The reported statistic must also retain its operand; see [[watermark-verification-operands]].

@@ -2,10 +2,10 @@
 type: concept
 title: "Tamper Localization for Generated Images"
 tags: [tamper-localization, image-forensics, watermarking, generated-images]
-related: ["[[stableguard]]", "[[yang-2025-stableguard]]", "[[editguard]]", "[[omniguard]]", "[[watermark-anything]]", "[[watermark-robustness]]", "[[latent-diffusion-watermarking]]", "[[localized-invisible-watermarking]]", "[[localized-watermarking-for-tamper-localization-comparison]]", "[[private-vs-public-watermark-verification]]"]
+related: ["[[stableguard]]", "[[yang-2025-stableguard]]", "[[editguard]]", "[[omniguard]]", "[[watermark-anything]]", "[[genptw]]", "[[robin-plus-plus]]", "[[watermark-robustness]]", "[[watermark-verification-operands]]", "[[latent-diffusion-watermarking]]", "[[localized-watermarking-for-tamper-localization-comparison]]"]
 created: 2026-06-11
-updated: 2026-07-16
-sources: ["Yang 等 - 2025 - StableGuard Towards Unified Copyright Protection and Tamper Localization in Latent Diffusion Model.pdf-d8a32816-0fa0-4c8d-934e-e96205ef30ed/full.md"]
+updated: 2026-09-08
+sources: ["Yang 等 - 2025 - StableGuard Towards Unified Copyright Protection and Tamper Localization in Latent Diffusion Model.pdf-d8a32816-0fa0-4c8d-934e-e96205ef30ed/full.md", "Gan 等 - 2026 - GenPTW Latent Image Watermarking for Provenance Tracing and Tamper Localization/full.md", "Huang 等 - 2026 - ROBIN++ Unified Copyright Protection and Tamper Localization for Diffusion Models Via Dual-Domain S/full.md"]
 ---
 
 # Tamper Localization for Generated Images
@@ -21,11 +21,15 @@ Tamper localization for generated images identifies regions of a generated image
 
 [[zhang-2023-editguard]] and [[zhang-2025-omniguard]] apply proactive dual watermarking to image assets: a robust copyright signal is paired with a semi-fragile spatial signal. EditGuard compares a recovered spatial tag with the pre-embedded tag; OmniGuard instead learns a degradation-aware mask extractor from the received image and reconstructed-tag artifacts. [[sander-2025-watermark-anything]] is adjacent rather than identical: it locates watermarked regions and messages, which can support splicing-aware provenance without directly asserting a tamper mask.
 
+[[gan-2026-genptw]] uses one latent message with semantic and spatial fusion, then shares features between message recovery and mask prediction. [[huang-2026-robin-plus-plus]] instead injects two function-specific signals into separated frequency bands and exchanges evidence only during verification. The former tests a unified payload path; the latter tests decoupled injection with synergistic decoding.
+
 ## Relation to Watermarking
 
 Watermarking usually asks whether an image came from a model or key. Tamper localization asks which regions no longer conform to the watermark pattern. StableGuard assumes that a holistic watermark is sufficiently distributed in space that local tampering disrupts local watermark cues, making missing watermark features useful for localization.
 
 For dual-watermark methods, the local signal should be semi-fragile while the copyright signal remains robust. Evaluations therefore need separate recovery, mask, degradation, and AIGC-editing measures rather than one aggregate watermark score.
+
+ROBIN++ adds a further operand warning: its copyright `Bit Accuracy` is zero-bit classification accuracy, whereas GenPTW reports multi-bit message recovery. Neither is interchangeable with localization F1, AUC, or IoU; see [[watermark-verification-operands]].
 
 ## Limitations
 
